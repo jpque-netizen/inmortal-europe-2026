@@ -912,7 +912,7 @@ const tours=[
    {cat:"🍺 ¡Salud!",local:"Prost! / Santé!",pron:"Prost / San-té",tip:"Prost alemán y Santé francés · los dos son correctos"},
   ]},
   mapa:{centro:"Luxembourg City Luxembourg",pois:[["Palacio Gran Ducal","Grand Ducal Palace Luxembourg"],["Abadía Neumünster","Neumünster Abbey Luxembourg"],["Casamatas del Bock","Bock Casemates Luxembourg"],["Chemin de la Corniche","Corniche Luxembourg"]]},
-  video:{t:"Luxembourg City - Hidden Gem of Europe Guide",u:"https://www.youtube.com/watch?v=Z1jvCnUTKnE"}
+  video:{t:"Qué ver en Luxemburgo en un día — mi ruta perfecta 🇱🇺 (Sep 2025)",u:"https://www.youtube.com/watch?v=gX76bDVBpDc"}
  },
  {id:"str",wlat:48.5734,wlon:7.7521,name:"Estrasburgo y Colmar",flag:"🇫🇷",
   precio:"$186 USD",base:"Desde Metz · 215 km · 2h",
@@ -943,7 +943,7 @@ const tours=[
    {cat:"😋 ¡Buen provecho!",local:"Bon appétit!",pron:"Bon a-pe-tí",tip:"Dilo al sentarse a comer"},
   ]},
   mapa:{centro:"Strasbourg France",pois:[["Catedral Notre-Dame Estrasburgo","Strasbourg Cathedral"],["Barrio Petite France","Petite France Strasbourg"],["Iglesia San Martín Colmar","Eglise Saint-Martin Colmar"],["Pequeña Venecia Colmar","Petite Venise Colmar"]]},
-  video:{t:"Strasbourg & Colmar - Alsace France Complete Guide",u:"https://www.youtube.com/watch?v=Jl-X3_bAk-Y"}
+  video:{t:"Alsacia: Ruta 10 lugares — Estrasburgo, Colmar y más — Guía 2025",u:"https://www.youtube.com/watch?v=fPZ114r-aaQ"}
  },
  {id:"brug",wlat:51.2093,wlon:3.2247,name:"Brujas y Gante",flag:"🇧🇪",
   precio:"$114 USD",base:"Brujas: 96 km (1h) · Gante: 55 km (35min) desde Bruselas",
