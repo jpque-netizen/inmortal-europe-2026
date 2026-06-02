@@ -137,18 +137,18 @@ function fetchWeatherForTour(tid,name,lat,lon){
 }
 
 const cities=[
-{id:"ams",wlat:52.3676,wlon:4.9041,name:"Amsterdam",flag:"🇳🇱",country:"Netherlands",days:"Days 2-3 & 17-18",dates:"Dom 7 Sep – Lun 8 Sep\nVie 22 Sep – Sáb 23 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,
+{id:"ams",wlat:52.3676,wlon:4.9041,name:"Amsterdam",flag:"🇳🇱",country:"Netherlands",days:"Days 2-3 & 17-18",dates:"Mon Sep 7 – Tue Sep 8\nFri Sep 22 – Sat Sep 23",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
  libre:[],
- tourPersonal:"⭐ Día 17 (Vie 22 Sep): Si no contratas el Paquete 2 (Volendam, La Haya, Giethoorn) tienes Ámsterdam libre. Ideal para el Rijksmuseum, barrio Jordaan y canales a tu ritmo antes del vuelo del día 18.",
+ tourPersonal:"⭐ Day 17 (Fri Sep 22): If you skip Package 2 (Volendam, The Hague, Giethoorn) you have Amsterdam free. Perfect for the Rijksmuseum, Jordaan neighborhood and canals at your own pace before the Day 18 flight.",
  atractivos_itinerario:[
-  ["📅 DAY 2 - Mon Sep 7","Llegada a Ámsterdam · recepción y traslado al hotel"],
-  ["Casco histórico de Ámsterdam","Patrimonio Mundial UNESCO · recorrido panorámico incluido en el tour"],
-  ["📅 DAY 3 - Tue Sep 8","Desayuno · después nos dirigimos hacia Hannover y Berlín"],
+  ["📅 DAY 2 - Mon Sep 7","Arrival in Amsterdam · reception and hotel transfer"],
+  ["Amsterdam Historic Center","UNESCO World Heritage · panoramic city tour included"],
+  ["📅 DAY 3 - Tue Sep 8","Breakfast · heading to Hanover and Berlin"],
   ["📅 DÍA 17 — Vie 22 Sep ⭐ TOUR PERSONAL","Tiempo libre para actividades personales o excursión opcional"],
   ["Volendam y Marken (Paquete 2)","Pintorescos pueblos pesqueros · casas de madera · trajes tradicionales (Paquete 2)"],
   ["La Haya — Den Haag (Paquete 2)","Sede del gobierno neerlandés · Parlamento · Corte Internacional de Justicia de la ONU"],
   ["Pueblo de Giethoorn (Paquete 2)","La 'Venecia de los Países Bajos' · sin calles, solo canales · solo opera si el vuelo sale después de las 20:00 hrs"],
-  ["📅 DÍA 18 — Sáb 23 Sep","Desayuno · traslado al aeropuerto · vuelo de regreso a México"],
+  ["📅 DAY 18 - Sat Sep 23","Breakfast · airport transfer · return flight to Mexico City"],
  ],
  atractivos_recomendados:[
   ["Rijksmuseum","museo nacional con La Ronda de Noche de Rembrandt · 2.5M visitas/año"],
@@ -202,7 +202,7 @@ const cities=[
   {cat:"🍺 Cheers!",local:"Proost!",pron:"Prohst",tip:"Al brindar · muy usual en bares"}
  ]}
 },
-{id:"han",wlat:52.3759,wlon:9.732,name:"Hanover",flag:"🇩🇪",country:"Germany",days:"Day 3 (transit)",dates:"Lun 8 Sep (parada en ruta Ámsterdam–Berlín)",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,libre:[],tourPersonal:"",
+{id:"han",wlat:52.3759,wlon:9.732,name:"Hanover",flag:"🇩🇪",country:"Germany",days:"Day 3 (transit)",dates:"Tue Sep 8 (stop on Amsterdam–Berlin route)",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,libre:[],tourPersonal:"",
  atractivos_itinerario:[
   ["Palacio de la Ópera (Opernhaus)","uno de los teatros más importantes de Alemania"],
   ["Ruinas de la Iglesia Aegidienkirche","conservadas como memorial a las víctimas de la WWII"],
@@ -247,10 +247,10 @@ const cities=[
   {cat:"🍺 Cheers!",local:"Prost!",pron:"Prohst",tip:"Clásico alemán al brindar · inevitable"}
  ]}
 },
-{id:"ber",wlat:52.52,wlon:13.405,name:"Berlin",flag:"🇩🇪",country:"Germany",days:"Days 3-5",dates:"Lun 8 Sep – Mié 10 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,libre:[],tourPersonal:"",
+{id:"ber",wlat:52.52,wlon:13.405,name:"Berlin",flag:"🇩🇪",country:"Germany",days:"Days 3-5",dates:"Tue Sep 8 – Thu Sep 10",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,libre:[],tourPersonal:"",
  atractivos_itinerario:[
-  ["📅 DÍA 3 — Lun 8 Sep","Llegada a Berlín desde Hannover · alojamiento"],
-  ["📅 DÍA 4 — Mar 9 Sep","Desayuno · visita panorámica de Berlín"],
+  ["📅 DAY 3 - Tue Sep 8","Arrival in Berlin from Hanover · accommodation"],
+  ["📅 DAY 4 - Wed Sep 9","Breakfast · panoramic tour of Berlin"],
   ["Plaza Gendarmenmarkt","considerada la plaza más bella de Berlín"],
   ["Puerta de Brandenburgo","símbolo mundial de la reunificación alemana (1989)"],
   ["Potsdamer Platz","moderna plaza con arquitectura vanguardista"],
@@ -260,7 +260,7 @@ const cities=[
   ["Camin agoo del Rey","paseo histórico mencionado en el itinerario"],
   ["Estatua de Martín Lutero","en la Iglesia Marienkirche"],
   ["Ciudad de Potsdam (Paquete 1)","Capital de Brandeburgo · Palacio Sanssouci UNESCO · residencia de verano de Federico el Grande"],
-  ["📅 DÍA 5 — Mié 10 Sep","Desayuno · partida hacia Varsovia"],
+  ["📅 DAY 5 - Thu Sep 10","Breakfast · departure to Warsaw"],
  ],
  atractivos_recomendados:[
   ["Muro de Berlín (East Side Gallery)","el mayor mural al aire libre del mundo · 1.3 km"],
@@ -307,7 +307,7 @@ const cities=[
   {cat:"🍺 Cheers!",local:"Prost! / Zum Wohl!",pron:"Prohst / Tsoom Vohl",tip:"Berlin has Europe's best bar scene - use this often!"}
  ]}
 },
-{id:"var",wlat:52.2297,wlon:21.0122,name:"Warsaw",flag:"🇵🇱",country:"Poland",days:"Days 5-6",dates:"Mié 10 Sep – Jue 11 Sep",moneda:"Polish Złoty (zł / PLN)",cambio:`1 zł = $${PLN.toFixed(2)} MXN · 100 zł ≈ $${(PLN*100).toFixed(0)} MXN`,libre:[],tourPersonal:"",
+{id:"var",wlat:52.2297,wlon:21.0122,name:"Warsaw",flag:"🇵🇱",country:"Poland",days:"Days 5-6",dates:"Thu Sep 10 – Fri Sep 11",moneda:"Polish Złoty (zł / PLN)",cambio:`$1 USD = ${(1/PLN).toFixed(2)} zł`,libre:[],tourPersonal:"",
  atractivos_itinerario:[
   ["Ciudad Vieja (Stare Miasto)","Patrimonio UNESCO · reconstruida piedra a piedra tras la WWII"],
   ["Castillo Real (Zamek Królewski)","residencia oficial de los reyes de Polonia"],
@@ -356,11 +356,11 @@ const cities=[
   {cat:"😋 Bon appétit!",local:"Smacznego!",pron:"smahch-NEH-goh",tip:"Dilo al sentarte a comer · los polacos lo aprecian mucho"}
  ]}
 },
-{id:"cra",wlat:50.0647,wlon:19.945,name:"Kraków",flag:"🇵🇱",country:"Poland",days:"Days 6-8",dates:"Jue 11 Sep – Sáb 13 Sep",moneda:"Polish Złoty (zł / PLN)",cambio:`1 zł = $${PLN.toFixed(2)} MXN · 100 zł ≈ $${(PLN*100).toFixed(0)} MXN`,
+{id:"cra",wlat:50.0647,wlon:19.945,name:"Kraków",flag:"🇵🇱",country:"Poland",days:"Days 6-8",dates:"Fri Sep 11 – Sun Sep 13",moneda:"Polish Złoty (zł / PLN)",cambio:`$1 USD = ${(1/PLN).toFixed(2)} zł`,
  libre:["🟢 Día 7 — Vie 12 Sep (FREE DAY): Auschwitz-Birkenau (Paquete 1) · Minas Wieliczka (Paquete 2) · o tour personal en Cracovia."],
- tourPersonal:"⭐ Día 7 (Vie 12 Sep): Si no contratas ningún opcional, tienes Cracovia libre para el Barrio Kazimierz (antiguo barrio judío bohemio, lleno de cafés únicos), la Plaza del Mercado a tu ritmo, y el Castillo de Wawel con calma.",
+ tourPersonal:"⭐ Day 7 (Fri Sep 12): If you skip optional tours, explore the Kazimierz Quarter (historic Jewish quarter full of unique cafés), the Main Market Square a tu ritmo, y Wawel Castle con calma.",
  atractivos_itinerario:[
-  ["📅 DAY 6 - Thu Sep 11","Desayuno · llegada desde Varsovia · recorrido panorámico"],
+  ["📅 DAY 6 - Thu Sep 11","Breakfast · arrival from Warsaw · panoramic tour"],
   ["Castillo de Wawel","fortaleza real del siglo XI · símbolo máximo de Polonia"],
   ["Catedral de Wawel (Basílica de San Estanislao y San Wenceslao)","panteón real · capillas de distintas épocas y estilos arquitectónicos"],
   ["Corte Renacentista (Sukiennice)","lonja del siglo XIV · ahora museo y tiendas de souvenirs"],
@@ -370,7 +370,7 @@ const cities=[
   ["📅 DAY 7 - Fri Sep 12 🟢 FREE DAY","Excursiones opcionales o tour personal en Cracovia"],
   ["Campo de concentración Auschwitz-Birkenau (Paquete 1)","El complejo nazi más grande · visita profundamente emotiva · monumento a las víctimas del Holocausto"],
   ["Minas de sal de Wieliczka (Paquete 2)","Mina de sal operativa más antigua del mundo · capillas en roca de sal · Capilla de Santa Kinga · UNESCO"],
-  ["📅 DAY 8 - Sat Sep 13","Desayuno · partida hacia Praga"],
+  ["📅 DAY 8 - Sat Sep 13","Breakfast · departure to Prague"],
  ],
  atractivos_recomendados:[
   ["Barrio Kazimierz","antiguo barrio judío · bohemio, lleno de galerías y cafés únicos"],
@@ -411,16 +411,16 @@ const cities=[
   {cat:"😊 Thank you",local:"Dziękuję bardzo",pron:"Jen-KOO-yeh BAR-dzoh",tip:"Bardzo = mucho · para expresar gratitud mayor"},
   {cat:"🤝 You're welcome",local:"Nie ma za co",pron:"Nyeh-mah-ZAH-tsoh",tip:"Literally 'don't mention it'"},
   {cat:"❓ How much is it?",local:"Ile to kosztuje?",pron:"EE-leh toh kosh-TOO-yeh?",tip:"Imprescindible en el Mercado Stary Kleparz"},
-  {cat:"🚽 Where's the restroom?",local:"Gdzie jest toaleta?",pron:"Gjeh yest toh-ah-LEH-tah?",tip:"En la Plaza del Mercado hay baños públicos cerca del Cloth Hall"},
+  {cat:"🚽 Where's the restroom?",local:"Gdzie jest toaleta?",pron:"Gjeh yest toh-ah-LEH-tah?",tip:"En the Main Market Square hay baños públicos cerca del Cloth Hall"},
   {cat:"🍺 Cheers!",local:"Na zdrowie!",pron:"Nah ZDROH-vyeh",tip:"Cracovia tiene excelentes bares de cerveza artesanal (piwo kraftowe)"},
   {cat:"😋 Bon appétit!",local:"Smacznego!",pron:"smahch-NEH-goh",tip:"Especialmente útil antes de probar los pierogi · plato local icónico"}
  ]}
 },
-{id:"pra",wlat:50.0755,wlon:14.4378,name:"Prague",flag:"🇨🇿",country:"Czech Republic",days:"Days 8-10",dates:"Sáb 13 Sep – Lun 15 Sep",moneda:"Czech Koruna (Kč / CZK)",cambio:`1 Kč = $${CZK.toFixed(2)} MXN · 100 Kč ≈ $${(CZK*100).toFixed(0)} MXN`,
+{id:"pra",wlat:50.0755,wlon:14.4378,name:"Prague",flag:"🇨🇿",country:"Czech Republic",days:"Days 8-10",dates:"Sun Sep 13 – Mon Sep 15",moneda:"Czech Koruna (Kč / CZK)",cambio:`$1 USD = ${(1/CZK).toFixed(1)} Kč`,
  libre:["🟢 Día 9 — Dom 14 Sep (FREE DAY): Barco Río Moldava (Paquete 1) · Karlovy Vary o Noche Checa con cena (Paquete 2) · o tour personal."],
- tourPersonal:"⭐ Día 9 (Dom 14 Sep): Sin tours opcionales, visita el Castillo de Praga por tu cuenta (no incluido en el tour panorámico del día 8), cruza el Puente de Carlos al amanecer cuando está vacío, y explora Malá Strana con calma.",
+ tourPersonal:"⭐ Day 9 (Sun Sep 14): No optional tours? Visit Prague Castle on your own (no incluido en el tour panorámico del día 8), cross Charles Bridge at sunrise when it's empty, y explore Malá Strana at your leisure.",
  atractivos_itinerario:[
-  ["📅 DAY 8 - Sat Sep 13","Desayuno · llegada desde Cracovia · recorrido panorámico por la mañana y tarde"],
+  ["📅 DAY 8 - Sat Sep 13","Breakfast · arrival from Kraków · panoramic tour morning and afternoon"],
   ["Plaza Václav Havel (Wenceslas Square)","una de las plazas más grandes de Praga · bulevar histórico central"],
   ["Plaza de la Ciudad Vieja","entre la Plaza Václav Havel y el Puente Carlos (Karlův Most)"],
   ["Torre del Reloj Astronómico","campanas cada hora · construido en 1410"],
@@ -433,7 +433,7 @@ const cities=[
   ["Paseo en barco por el Río Moldava (Paquete 1)","Recorrido en barco · pasa bajo el Puente de Carlos · vistas del Castillo de Praga"],
   ["Excursión a Karlovy Vary (Paquete 2)","Elegante balneario · 12 fuentes termales · frecuentado por realeza y celebridades"],
   ["Noche checa con cena tradicional (Paquete 2)","Cena tradicional checa · música folclórica · danzas típicas · vino o cerveza local"],
-  ["📅 DAY 10 - Mon Sep 15","Desayuno · partida hacia Núremberg"],
+  ["📅 DAY 10 - Mon Sep 15","Breakfast · departure to Nuremberg"],
  ],
  atractivos_recomendados:[
   ["Castillo de Praga","el mayor del mundo por superficie · domin agoa la ciudad desde la colina"],
@@ -483,11 +483,11 @@ const cities=[
   {cat:"🍺 Cheers!",local:"Na zdraví!",pron:"Nah ZDRAH-vee",tip:"¡Imprescindible! Praga tiene la mejor cerveza del mundo · mira a todos los ojos al brindar"}
  ]}
 },
-{id:"nur",wlat:49.4521,wlon:11.0767,name:"Nuremberg",flag:"🇩🇪",country:"Germany",days:"Days 10-12",dates:"Lun 15 Sep – Mié 17 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,
+{id:"nur",wlat:49.4521,wlon:11.0767,name:"Nuremberg",flag:"🇩🇪",country:"Germany",days:"Days 10-12",dates:"Mon Sep 15 – Wed Sep 17",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
  libre:["🟢 Día 11 — Mar 16 Sep (FREE DAY): Rothenburg ob der Tauber (Paquete 1) · Múnich (Paquete 2) · o tour personal."],
- tourPersonal:"⭐ Día 11 (Mar 16 Sep): Si no contratas opcionales, Núremberg ofrece el Tribunal de Núremberg (Sala 600 donde se juzgaron los crímenes nazis), las murallas medievales camin agoables de 5 km y el Castillo Imperial, todo a pie desde el hotel.",
+ tourPersonal:"⭐ Day 11 (Tue Sep 16): No optional tours? Nuremberg offers the Nuremberg Trials Courthouse (Sala 600 donde se juzgaron los crímenes nazis), las murallas medievales camin agoables de 5 km y el Castillo Imperial, all within walking distance.",
  atractivos_itinerario:[
-  ["📅 DAY 10 - Mon Sep 15","Desayuno · llegada desde Praga · recorrido por la ciudad"],
+  ["📅 DAY 10 - Mon Sep 15","Breakfast · arrival from Prague · city tour"],
   ["Castillo Imperial de Núremberg (Kaiserburg)","construido en lo alto de una colina  unos mil años · núcleo vivo de la ciudad"],
   ["Iglesia de Nuestra Señora (Frauenkirche)","gótica en la Hauptmarkt · reloj con figuras mecánicas"],
   ["Casa de la Ópera (Opernhaus)","edificio de la ópera de Núremberg · mencionado en el itinerario del tour"],
@@ -496,7 +496,7 @@ const cities=[
   ["📅 DAY 11 - Tue Sep 16 🟢 FREE DAY","Excursiones opcionales o tour personal en Núremberg"],
   ["Ciudad Rothenburg ob der Tauber (Paquete 1)","Ciudad medieval mejor conservada de Alemania · murallas · casas de entramado · Ruta Romántica"],
   ["Ciudad de Múnich (Paquete 2)","Capital de Baviera · Oktoberfest · Marienplatz · Nuevo Ayuntamiento · cultura cervecera"],
-  ["📅 DAY 12 - Wed Sep 17","Desayuno · partida hacia Frankfurt"],
+  ["📅 DAY 12 - Wed Sep 17","Breakfast · departure to Frankfurt"],
  ],
  atractivos_recomendados:[
   ["Ciudad Vieja amurallada","murallas medievales casi intactas de 5 km · camin agoables completas"],
@@ -541,9 +541,9 @@ const cities=[
   {cat:"🍺 Cheers!",local:"Prost!",pron:"Prohst",tip:"Con una Nürnberger Bratwurst y cerveza franconiana · experiencia completa"}
  ]}
 },
-{id:"fra",wlat:50.1109,wlon:8.6821,name:"Frankfurt",flag:"🇩🇪",country:"Germany",days:"Days 12-13",dates:"Mié 17 Sep – Jue 18 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,libre:[],tourPersonal:"",
+{id:"fra",wlat:50.1109,wlon:8.6821,name:"Frankfurt",flag:"🇩🇪",country:"Germany",days:"Days 12-13",dates:"Wed Sep 17 – Thu Sep 18",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,libre:[],tourPersonal:"",
  atractivos_itinerario:[
-  ["📅 DAY 12 - Wed Sep 17","Desayuno · llegada desde Núremberg · visita a Frankfurt"],
+  ["📅 DAY 12 - Wed Sep 17","Breakfast · arrival from Nuremberg · Frankfurt city visit"],
   ["Edificios de la familia Römer (ss.XIII-XIV)","el ayuntamiento histórico más fotogénico de Frankfurt"],
   ["Iglesia de San Nicolás","junto al Römerberg · mencionada en el itinerario"],
   ["Catedral Imperial de San Bartolomé","lugar de coronación de los emperadores del Sacro Imperio"],
@@ -551,7 +551,7 @@ const cities=[
   ["Banco de Alemania (Deutsche Bundesbank)","una de las instituciones financieras más importantes del mundo"],
   ["Bolsa de Frankfurt (Börse)","famosas estatuas del toro y el oso en su exterior"],
   ["Paseo nocturno en barco por el Río Meno (Paquete 2)","Recorrido nocturno en barco · contraste entre el Römer histórico y el skyline financiero"],
-  ["📅 DAY 13 - Thu Sep 18","Desayuno · partida hacia Luxemburgo y Metz"],
+  ["📅 DAY 13 - Thu Sep 18","Breakfast · departure to Luxembourg and Metz"],
  ],
  atractivos_recomendados:[
   ["Römerberg (plaza histórica)","corazón turístico medieval de Frankfurt · muy fotogénico"],
@@ -598,9 +598,9 @@ const cities=[
   {cat:"🍺 Cheers!",local:"Prost! / Ebbelwei!",pron:"Prost / É-bel-vai",tip:"Ebbelwei es la sidra de manzana de Frankfurt · brinda con ella en el Sachsenhausen"}
  ]}
 },
-{id:"lux",wlat:49.6116,wlon:6.1319,name:"Luxembourg",flag:"🇱🇺",country:"Grand Duchy of Luxembourg",days:"Day 13 (excursion) & 14",dates:"Jue 18 Sep – Vie 19 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,
+{id:"lux",wlat:49.6116,wlon:6.1319,name:"Luxembourg",flag:"🇱🇺",country:"Grand Duchy of Luxembourg",days:"Day 13 (excursion) & 14",dates:"Thu Sep 18 – Fri Sep 19",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
  libre:["Día 14 — Vie 19 Sep: Luxemburgo es excursión opcional del Paquete 1 desde Metz (55 km · 45 min ago en tren)."],
- tourPersonal:"⭐ Día 14 (Vie 19 Sep): Si no contratas el tour a Luxemburgo, puedes ir por tu cuenta desde Metz en tren (€10-15 ida y vuelta). La Ciudad de Luxemburgo es visitable en un día completo camin agoando.",
+ tourPersonal:"⭐ Day 14 (Fri Sep 19): Si no contratas el tour a Luxemburgo, you can go independently from Metz by train (€10-15 ida y vuelta). La Ciudad de Luxemburgo es visitable en un día completo camin agoando.",
  atractivos_itinerario:[
   ["Ciudad de Luxemburgo (excursión opcional Paquete 1)","Patrimonio UNESCO · incluida en el tour opcional"],
   ["Ciudad de Schengen (Paquete 2)","Donde se firmó el Acuerdo de Schengen (1985) que abolió los controles fronterizos en Europa"],
@@ -647,18 +647,18 @@ const cities=[
   {cat:"🍺 Cheers!",local:"Prost! / Santé!",pron:"Prohst / Sahn-TAY",tip:"Prost del alemán y Santé del francés · los dos son correctos"}
  ]}
 },
-{id:"met",wlat:49.1193,wlon:6.1757,name:"Metz",flag:"🇫🇷",country:"France (Lorraine)",days:"Days 13-15 (base city)",dates:"Jue 18 Sep – Sáb 20 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,
+{id:"met",wlat:49.1193,wlon:6.1757,name:"Metz",flag:"🇫🇷",country:"France (Lorraine)",days:"Days 13-15 (base city)",dates:"Thu Sep 18 – Sat Sep 20",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
  libre:["🟢 Día 14 — Vie 19 Sep (FREE DAY): Estrasburgo/Colmar (Paq.1) · Luxemburgo (Paq.1) · Schengen (Paq.2) · o Metz por libre."],
- tourPersonal:"⭐ Día 14 (Vie 19 Sep): Si no contratas excursiones, Metz misma ofrece la Catedral de San Esteban (vitrales medievales más grandes del mundo), el Centre Pompidou-Metz y el Barrio del Temple, todo camin agoable en un día muy agradable.",
+ tourPersonal:"⭐ Day 14 (Fri Sep 19): No excursions? Metz itself offers Saint-Étienne Cathedral (vitrales medievales más grandes del mundo), the Centre Pompidou-Metz and the Temple Quarter, todo camin agoable en un día muy agradable.",
  atractivos_itinerario:[
-  ["📅 DAY 13 - Thu Sep 18","Desayuno · llegada desde Frankfurt · tiempo libre para excursiones opcionales"],
+  ["📅 DAY 13 - Thu Sep 18","Breakfast · arrival from Frankfurt · free time for optional excursions"],
   ["Ciudad de Luxemburgo (Paquete 1)","Capital del Gran Ducado · Casamatas UNESCO · uno de los centros financieros y políticos de Europa"],
   ["Ciudad de Schengen (Paquete 2)","Donde se firmó el Acuerdo de Schengen (1985) que abolió los controles fronterizos en Europa"],
   ["Metz / Thionville como ciudad base","alojamiento durante los días 13-15"],
   ["📅 DAY 14 - Fri Sep 19 🟢 FREE DAY","Excursiones opcionales o exploración libre de Metz"],
   ["Estrasburgo (Paquete 1)","Catedral gótica · sede del Parlamento Europeo · excursión junto con Colmar (Paquete 1)"],
   ["Colmar (Paquete 1)","Arquitectura de cuento de hadas · barrio 'Pequeña Venecia' · excursión junto con Estrasburgo (Paquete 1)"],
-  ["📅 DAY 15 - Sat Sep 20","Desayuno · partida hacia Bruselas"],
+  ["📅 DAY 15 - Sat Sep 20","Breakfast · departure to Brussels"],
  ],
  atractivos_recomendados:[
   ["Catedral de San Esteban de Metz","gótica con los vitrales medievales más grandes del mundo · impresionante"],
@@ -703,11 +703,11 @@ const cities=[
   {cat:"😋 Bon appétit!",local:"Bon appétit!",pron:"Bohn ah-pay-TEE",tip:"Dilo al sentarte · los franceses lo dicen antes de cada comida"}
  ]}
 },
-{id:"bru",wlat:50.8503,wlon:4.3517,name:"Brussels",flag:"🇧🇪",country:"Belgium",days:"Days 15-17",dates:"Sáb 20 Sep – Lun 22 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,
+{id:"bru",wlat:50.8503,wlon:4.3517,name:"Brussels",flag:"🇧🇪",country:"Belgium",days:"Days 15-17",dates:"Sat Sep 20 – Mon Sep 22",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
  libre:["🟢 Día 16 — Dom 21 Sep (FREE DAY): Brujas y Gante (Paquete 1) · o Bruselas por libre."],
- tourPersonal:"Día 16 (Dom 21 Sep): Si no tomas el tour a Brujas/Gante, Bruselas ofrece el Atomium, los Museos Reales de Bellas Artes (Magritte, Bruegel, Rubens) y el Barrio Europeo, todo a pie.",
+ tourPersonal:"Día 16 (Dom 21 Sep): Si no tomas el tour a Brujas/Gante, Bruselas ofrece the Atomium, the Royal Museums of Fine Arts (Magritte, Bruegel, Rubens) y the European Quarter — all walkable.",
  atractivos_itinerario:[
-  ["📅 DAY 15 - Sat Sep 20","Desayuno · llegada desde Metz · recorrido por Bruselas"],
+  ["📅 DAY 15 - Sat Sep 20","Breakfast · arrival from Metz · Brussels city tour"],
   ["Grand Place (Plaza Mayor)","Patrimonio UNESCO · considerada la plaza más bella del mundo"],
   ["Galerías Reales de Saint-Hubert","pasaje comercial neoclásico del siglo XIX"],
   ["Manneken Pis","escultura icónica símbolo de Bruselas"],
@@ -715,7 +715,7 @@ const cities=[
   ["Museos Reales de Bellas Artes","Bruegel, Rubens y Magritte bajo el mismo techo"],
   ["📅 DAY 16 - Sun Sep 21 🟢 FREE DAY","Excursiones opcionales o Bruselas por libre"],
   ["Ciudades de Brujas y Gante (Paquete 1)","Brujas: 'Venecia del Norte' · canales medievales · arquitectura flamenca. Gante: castillo medieval · ciudad vibrante"],
-  ["📅 DAY 17 - Mon Sep 22","Desayuno · partida hacia Ámsterdam"],
+  ["📅 DAY 17 - Mon Sep 22","Breakfast · departure to Amsterdam"],
  ],
  atractivos_recomendados:[
   ["Atomium","estructura de hierro en forma de átomo · Expo 1958 · ícono de Bruselas"],
@@ -770,7 +770,7 @@ const cities=[
 const tours=[
  {id:"pot",wlat:52.3906,wlon:13.0645,name:"Potsdam",flag:"🇩🇪",
   precio:"$90 USD",base:"Desde Berlín · 35 km · 35 min ago",
-  desc:"Potsdam lleva una pinta real con los palacios de los reyes de Prusia y sus parques. En Potsdam se celebró la Conferencia de Paz después de la Segunda Guerra Mundial. Durante nuestro recorrido veremos el Palacio de la ciudad, la iglesia de San Nicolás, la Puerta de Brandenburgo, el exquisito Palacio de Sanssouci y el fabuloso Palacio de Cecilienhof.",
+  desc:"Potsdam lleva una pinta real con los palacios de los reyes de Prusia y sus parques. En Potsdam se celebró la Conferencia de Paz después de la Segunda Guerra Mundial. During our tour we visit el Palacio de la ciudad, St. Nicholas Church, la Puerta de Brandenburgo, el exquisito Palacio de Sanssouci y el fabuloso Palacio de Cecilienhof.",
   atractivos:[
    ["Palacio de Sanssouci","residencia de verano de Federico el Grande · Patrimonio UNESCO"],
    ["Palacio de Cecilienhof","sede de la Conferencia de Potsdam (1945) · donde se firmó el Tratado de Paz"],
@@ -809,7 +809,7 @@ const tours=[
   ],
   recomendados:[
    ["Visita guiada oficial","muy recomendada · los guías del memorial aportan contexto histórico invaluable"],
-   ["Llegada temprana","el memorial abre a las 7:30 · llegar antes de las 9:00 para evitar aglomeraciones"],
+   ["Llegada temprana","the memorial opens at 7:30 · arrive before 9:00 to avoid crowds"],
   ],
   gastronomia:["Visita memorial · llevar agua y snack · no hay restaurantes en el recinto","Pueblo de Oświęcim a 2 km con restaurantes polacos tradicionales","Cafetería básica disponible en la entrada del memorial"],
   restaurantes:[
@@ -884,7 +884,7 @@ const tours=[
  },
  {id:"lxp",wlat:49.6116,wlon:6.1319,name:"Ciudad de Luxemburgo",flag:"🇱🇺",
   precio:"$54 USD",base:"Desde Metz · 55 km · 45 min ago",
-  desc:"Luxemburgo, la capital del Gran Ducado de Luxemburgo, uno de los estados más pequeños de Europa, cuya capital se encuentra ubicada sobre un peñón. Durante nuestro recorrido veremos los edificios del Palacio Gran Ducal, la Legislatura Nacional, la Abadía de Neumünster y el pintoresco valle del Río Alzette.",
+  desc:"Luxemburgo, la capital del Gran Ducado de Luxemburgo, uno de los estados más pequeños de Europa, cuya capital se encuentra ubicada sobre un peñón. During our tour we visit los edificios del Palacio Gran Ducal, la Legislatura Nacional, la Abadía de Neumünster y el pintoresco valle del Río Alzette.",
   atractivos:[
    ["Palacio Gran Ducal","residencia oficial del Gran Duque · cambio de guardia · arquitectura renacentista española"],
    ["Legislatura Nacional (Chambre des Députés)","parlamento del Gran Ducado de Luxemburgo"],
@@ -1228,7 +1228,7 @@ function renderCities(){
 function renderCityBody(){
  const c=cities[curCity];let h='';
  if(c.libre.length) h+=`<div class="libre-box"><p>🗓️ ${c.libre[0]}</p></div>`;
- if(c.tourPersonal) h+=`<div class="tp-box"><div class="tpt">🌟 Tour personal sugerido</div><p>${c.tourPersonal}</p></div>`;
+ if(c.tourPersonal) h+=`<div class="tp-box"><div class="tpt">🌟 Suggested Personal Tour</div><p>${c.tourPersonal}</p></div>`;
  if(curSub==='itinerario'){
   h+=`<div class="card"><div class="card-header"><div class="card-title">${c.flag} ${c.name}</div><div class="card-sub">${c.country} · ${c.days}<br><span style="color:var(--gold)">${c.dates}</span></div><div class="tag">${c.moneda} · ${c.cambio}</div></div>`;
   h+=`<div class="section-label">Included in the tour</div>`;
@@ -1242,7 +1242,7 @@ function renderCityBody(){
   h+='</div>';
   h+=renderNotes(c.id,'itinerario');
  } else if(curSub==='recomendados'){
-  h+=`<div class="card"><div class="card-header"><div class="card-title">⭐ Recomendados adicionales</div><div class="card-sub">No incluidos en el tour · visitar por tu cuenta en tiempo libre</div></div>`;
+  h+=`<div class="card"><div class="card-header"><div class="card-title">⭐ Additional Recommendations</div><div class="card-sub">Not included in the tour · visit on your own during free time</div></div>`;
   h+=`<div class="section-label">Additional recommended attractions</div>`;
   h+=c.atractivos_recomendados.map(a=>`<div class="list-item"><span class="lb2">◇</span><div class="list-text">${a[0]}<div class="list-sub">${a[1]}</div></div></div>`).join('');
   h+='</div>';
@@ -1504,8 +1504,8 @@ function renderFotos(cityId,cityName){
  },10);
  return `<div class="card photos-card">
   <div class="card-header">
-   <div class="card-title">📸 Mis fotos de ${cityName}</div>
-   <div class="card-sub">Solo en este teléfono · <span id="photo-counter-${cityId}">loading...</span> · Recomendado: máx. 10 por ciudad</div>
+   <div class="card-title">📸 My Photos - ${cityName}</div>
+   <div class="card-sub">On this phone only · <span id="photo-counter-${cityId}">loading...</span> · Recomendado: máx. 10 por ciudad</div>
   </div>
   <div id="photo-status-${cityId}" class="photo-status"></div>
   <div class="photo-grid" id="photo-grid-${cityId}">
@@ -1638,7 +1638,7 @@ function renderDocumentos(cityId,cityName){
  return `<div class="card" style="border-left:3px solid var(--gold)">
   <div class="card-header">
    <div class="card-title">📄 Documentos de ${cityName}</div>
-   <div class="card-sub">Solo en este teléfono · <span id="doc-counter-${cityId}">loading...</span></div>
+   <div class="card-sub">On this phone only · <span id="doc-counter-${cityId}">loading...</span></div>
   </div>
   <div id="doc-status-${cityId}" class="photo-status"></div>
   <div id="doc-list-${cityId}">
@@ -1843,7 +1843,7 @@ function deleteTourVideo(tid){
 
 function renderDist(){
  const total=distMain.reduce((s,r)=>s+r.mi,0);
- let h=`<div class="dist-row" style="background:rgba(201,168,76,0.07)"><span class="dcity" style="color:var(--gold)">Total del circuito</span><span></span><span class="dkm" style="color:var(--gold)">${total.toLocaleString()} mi</span><span class="dtime"></span></div>`;
+ let h=`<div class="dist-row" style="background:rgba(201,168,76,0.07)"><span class="dcity" style="color:var(--gold)">Total circuit distance</span><span></span><span class="dkm" style="color:var(--gold)">${total.toLocaleString()} mi</span><span class="dtime"></span></div>`;
  h+=distMain.map(r=>`<div class="dist-row"><span class="dcity">${r.de}</span><span style="color:var(--dim);font-size:11px">→</span><span class="dcity" style="color:var(--cream)">${r.a}</span><span class="dkm">${r.mi} mi</span><span class="dtime">&nbsp;${r.t}</span></div>`).join('');
  document.getElementById('dist-main-card').innerHTML=h;
  document.getElementById('dist-tour-card').innerHTML=distTours.map(r=>
@@ -1931,48 +1931,48 @@ const itin=[
  {d:"1",wd:"Dom",dt:"6 Sep",c:"✈️ Mexico City → Amsterdam",n:"Transatlantic flight · overnight on board",tipo:"normal",
   full:`Presentarse en el Aeropuerto Internacional de la Ciudad de México 3 horas antes para tomar el vuelo trasatlántico con destino a Ámsterdam. Noche a bordo.`},
  {d:"2",wd:"Lun",dt:"7 Sep",c:"🇳🇱 Amsterdam",n:"Arrival · reception · panoramic city tour",tipo:"normal",
-  full:`Llegada a Ámsterdam, la capital del Reino de los Países Bajos. Por su belleza, el casco histórico de Ámsterdam está incluido en la Lista del Patrimonio Mundial de la UNESCO. Después del recorrido por la ciudad, recepción y traslado al hotel. Alojamiento.`},
- {d:"3",wd:"Mar",dt:"8 Sep",c:"🇳🇱→🇩🇪 Amsterdam · Hanover · Berlin",n:"Desayuno · parada Hannover · llegada Berlín",tipo:"normal",
-  full:`Desayuno. Después nos dirigimos a la ciudad de Hannover en la República Federal de Alemania. Situada en orilla del río Leine la ciudad lleva el nombre con este mismo significado "La Orilla Alta". Hannover fue fundada en época medieval por barqueros, pescadores y comerciantes que llevaban los barcos llenos de mercancías por el río. Durante nuestro recorrido veremos los bellos edificios del Palacio de la Opera, las ruinas de la iglesia San Gil (Aegidienkirche), la Iglesia del Mercado, los edificios del Ayuntamiento, Nuevo y Viejo. Luego seguiremos hacia la ciudad de Berlín, la capital de la República Federal de Alemania. Alojamiento.`},
+  full:`Arrival in Amsterdam, capital of the Kingdom of the Netherlands. Its historic center is a UNESCO World Heritage Site. After the panoramic city tour, reception and hotel transfer. Accommodation.`},
+ {d:"3",wd:"Mar",dt:"8 Sep",c:"🇳🇱→🇩🇪 Amsterdam · Hanover · Berlin",n:"Breakfast · stop in Hanover · arrival Berlin",tipo:"normal",
+  full:`Breakfast. We head to the city of Hanover en la República Federal de Alemania. Situada en orilla del río Leine la ciudad lleva el nombre con este mismo significado "La Orilla Alta". Hannover fue fundada en época medieval por barqueros, pescadores y comerciantes que llevaban los barcos llenos de mercancías por el río. During our tour we visit los bellos edificios del Palacio de la Opera, the ruins of the Aegidienkirche (Aegidienkirche), the Market Church, the New and Old Town Halls. Then we continue to Berlin, capital of Germany. Accommodation.`},
  {d:"4",wd:"Mié",dt:"9 Sep",c:"🇩🇪 Berlin",n:"Recorrido panorámico · opt. Potsdam (Paq.1)",tipo:"normal",
-  full:`Desayuno. Realizaremos una breve visita panorámica de Berlín. Situada en las orillas de dos ríos, Spree y Havel que confluyen dentro de la ciudad, Berlín ofrece unas vistas inolvidables. Durante nuestro recorrido vamos a ver la Plaza Gendarmenmarkt, La Puerta de Brandenburgo, Potsdamer Platz, Frauenkirche, el Palacio Zwinger, la Terraza Bruhl, el Camin agoo del Rey, la Estatua de Martín Lutero y gozar de la belleza majestuosa de la milenaria ciudad. Alojamiento.`,
+  full:`Breakfast. We take a panoramic tour of Berlin. Located on the banks of two rivers, the Spree and Havel which meet within the city, Berlin offers unforgettable views. Durante nuestro recorrido we visit Gendarmenmarkt Square, the Brandenburg Gate, Potsdamer Platz, Frauenkirche, el Palacio Zwinger, the Brühl Terrace, el Camin agoo del Rey, the Martin Luther Statue y enjoy the majestic beauty of this ancient city. Accommodation.`,
   opcionales:["Ciudad de Potsdam"]},
- {d:"5",wd:"Jue",dt:"10 Sep",c:"🇩🇪→🇵🇱 Berlin · Warsaw",n:"Desayuno · viaje · recorrido Ciudad Vieja UNESCO",tipo:"normal",
-  full:`Desayuno. Después nos dirigimos a la ciudad de Varsovia, la capital de la República de Polonia. Nadie sabe cuándo apareció el pequeño pueblo de pescadores que desde el siglo XIII se convirtió en una de las ciudades más hermosas del mundo. La Ciudad Vieja – su casco histórico está incluido en la Lista del Patrimonio de la Humanidad de la UNESCO. Durante nuestro recorrido veremos el Castillo Real, la famosa Columna de Segismundo, la hermosa Iglesia de las Visitacionistas, también denomin agoada iglesia de las Hermanas de la Visitación de San José de Varsovia de la Orden de la Visitación. Alojamiento.`},
- {d:"6",wd:"Vie",dt:"11 Sep",c:"🇵🇱 Warsaw → Kraków",n:"Desayuno · viaje · recorrido panorámico Cracovia",tipo:"normal",
-  full:`Desayuno. Después nos dirigimos a la ciudad polaca de Cracovia. Otra bella ciudad europea con su casco histórico incluido en la Lista del Patrimonio de la Humanidad de la UNESCO. Durante nuestro breve recorrido panorámico veremos el Castillo de Wawel, la increíble catedral con nombre completo de Basílica de San Estanislao y San Wenceslao con sus numerosas capillas de distintas épocas y estilos arquitectónicos, La Basílica de Santa María, El Corte Renacentista, la Plaza del Mercado y la pequeña iglesia de San Adalberto. Alojamiento.`},
+ {d:"5",wd:"Jue",dt:"10 Sep",c:"🇩🇪→🇵🇱 Berlin · Warsaw",n:"Breakfast · journey · UNESCO Old Town tour",tipo:"normal",
+  full:`Breakfast. We head to Warsaw, capital of Poland. Its Old Town — a UNESCO World Heritage Site — was completely rebuilt after WWII. During our tour we visit the Royal Castle, the famous Sigismund Column, and the Church of the Visitationists. Accommodation.`},
+ {d:"6",wd:"Vie",dt:"11 Sep",c:"🇵🇱 Warsaw → Kraków",n:"Breakfast · journey · Kraków panoramic tour",tipo:"normal",
+  full:`Desayuno. We head to the Polish city of Kraków. Another beautiful European city with its historic center on the UNESCO World Heritage List. During our panoramic tour we visit Wawel Castle, the incredible Basilica of Saints Stanislaus and Wenceslaus with its numerous chapels of different periods and architectural styles, St. Mary's Basilica, the Renaissance Cloth Hall, the Main Market Square y the small Church of St. Adalbert. Accommodation.`},
  {d:"7",wd:"Sáb",dt:"12 Sep",c:"🇵🇱 Kraków ★ FREE DAY",n:"Opt. Auschwitz (Pkg.1) · Wieliczka (Pkg.2) · or personal tour",tipo:"libre",
-  full:`Desayuno. Día libre para actividades personales o para realizar una excursión opcional. Alojamiento.`,
+  full:`Desayuno. Día libre para actividades personales o para realizar una excursión opcional. Accommodation.`,
   opcionales:["Campo de concentración de Auschwitz–Birkenau","Minas de sal de Wieliczka"]},
- {d:"8",wd:"Dom",dt:"13 Sep",c:"🇵🇱→🇨🇿 Kraków · Prague",n:"Desayuno · viaje · recorrido panorámico Praga",tipo:"normal",
-  full:`Desayuno. Después nos dirigimos a la ciudad de Praga, la capital de la República Checa y la capital histórica de Bohemia. Construida en el siglo IX como un pequeño pueblo fronterizo en las orillas del río Moldava, en el siglo XVII-XIX llegó a tener tal esplendor que todo Europa la llamaba Praga Dorada. En nuestro tour panorámico de la ciudad pasaremos por la Plaza Vaclav Havel, que es una de las plazas más grandes de Praga, luego llegaremos a la Plaza de la Ciudad Vieja, que se encuentra entre la Plaza Vaclac Havel y el Puente Carlos (Karluv Most). En la Plaza de la Ciudad Vieja veremos la Torre del Reloj Astronómico, la Iglesia de Tyn, el Ayuntamiento Viejo, la Iglesia de San Nicolás y el Monumento a Jan Hus. Después del almuerzo continuaremos hacia la orilla opuesta de Praga. De paso veremos el Puente de Carlos, que fue construido en el siglo XIV. Alojamiento.`},
+ {d:"8",wd:"Dom",dt:"13 Sep",c:"🇵🇱→🇨🇿 Kraków · Prague",n:"Breakfast · journey · Prague panoramic tour",tipo:"normal",
+  full:`Desayuno. We head to Prague, capital of the Czech Republic and historic capital of Bohemia. Built in the 9th century on the banks of the Vltava River, by the 17th-19th century it became so splendid that all of Europe called it Golden Prague. On our panoramic city tour we pass through Wenceslas Square, que es una de las plazas más grandes de Praga, luego llegaremos a la Plaza de la Ciudad Vieja, que se encuentra entre la Plaza Vaclac Havel y el Puente Carlos (Karluv Most). En la Plaza de la Ciudad Vieja veremos the Astronomical Clock Tower, the Týn Church, the Old Town Hall, St. Nicholas Church y the Jan Hus Monument. After lunch we continue to the other bank of Prague. We pass Charles Bridge, built in the 14th century. Accommodation.`},
  {d:"9",wd:"Lun",dt:"14 Sep",c:"🇨🇿 Prague ★ FREE DAY",n:"Opt. Barco Moldava (P1) · Karlovy Vary/Noche Checa (P2) · o personal",tipo:"libre",
-  full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Alojamiento.`,
+  full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Accommodation.`,
   opcionales:["Paseo en barco por el Río Moldava","Excursión a Karlovy Vary","Noche checa con cena tradicional"]},
- {d:"10",wd:"Mar",dt:"15 Sep",c:"🇨🇿→🇩🇪 Prague · Nuremberg",n:"Desayuno · viaje · recorrido Núremberg",tipo:"normal",
-  full:`Desayuno. Después nos dirigimos a la ciudad alemana de Núremberg. El fabuloso Castillo de Núremberg fue construido en lo alto de una colina  unos mil años. En los siguientes siglos ese pintoresco complejo de edificios se convirtió en núcleo vivo de una ciudad creciendo rápidamente alrededor suyo. Durante nuestro recorrido por Núremberg veremos los impresionantes edificios de la Iglesia de Nuestra Señora, la Casa de la Opera, el Viejo Ayuntamiento y por supuesto las vistas fascinantes del río Pegnitz. Alojamiento.`},
+ {d:"10",wd:"Mar",dt:"15 Sep",c:"🇨🇿→🇩🇪 Prague · Nuremberg",n:"Breakfast · journey · Nuremberg city tour",tipo:"normal",
+  full:`Desayuno. We head to the German city of Nuremberg. El fabuloso Castillo de Núremberg fue construido en lo alto de una colina  unos mil años. Over the following centuries this picturesque complex became the living core of a rapidly growing city. Durante nuestro recorrido por Núremberg veremos the impressive Church of Our Lady, the Opera House, the Old Town Hall y por supuesto the fascinating views of the Pegnitz River. Accommodation.`},
  {d:"11",wd:"Mié",dt:"16 Sep",c:"🇩🇪 Nuremberg ★ FREE DAY",n:"Opt. Rothenburg (P1) · Munich (P2) · or personal tour",tipo:"libre",
-  full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Alojamiento.`,
+  full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Accommodation.`,
   opcionales:["Ciudad Rothenburg ob der Tauber","Ciudad de Múnich"]},
- {d:"12",wd:"Jue",dt:"17 Sep",c:"🇩🇪 Nuremberg → Frankfurt",n:"Desayuno · viaje · visita Frankfurt",tipo:"normal",
-  full:`Desayuno. Después nos dirigimos a la ciudad de Frankfurt ubicada en el centro de Alemania a orillas del Rio Meno, importante centro financiero mundial. Los orígenes de la ciudad se pierden en lo hondo de los primeros siglos del Medioevo, pero siempre en la colina de Romer. Aquí veremos los impresionantes edificios de la familia de comerciantes Romer construidos en los siglos XIII y XIV, la iglesia de San Nicolás, la Catedral Imperial de la Colegiata de San Bartolomé y gozaremos de las majestuosas siluetas del Banco Central Europeo, el Banco de Alemania y la Bolsa de Frankfurt que son unas de las instituciones financieras más importantes del mundo. Alojamiento.`,
+ {d:"12",wd:"Jue",dt:"17 Sep",c:"🇩🇪 Nuremberg → Frankfurt",n:"Breakfast · journey · Frankfurt city visit",tipo:"normal",
+  full:`Desayuno. We head to Frankfurt located in central Germany on the banks of the Main River, an important global financial center. The city's origins date back to the early medieval period, always centered on the Römer hill. We visit the impressive Römer merchant buildings built in the 13th and 14th centuries, St. Nicholas Church, the Imperial Cathedral of St. Bartholomew y we enjoy the majestic silhouettes of the European Central Bank, the Bank of Germany y the Frankfurt Stock Exchange among the most important financial institutions in the world. Accommodation.`,
   opcionales:["Paseo nocturno en barco por el Río Meno"]},
  {d:"13",wd:"Vie",dt:"18 Sep",c:"🇩🇪→🇱🇺🇫🇷 Frankfurt · Luxembourg · Metz",n:"Breakfast · Luxembourg stop (opt.) · Metz base city",tipo:"normal",
-  full:`Desayuno. Después nos dirigimos a la ciudad francesa de Metz o a la ciudad francesa de Thionville. Tiempo libre para realizar excursiones opcionales a la ciudad de Luxemburgo en el estado de Gran Ducado de Luxemburgo y a la ciudad de Schengen. Alojamiento.`,
+  full:`Desayuno. We head to the French city of Metz o a la ciudad francesa de Thionville. Free time for optional excursions to Luxembourg City in the Grand Duchy of Luxembourg and to the city of Schengen. Accommodation.`,
   opcionales:["Ciudad de Luxemburgo","Ciudad de Schengen"]},
  {d:"14",wd:"Sáb",dt:"19 Sep",c:"🇫🇷 Metz / Thionville ★ FREE DAY",n:"Opt. Luxemburgo/Estr./Colmar (P1) · Schengen (P2) · o Metz libre",tipo:"libre",
-  full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Alojamiento.`,
+  full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Accommodation.`,
   opcionales:["Ciudad de Estrasburgo","Ciudad de Colmar"]},
  {d:"15",wd:"Dom",dt:"20 Sep",c:"🇫🇷→🇧🇪 Metz · Brussels",n:"Desayuno · viaje · recorrido Bruselas",tipo:"normal",
-  full:`Desayuno. Después nos dirigimos a la ciudad de Bruselas, la capital del Reino de Bélgica, sede la Comisión Europea, famosa por su cerveza y su chocolate. Aquí veremos la impresionante Plaza del Mercado, las galerías reales de Saint-Hubert, la escultura del Manneken Pis, el Palacio Real de Bruselas, los museos reales de Bellas Artes. Alojamiento.`},
+  full:`Desayuno. We head to Brussels, capital of the Kingdom of Belgium, seat of the European Commission, famous for its beer and chocolate. We visit the impressive Grand Place, the Saint-Hubert Royal Galleries, the Manneken Pis sculpture, el Palacio Real de Bruselas, the Royal Museums of Fine Arts. Accommodation.`},
  {d:"16",wd:"Lun",dt:"21 Sep",c:"🇧🇪 Brussels ★ FREE DAY",n:"Opt. Bruges and Ghent (Pkg.1) · or Brussels on your own",tipo:"libre",
-  full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Alojamiento.`,
+  full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Accommodation.`,
   opcionales:["Ciudades de Brujas y Gante"]},
  {d:"17",wd:"Mar",dt:"22 Sep",c:"🇧🇪→🇳🇱 Bruselas · Ámsterdam ⭐ TOUR PERSONAL",n:"No P2: free Amsterdam day → Rijksmuseum, Jordaan, canals",tipo:"tp",
-  full:`Desayuno. Después nos dirigimos a la ciudad de Ámsterdam. Tiempo libre para realizar actividades personales o bien realizar una excursión opcional. Alojamiento.`,
+  full:`Desayuno. We head to Amsterdam. Free time for personal activities or optional excursion. Accommodation.`,
   opcionales:["Volendam y Marken","Ciudad de La Haya","Pueblo de Giethoorn"]},
  {d:"18",wd:"Mié",dt:"23 Sep",c:"🇳🇱 Amsterdam → ✈️ Mexico City",n:"Breakfast · airport transfer · return flight",tipo:"normal",
-  full:`Desayuno. A la hora indicada, traslado al aeropuerto para tomar el vuelo de regreso a la Ciudad de México.`},
+  full:`Desayuno. At the indicated time, transfer to the airport for the return flight to Mexico City.`},
 ];
 document.getElementById('quick-itinerary').innerHTML=itin.map((i,idx)=>{
  const opc=i.opcionales&&i.opcionales.length?`<div class="iexp-opc-title">Excursiones opcionales</div>`+i.opcionales.map(o=>`<div class="iexp-opc-item">◆ ${o}</div>`).join(''):'';
@@ -2021,7 +2021,7 @@ document.getElementById('tp-home-box').innerHTML=`<div class="tph">5 oportunidad
  if(counter)counter.textContent=docs.length+' '+(docs.length===1?'document':'documents');
  if(list){
   if(docs.length===0){
-   list.innerHTML='<div style="padding:14px;font-size:13px;color:var(--dim);text-align:center">No has subido documentos todavía.<br>Toca el botón dorado para agregar PDFs del viaje.</div>';
+   list.innerHTML='<div style="padding:14px;font-size:13px;color:var(--dim);text-align:center">No documents yet.<br>Tap the gold button to add travel PDFs.</div>';
   } else {
    list.innerHTML=docs.sort((a,b)=>b.ts-a.ts).map(d=>`
     <div class="doc-row" onclick="viewDoc(${d.id})">
@@ -2046,7 +2046,7 @@ async function delDocHomeUI(id){
  if(counter)counter.textContent=docs.length+' '+(docs.length===1?'document':'documents');
  if(list){
   if(docs.length===0){
-   list.innerHTML='<div style="padding:14px;font-size:13px;color:var(--dim);text-align:center">No has subido documentos todavía.</div>';
+   list.innerHTML='<div style="padding:14px;font-size:13px;color:var(--dim);text-align:center">No documents yet.</div>';
   } else {
    list.innerHTML=docs.sort((a,b)=>b.ts-a.ts).map(d=>`
     <div class="doc-row" onclick="viewDoc(${d.id})">
