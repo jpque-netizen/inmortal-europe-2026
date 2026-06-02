@@ -798,7 +798,7 @@ const tours=[
    {cat:"🍺 ¡Salud!",local:"Prost!",pron:"Prost",tip:"El brindis alemán clásico"},
   ]},
   mapa:{centro:"Potsdam Germany",pois:[["Palacio Sanssouci","Sanssouci Palace Potsdam"],["Palacio Cecilienhof","Cecilienhof Palace Potsdam"],["Puerta de Brandenburgo Potsdam","Brandenburg Gate Potsdam"],["Iglesia San Nicolás","St Nicholas Church Potsdam"]]},
-  video:{t:"Potsdam Germany - Sanssouci Palace & Park Walking Tour",u:"https://www.youtube.com/watch?v=Wd9GIW0RQTM"}
+  video:{t:"Potsdam: Sanssouci, Cecilienhof y Centro Histórico — Tour Completo 2025",u:"https://www.youtube.com/watch?v=uC7UuvrTgrA"}
  },
  {id:"aus",wlat:50.0274,wlon:19.2037,name:"Auschwitz-Birkenau",flag:"🇵🇱",
   precio:"$95 USD",base:"Desde Cracovia · 75 km · 1h 15min",
@@ -825,7 +825,7 @@ const tours=[
    {cat:"🤝 De nada",local:"Nie ma za co",pron:"Nie-ma-za-tso",tip:"Literalmente 'no hay por qué'"},
   ]},
   mapa:{centro:"Auschwitz-Birkenau Memorial Poland",pois:[["Campo Auschwitz I","Auschwitz I Memorial Museum"],["Campo Birkenau","Auschwitz II Birkenau"],["Entrada principal","Auschwitz Memorial entrance"]]},
-  video:{t:"Auschwitz-Birkenau Memorial Museum - Guided Visit",u:"https://www.youtube.com/watch?v=1tHDMFJxaFY"}
+  video:{t:"Auschwitz-Birkenau: La fábrica de la muerte del Holocausto — Visita narrada 2025",u:"https://www.youtube.com/watch?v=D28ew7ZpxD8"}
  },
  {id:"mol",wlat:50.0755,wlon:14.4378,name:"Barco por el Río Moldava",flag:"🇨🇿",
   precio:"$66 USD",base:"Desde el centro de Praga",
@@ -883,7 +883,7 @@ const tours=[
    {cat:"🍺 ¡Salud!",local:"Prost!",pron:"Prost",tip:"Con cerveza franconiana · la experiencia completa"},
   ]},
   mapa:{centro:"Rothenburg ob der Tauber Germany",pois:[["Ayuntamiento","Rothenburg Rathaus"],["Torre de Entrada","Rödertor Rothenburg"],["Murallas medievales","Medieval Walls Rothenburg"],["Käthe Wohlfahrt","Kathe Wohlfahrt Rothenburg"]]},
-  video:{t:"Rothenburg ob der Tauber - Most Beautiful Medieval Town in Germany",u:"https://www.youtube.com/watch?v=3ZSjMaJSaM0"}
+  video:{t:"Qué ver en Rothenburg ob der Tauber — Guía narrada en español 2024",u:"https://www.youtube.com/watch?v=uSCZtaUAX8k"}
  },
  {id:"lxp",wlat:49.6116,wlon:6.1319,name:"Ciudad de Luxemburgo",flag:"🇱🇺",
   precio:"$54 USD",base:"Desde Metz · 55 km · 45 min",
@@ -972,7 +972,7 @@ const tours=[
    {cat:"🍺 ¡Salud!",local:"Proost!",pron:"Próost",tip:"Con cerveza belga · la experiencia completa"},
   ]},
   mapa:{centro:"Bruges Belgium",pois:[["Campanario de Brujas","Belfort Bruges"],["Canales de Brujas","Bruges Canals"],["Graslei Gante","Graslei Ghent"],["Castillo de los Condes","Gravensteen Ghent"]]},
-  video:{t:"Bruges & Ghent Belgium - Complete Medieval Cities Guide",u:"https://www.youtube.com/watch?v=Teh5OGhLKQ0"}
+  video:{t:"La Mejor Guía de Bélgica 2025 — Brujas, Gante, Bruselas y Amberes",u:"https://www.youtube.com/watch?v=OonsDkgaZsA"}
  },
  {id:"wie",wlat:49.9839,wlon:20.0550,name:"Minas de sal de Wieliczka",flag:"🇵🇱",
   precio:"$95 USD",base:"Desde Cracovia · 15 km · 20 min",
@@ -1000,7 +1000,7 @@ const tours=[
    {cat:"🍺 ¡Salud!",local:"Na zdrowie!",pron:"Na zdró-vye",tip:"El brindis polaco · cerveza polaca excelente"},
   ]},
   mapa:{centro:"Wieliczka Salt Mine Poland",pois:[["Entrada principal Wieliczka","Wieliczka Salt Mine entrance"],["Capilla Santa Kinga","Chapel of St Kinga Wieliczka"],["Pueblo de Wieliczka","Wieliczka town center"]]},
-  video:{t:"Wieliczka Salt Mine - Underground Cathedral Poland Tour",u:"https://www.youtube.com/watch?v=QiPmCkPkGy0"}
+  video:{t:"Minas de Sal de Wieliczka — Guía de viaje 4K en español 2025",u:"https://www.youtube.com/watch?v=VlY2fjqM2jY"}
  },
  {id:"kv",wlat:50.2316,wlon:12.8716,name:"Karlovy Vary",flag:"🇨🇿",
   precio:"$90 USD",base:"Desde Praga · 130 km · 1h 30min",
@@ -1029,7 +1029,7 @@ const tours=[
    {cat:"🍺 ¡Salud!",local:"Na zdraví!",pron:"Na zdra-ví",tip:"Brindis checo · mira a los ojos"},
   ]},
   mapa:{centro:"Karlovy Vary Czech Republic",pois:[["Colonada Mill","Mlynska Kolonada Karlovy Vary"],["Fuentes termales","Hot Springs Karlovy Vary"],["Colonada del Mercado","Market Colonnade Karlovy Vary"]]},
-  video:{t:"Karlovy Vary Czech Republic - Spa Town Complete Guide",u:"https://www.youtube.com/watch?v=B4MuEKO1UNE"}
+  video:{t:"Karlovy Vary y Český Krumlov — 2 destinos cerca de Praga en español 2024",u:"https://www.youtube.com/watch?v=gnGA1MNWrvg"}
  },
  {id:"mun",wlat:48.1351,wlon:11.5820,name:"Múnich",flag:"🇩🇪",
   precio:"$174 USD",base:"Desde Núremberg · 170 km · 1h 45min",
@@ -1058,7 +1058,7 @@ const tours=[
    {cat:"🍺 ¡Salud!",local:"Prost!",pron:"Prost",tip:"En el Hofbräuhaus con un Mass (litro) de cerveza"},
   ]},
   mapa:{centro:"Munich Germany",pois:[["Frauenkirche","Frauenkirche Munich"],["Ayuntamiento Nuevo","Neues Rathaus Munich"],["Feldherrnhalle","Feldherrnhalle Munich"],["Hofbräuhaus","Hofbrauhaus Munich"],["Marienplatz","Marienplatz Munich"]]},
-  video:{t:"Munich Germany - Top Things To Do Complete Travel Guide",u:"https://www.youtube.com/watch?v=e3R9rxgSTOE"}
+  video:{t:"La Guía Más Completa por Múnich — Con precios y día a día 2026",u:"https://www.youtube.com/watch?v=m_Ynqhjdwd4"}
  },
  {id:"noc",wlat:50.0755,wlon:14.4378,name:"Noche Checa con cena",flag:"🇨🇿",
   precio:"$90 USD",base:"En Praga (noche)",
@@ -1139,7 +1139,7 @@ const tours=[
    {cat:"🍺 ¡Salud!",local:"Prost! / Santé!",pron:"Prost / San-té",tip:"Con vino del Mosela · los tres países brindan así"},
   ]},
   mapa:{centro:"Schengen Luxembourg",pois:[["Monumento Schengen","Schengen Monument Luxembourg"],["Museo Europeo","European Museum Schengen"],["Confluencia tres fronteras","Schengen tripoint border"]]},
-  video:{t:"Schengen Village - Where Europe Without Borders Was Born",u:"https://www.youtube.com/watch?v=Z1jvCnUTKnE"}
+  video:{t:"Schengen y Echternach — Recorriendo el famoso pueblo de Luxemburgo en español",u:"https://www.youtube.com/watch?v=zReAcS63g8w"}
  },
  {id:"vol",wlat:52.4946,wlon:5.0703,name:"Volendam, Marken y La Haya",flag:"🇳🇱",
   precio:"$138 USD",base:"Desde Ámsterdam: Volendam 22 km · La Haya 60 km",
@@ -1169,7 +1169,7 @@ const tours=[
    {cat:"🍺 ¡Salud!",local:"Proost!",pron:"Próost",tip:"Al brindar · muy común en bares"},
   ]},
   mapa:{centro:"Volendam Netherlands",pois:[["Puerto de Volendam","Volendam harbor Netherlands"],["Marken","Marken island Netherlands"],["Binnenhof La Haya","Binnenhof The Hague"],["Palacio de la Paz","Peace Palace The Hague"]]},
-  video:{t:"Volendam & The Hague - Day Trip from Amsterdam",u:"https://www.youtube.com/watch?v=sn9dVPMvk1A"}
+  video:{t:"Así es viajar a La Haya — Cultura, historia y días mágicos en Países Bajos 2025",u:"https://www.youtube.com/watch?v=8DeDiIKc_x0"}
  },
 ];
 
@@ -2072,3 +2072,25 @@ window.addEventListener('beforeinstallprompt',e=>{
  b.addEventListener('click',()=>{deferred.prompt();deferred.userChoice.then(()=>b.style.display='none');});
 });
 if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
+
+// ===== ONLINE / OFFLINE BADGE =====
+function updateOnlineBadge(){
+ const badge=document.getElementById('offline-badge');
+ if(!badge)return;
+ if(navigator.onLine){
+  badge.style.display='none';
+ } else {
+  badge.style.display='flex';
+ }
+}
+// Check on load
+updateOnlineBadge();
+// Listen for changes
+window.addEventListener('online', ()=>{
+ updateOnlineBadge();
+ // Auto-refresh exchange rates when connection returns
+ fetchExchangeRates().then(ok=>{
+  if(ok&&document.getElementById('monedas-card'))renderMonedas();
+ });
+});
+window.addEventListener('offline', updateOnlineBadge);
