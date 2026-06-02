@@ -189,17 +189,17 @@ const cities=[
   ["Mercado Albert Cuyp","Albert+Cuypmarkt+Amsterdam"],
   ["Estación Central","Amsterdam+Centraal+Station"]
  ]},
- saludos:{idioma:"Neerlandés (Nederlands)",nota:"El neerlandés es la lengua oficial. El inglés lo habla casi todo el mundo, pero un saludo local siempre causa buena impresión.",frases:[
-  {cat:"🌅 Buenos días",local:"Goedemorgen",pron:"Jú-de-mor-jen",tip:"Usa hasta aprox. las 12:00"},
-  {cat:"☀️ Buenas tardes",local:"Goedemiddag",pron:"Jú-de-mi-daj",tip:"Desde mediodía hasta las 18:00"},
-  {cat:"🌙 Buenas noches",local:"Goedenavond",pron:"Jú-den-á-font",tip:"A partir de las 18:00"},
-  {cat:"👋 Hola (informal)",local:"Hoi / Hallo",pron:"Jói / Já-lo",tip:"Hoi es muy cotidiano entre jóvenes"},
-  {cat:"🙏 Por favor",local:"Alstublieft",pron:"Als-tú-blift",tip:"Abreviado a s.v.p. en carteles"},
-  {cat:"😊 Gracias",local:"Dank u wel",pron:"Dank ú vel",tip:"Informal: Dank je (dank ye)"},
-  {cat:"🤝 De nada",local:"Graag gedaan",pron:"Jráj je-dán",tip:"Literalmente 'con mucho gusto'"},
-  {cat:"❓ ¿Cuánto cuesta?",local:"Hoeveel kost het?",pron:"Jú-feel kost et?",tip:"Muy útil en mercados y tiendas"},
-  {cat:"🚽 ¿Dónde está el baño?",local:"Waar is het toilet?",pron:"Vár is et twá-let?",tip:"Toiletten en letreros"},
-  {cat:"🍺 ¡Salud!",local:"Proost!",pron:"Próost",tip:"Al brindar · muy usual en bares"}
+ saludos:{idioma:"Dutch (Nederlands)",nota:"Dutch is the official language. Almost everyone speaks English — but a local greeting makes a great impression!",frases:[
+  {cat:"🌅 Good morning",local:"Goedemorgen",pron:"HOO-duh-MOR-khen",tip:"Use until about noon"},
+  {cat:"☀️ Good afternoon",local:"Goedemiddag",pron:"HOO-duh-MIH-dahkh",tip:"Desde mediodía hasta las 18:00"},
+  {cat:"🌙 Good evening",local:"Goedenavond",pron:"HOO-den-AH-vont",tip:"A partir de las 18:00"},
+  {cat:"👋 Hi (informal)",local:"Hoi / Hallo",pron:"Hoy / HAH-loh",tip:"Hoi es muy cotidiano entre jóvenes"},
+  {cat:"🙏 Please",local:"Alstublieft",pron:"AHL-stoo-BLEEFT",tip:"Abreviado a s.v.p. en carteles"},
+  {cat:"😊 Thank you",local:"Dank u wel",pron:"DAHNK oo vel",tip:"Informal: Dank je (DAHNK yuh)"},
+  {cat:"🤝 You're welcome",local:"Graag gedaan",pron:"KHRAHKH khuh-DAHN",tip:"Literally 'with pleasure'"},
+  {cat:"❓ How much is it?",local:"Hoeveel kost het?",pron:"HOO-vayl kost het?",tip:"Very useful at markets and shops"},
+  {cat:"🚽 Where's the restroom?",local:"Waar is het toilet?",pron:"Vahr is het twah-LET?",tip:"Toiletten en letreros"},
+  {cat:"🍺 Cheers!",local:"Proost!",pron:"Prohst",tip:"Al brindar · muy usual en bares"}
  ]}
 },
 {id:"han",wlat:52.3759,wlon:9.732,name:"Hanover",flag:"🇩🇪",country:"Germany",days:"Day 3 (transit)",dates:"Lun 8 Sep (parada en ruta Ámsterdam–Berlín)",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,libre:[],tourPersonal:"",
@@ -234,17 +234,17 @@ const cities=[
   ["Nuevo Ayuntamiento (Neues Rathaus)","Neues+Rathaus+Hannover"],
   ["Río Leine","Leine+River+Hannover"]
  ]},
- saludos:{idioma:"Alemán (Deutsch)",nota:"El alemán hannoveriano es considerado el alemán más 'puro' y neutro de Alemania. Un saludo en alemán siempre se agradece.",frases:[
-  {cat:"🌅 Buenos días",local:"Guten Morgen",pron:"Gú-ten Mór-jen",tip:"Hasta aprox. las 11:00"},
-  {cat:"☀️ Buenas tardes",local:"Guten Tag",pron:"Gú-ten Tak",tip:"Saludo general de día · muy común"},
-  {cat:"🌙 Buenas noches",local:"Guten Abend",pron:"Gú-ten Á-bent",tip:"A partir de las 18:00"},
-  {cat:"👋 Hola (informal)",local:"Hallo / Moin",pron:"Já-lo / Móin",tip:"Moin es típico del norte de Alemania"},
-  {cat:"🙏 Por favor",local:"Bitte",pron:"Bí-te",tip:"También significa 'de nada' al entregar algo"},
-  {cat:"😊 Gracias",local:"Danke schön",pron:"Dán-ke shön",tip:"Solo Danke también está bien"},
-  {cat:"🤝 De nada",local:"Bitte sehr",pron:"Bí-te séer",tip:"O simplemente Bitte"},
-  {cat:"❓ ¿Cuánto cuesta?",local:"Was kostet das?",pron:"Vas kós-tet das?",tip:"Esencial en tiendas y mercados"},
-  {cat:"🚽 ¿Dónde está el baño?",local:"Wo ist die Toilette?",pron:"Vo ist di Twá-le-te?",tip:"Busca WC en los letreros"},
-  {cat:"🍺 ¡Salud!",local:"Prost!",pron:"Prost",tip:"Clásico alemán al brindar · inevitable"}
+ saludos:{idioma:"German (Deutsch)",nota:"Hanoverian German is considered the purest and most neutral German. Any greeting in German is warmly appreciated.",frases:[
+  {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Use until about 11 am"},
+  {cat:"☀️ Good afternoon",local:"Guten Tag",pron:"GOO-ten TAHK",tip:"Saludo general de día · muy común"},
+  {cat:"🌙 Good evening",local:"Guten Abend",pron:"GOO-ten AH-bent",tip:"A partir de las 18:00"},
+  {cat:"👋 Hi (informal)",local:"Hallo / Moin",pron:"Já-lo / Móin",tip:"Moin es típico del norte de Alemania"},
+  {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Also means 'here you go' when handing something"},
+  {cat:"😊 Thank you",local:"Danke schön",pron:"DAHN-kuh shurn",tip:"Solo Danke también está bien"},
+  {cat:"🤝 You're welcome",local:"Bitte sehr",pron:"BIT-uh zayr",tip:"Or simply Bitte"},
+  {cat:"❓ How much is it?",local:"Was kostet das?",pron:"Vahs KOS-tet dahs?",tip:"Essential at shops and markets"},
+  {cat:"🚽 Where's the restroom?",local:"Wo ist die Toilette?",pron:"Voh ist dee twah-LET-uh?",tip:"Busca WC en los letreros"},
+  {cat:"🍺 Cheers!",local:"Prost!",pron:"Prohst",tip:"Clásico alemán al brindar · inevitable"}
  ]}
 },
 {id:"ber",wlat:52.52,wlon:13.405,name:"Berlin",flag:"🇩🇪",country:"Germany",days:"Days 3-5",dates:"Lun 8 Sep – Mié 10 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,libre:[],tourPersonal:"",
@@ -294,17 +294,17 @@ const cities=[
   ["Checkpoint Charlie","Checkpoint+Charlie+Berlin"],
   ["Estatua Martín Lutero","Martin+Luther+Statue+Berlin"]
  ]},
- saludos:{idioma:"Alemán (Deutsch) · dialecto berlinés",nota:"Berlín tiene su propio acento y jerga. El berlinés usa Ick (yo) en vez de Ich y tiene fama de ser directo y un poco brusco, pero un saludo siempre abre puertas.",frases:[
-  {cat:"🌅 Buenos días",local:"Guten Morgen",pron:"Gú-ten Mór-jen",tip:"Berlín es ciudad de noctámbulos · no esperes caras sonrientes muy temprano"},
-  {cat:"☀️ Buenas tardes",local:"Guten Tag",pron:"Gú-ten Tak",tip:"El más neutro y seguro durante el día"},
-  {cat:"🌙 Buenas noches",local:"Guten Abend",pron:"Gú-ten Á-bent",tip:"Útil al llegar al hotel o restaurante"},
-  {cat:"👋 Hola (berlinés)",local:"Na? / Hallo",pron:"Na / Já-lo",tip:"Na? (¿Qué tal?) es el saludo más berlinés"},
-  {cat:"🙏 Por favor",local:"Bitte",pron:"Bí-te",tip:"También sirve para decir 'aquí tiene'"},
-  {cat:"😊 Gracias",local:"Danke",pron:"Dán-ke",tip:"Rápido y efectivo · los berlineses lo usan mucho"},
-  {cat:"🤝 De nada",local:"Kein Problem",pron:"Káin Pro-blém",tip:"Literalmente 'ningún problema'"},
-  {cat:"❓ ¿Cuánto cuesta?",local:"Was kostet das?",pron:"Vas kós-tet das?",tip:"En Berlín hay muchos mercados de pulgas donde lo necesitarás"},
-  {cat:"🚽 ¿Dónde está el baño?",local:"Wo ist die Toilette?",pron:"Vo ist di Twá-le-te?",tip:"En el metro se paga 50 céntimos · ten monedas"},
-  {cat:"🍺 ¡Salud!",local:"Prost! / Zum Wohl!",pron:"Prost / Tsum Vol",tip:"Berlín tiene la mejor escena de bares de Europa · úsalo bien"}
+ saludos:{idioma:"German (Deutsch) · Berlin dialect",nota:"Berlin has its own accent and slang. Locals say Ick instead of Ich and have a reputation for directness — any greeting opens doors.",frases:[
+  {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Berlin is a night-owl city - don't expect big smiles early!"},
+  {cat:"☀️ Good afternoon",local:"Guten Tag",pron:"GOO-ten TAHK",tip:"The most neutral and safe daytime greeting"},
+  {cat:"🌙 Good evening",local:"Guten Abend",pron:"GOO-ten AH-bent",tip:"Useful when arriving at hotels or restaurants"},
+  {cat:"👋 Hi (Berlin style)",local:"Na? / Hallo",pron:"Nah / HAH-loh",tip:"Na? (¿Qué tal?) es el saludo más berlinés"},
+  {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"También sirve para decir 'aquí tiene'"},
+  {cat:"😊 Thank you",local:"Danke",pron:"DAHN-kuh",tip:"Quick and effective - Berliners use it constantly"},
+  {cat:"🤝 You're welcome",local:"Kein Problem",pron:"Káin Pro-blém",tip:"Literally 'no problem' - very common"},
+  {cat:"❓ How much is it?",local:"Was kostet das?",pron:"Vahs KOS-tet dahs?",tip:"En Berlín hay muchos mercados de pulgas donde lo necesitarás"},
+  {cat:"🚽 Where's the restroom?",local:"Wo ist die Toilette?",pron:"Voh ist dee twah-LET-uh?",tip:"En el metro se paga 50 céntimos · ten monedas"},
+  {cat:"🍺 Cheers!",local:"Prost! / Zum Wohl!",pron:"Prohst / Tsoom Vohl",tip:"Berlin has Europe's best bar scene - use this often!"}
  ]}
 },
 {id:"var",wlat:52.2297,wlon:21.0122,name:"Warsaw",flag:"🇵🇱",country:"Poland",days:"Days 5-6",dates:"Mié 10 Sep – Jue 11 Sep",moneda:"Polish Złoty (zł / PLN)",cambio:`1 zł = $${PLN.toFixed(2)} MXN · 100 zł ≈ $${(PLN*100).toFixed(0)} MXN`,libre:[],tourPersonal:"",
@@ -343,17 +343,17 @@ const cities=[
   ["Museo POLIN","POLIN+Museum+Warsaw"],
   ["Palacio de Cultura","Palace+of+Culture+Warsaw"]
  ]},
- saludos:{idioma:"Polaco (Polski)",nota:"El polaco tiene sonidos difíciles para hispanohablantes. No te preocupes por la perfección — cualquier intento en polaco genera enorme simpatía en los locales.",frases:[
-  {cat:"🌅 Buenos días",local:"Dzień dobry",pron:"Yén do-bri",tip:"Funciona todo el día · es el saludo más seguro y formal"},
-  {cat:"🌙 Buenas noches",local:"Dobry wieczór",pron:"Dó-bri vyé-choor",tip:"Al llegar a un lugar por la noche"},
-  {cat:"👋 Hola (informal)",local:"Cześć",pron:"Cheshch",tip:"Solo para personas de tu edad o jóvenes · muy amistoso"},
-  {cat:"🙏 Por favor",local:"Proszę",pron:"Pró-she",tip:"También significa 'aquí tiene' y 'de nada'"},
-  {cat:"😊 Gracias",local:"Dziękuję",pron:"Yen-kú-ye",tip:"Versión rápida: Dzięki (Yen-ki)"},
-  {cat:"🤝 De nada",local:"Proszę / Nie ma za co",pron:"Pró-she / Nie-ma-za-tso",tip:"Proszę es la respuesta más común"},
-  {cat:"❓ ¿Cuánto cuesta?",local:"Ile to kosztuje?",pron:"Í-le to kosh-tú-ye?",tip:"Muy útil en el Mercado del Casco Antiguo"},
-  {cat:"🚽 ¿Dónde está el baño?",local:"Gdzie jest toaleta?",pron:"Gdye yest to-a-lé-ta?",tip:"Toaleta en letreros · a veces se paga 1-2 zł"},
-  {cat:"🍺 ¡Salud!",local:"Na zdrowie!",pron:"Na zdró-vye",tip:"El brindis polaco · la cerveza (piwo) es excelente y barata"},
-  {cat:"😋 ¡Buen provecho!",local:"Smacznego!",pron:"Smach-né-go",tip:"Dilo al sentarte a comer · los polacos lo aprecian mucho"}
+ saludos:{idioma:"Polish (Polski)",nota:"Polish has sounds unfamiliar to English speakers — any attempt at Polish creates enormous goodwill with locals!",frases:[
+  {cat:"🌅 Good morning",local:"Dzień dobry",pron:"Jen DOH-bry",tip:"Works all day - the safest and most respected greeting"},
+  {cat:"🌙 Good evening",local:"Dobry wieczór",pron:"DOH-bry VYEH-choor",tip:"Al llegar a un lugar por la noche"},
+  {cat:"👋 Hi (informal)",local:"Cześć",pron:"Cheshch",tip:"Solo para personas de tu edad o jóvenes · muy amistoso"},
+  {cat:"🙏 Please",local:"Proszę",pron:"PROH-sheh",tip:"También significa 'aquí tiene' y 'de nada'"},
+  {cat:"😊 Thank you",local:"Dziękuję",pron:"Jen-KOO-yeh",tip:"Versión rápida: Dzięki (Yen-ki)"},
+  {cat:"🤝 You're welcome",local:"Proszę / Nie ma za co",pron:"PROH-sheh / Nyeh-mah-ZAH-tsoh",tip:"Proszę is the most common response"},
+  {cat:"❓ How much is it?",local:"Ile to kosztuje?",pron:"EE-leh toh kosh-TOO-yeh?",tip:"Muy útil en el Mercado del Casco Antiguo"},
+  {cat:"🚽 Where's the restroom?",local:"Gdzie jest toaleta?",pron:"Gjeh yest toh-ah-LEH-tah?",tip:"Toaleta en letreros · a veces se paga 1-2 zł"},
+  {cat:"🍺 Cheers!",local:"Na zdrowie!",pron:"Nah ZDROH-vyeh",tip:"The Polish toast - beer (piwo) is excellent and affordable"},
+  {cat:"😋 Bon appétit!",local:"Smacznego!",pron:"smahch-NEH-goh",tip:"Dilo al sentarte a comer · los polacos lo aprecian mucho"}
  ]}
 },
 {id:"cra",wlat:50.0647,wlon:19.945,name:"Kraków",flag:"🇵🇱",country:"Poland",days:"Days 6-8",dates:"Jue 11 Sep – Sáb 13 Sep",moneda:"Polish Złoty (zł / PLN)",cambio:`1 zł = $${PLN.toFixed(2)} MXN · 100 zł ≈ $${(PLN*100).toFixed(0)} MXN`,
@@ -403,17 +403,17 @@ const cities=[
   ["Auschwitz-Birkenau","Auschwitz+Birkenau+Memorial"],
   ["Minas de sal Wieliczka","Wieliczka+Salt+Mine"]
  ]},
- saludos:{idioma:"Polaco (Polski) · acento de Małopolska",nota:"Cracovia tiene el acento polaco más antiguo y melódico. Los cracovenses son conocidos por ser más cálidos que los varsovianoss. Un intento en polaco siempre genera una gran sonrisa.",frases:[
-  {cat:"🌅 Buenos días",local:"Dzień dobry",pron:"Yén do-bri",tip:"El saludo estrella · funciona a toda hora · formal y siempre correcto"},
-  {cat:"🌙 Buenas noches",local:"Dobry wieczór",pron:"Dó-bri vyé-choor",tip:"Al entrar a un restaurante o bar por la noche"},
-  {cat:"👋 Hola (informal)",local:"Cześć",pron:"Cheshch",tip:"Con jóvenes y en ambiente informal · suena a 'honor' en latín"},
-  {cat:"🙏 Por favor",local:"Proszę",pron:"Pró-she",tip:"Irremplazable · úsalo al pedir cualquier cosa"},
-  {cat:"😊 Gracias",local:"Dziękuję bardzo",pron:"Yen-kú-ye bár-dzo",tip:"Bardzo = mucho · para expresar gratitud mayor"},
-  {cat:"🤝 De nada",local:"Nie ma za co",pron:"Nie-ma-za-tso",tip:"Literalmente 'no hay por qué'"},
-  {cat:"❓ ¿Cuánto cuesta?",local:"Ile to kosztuje?",pron:"Í-le to kosh-tú-ye?",tip:"Imprescindible en el Mercado Stary Kleparz"},
-  {cat:"🚽 ¿Dónde está el baño?",local:"Gdzie jest toaleta?",pron:"Gdye yest to-a-lé-ta?",tip:"En la Plaza del Mercado hay baños públicos cerca del Cloth Hall"},
-  {cat:"🍺 ¡Salud!",local:"Na zdrowie!",pron:"Na zdró-vye",tip:"Cracovia tiene excelentes bares de cerveza artesanal (piwo kraftowe)"},
-  {cat:"😋 ¡Buen provecho!",local:"Smacznego!",pron:"Smach-né-go",tip:"Especialmente útil antes de probar los pierogi · plato local icónico"}
+ saludos:{idioma:"Polish (Polski) · Małopolska accent",nota:"Kraków has the oldest and most melodic Polish accent. Cracovians are warmer than Varsovians — any Polish attempt earns big smiles!",frases:[
+  {cat:"🌅 Good morning",local:"Dzień dobry",pron:"Jen DOH-bry",tip:"The star greeting - works any time of day, always correct"},
+  {cat:"🌙 Good evening",local:"Dobry wieczór",pron:"DOH-bry VYEH-choor",tip:"Al entrar a un restaurante o bar por la noche"},
+  {cat:"👋 Hi (informal)",local:"Cześć",pron:"Cheshch",tip:"Con jóvenes y en ambiente informal · suena a 'honor' en latín"},
+  {cat:"🙏 Please",local:"Proszę",pron:"PROH-sheh",tip:"Irremplazable · úsalo al pedir cualquier cosa"},
+  {cat:"😊 Thank you",local:"Dziękuję bardzo",pron:"Jen-KOO-yeh BAR-dzoh",tip:"Bardzo = mucho · para expresar gratitud mayor"},
+  {cat:"🤝 You're welcome",local:"Nie ma za co",pron:"Nyeh-mah-ZAH-tsoh",tip:"Literally 'don't mention it'"},
+  {cat:"❓ How much is it?",local:"Ile to kosztuje?",pron:"EE-leh toh kosh-TOO-yeh?",tip:"Imprescindible en el Mercado Stary Kleparz"},
+  {cat:"🚽 Where's the restroom?",local:"Gdzie jest toaleta?",pron:"Gjeh yest toh-ah-LEH-tah?",tip:"En la Plaza del Mercado hay baños públicos cerca del Cloth Hall"},
+  {cat:"🍺 Cheers!",local:"Na zdrowie!",pron:"Nah ZDROH-vyeh",tip:"Cracovia tiene excelentes bares de cerveza artesanal (piwo kraftowe)"},
+  {cat:"😋 Bon appétit!",local:"Smacznego!",pron:"smahch-NEH-goh",tip:"Especialmente útil antes de probar los pierogi · plato local icónico"}
  ]}
 },
 {id:"pra",wlat:50.0755,wlon:14.4378,name:"Prague",flag:"🇨🇿",country:"Czech Republic",days:"Days 8-10",dates:"Sáb 13 Sep – Lun 15 Sep",moneda:"Czech Koruna (Kč / CZK)",cambio:`1 Kč = $${CZK.toFixed(2)} MXN · 100 Kč ≈ $${(CZK*100).toFixed(0)} MXN`,
@@ -469,18 +469,18 @@ const cities=[
   ["Catedral de San Vito","St+Vitus+Cathedral+Prague"],
   ["Muro de John Lennon","Lennon+Wall+Prague"]
  ]},
- saludos:{idioma:"Checo (Čeština)",nota:"El checo es una lengua eslava con acentos en la primera sílaba. Los checos pueden parecer fríos al principio, pero al oírte intentar su idioma cambian completamente de actitud.",frases:[
-  {cat:"🌅 Buenos días",local:"Dobré ráno",pron:"Dob-ré rá-no",tip:"Solo hasta aprox. las 10:00"},
-  {cat:"☀️ Buenas tardes",local:"Dobré odpoledne",pron:"Dob-ré od-pó-led-ne",tip:"Desde mediodía · algo formal"},
-  {cat:"🌙 Buenas noches",local:"Dobrou noc",pron:"Dob-roh nots",tip:"Al despedirse por la noche"},
-  {cat:"👋 Hola (todo el día)",local:"Dobrý den",pron:"Dob-rí den",tip:"El más versátil · saludo formal de día completo"},
-  {cat:"👋 Hola (informal)",local:"Ahoj",pron:"A-joy",tip:"Informal y amistoso · igual al español 'ahoy'"},
-  {cat:"🙏 Por favor",local:"Prosím",pron:"Pro-sím",tip:"También 'aquí tiene' y respuesta a 'gracias'"},
-  {cat:"😊 Gracias",local:"Děkuji",pron:"Dyé-ku-yi",tip:"Informal: Díky (Dí-ki) · muy común"},
-  {cat:"🤝 De nada",local:"Prosím / Není zač",pron:"Pro-sím / Né-ní zach",tip:"Prosím es la respuesta más habitual"},
-  {cat:"❓ ¿Cuánto cuesta?",local:"Kolik to stojí?",pron:"Ko-lik to sto-yí?",tip:"Esencial · Praga tiene muchos mercados y souvenir"},
-  {cat:"🚽 ¿Dónde está el baño?",local:"Kde je toaleta?",pron:"Kde ye to-a-lé-ta?",tip:"WC en letreros · se paga 10-20 Kč en muchos sitios"},
-  {cat:"🍺 ¡Salud!",local:"Na zdraví!",pron:"Na zdra-ví",tip:"¡Imprescindible! Praga tiene la mejor cerveza del mundo · mira a todos los ojos al brindar"}
+ saludos:{idioma:"Czech (Čeština)",nota:"Czech is a Slavic language with stress on the first syllable. Czechs may seem reserved at first — trying their language changes everything!",frases:[
+  {cat:"🌅 Good morning",local:"Dobré ráno",pron:"DOH-breh RAH-noh",tip:"Only until about 10 am"},
+  {cat:"☀️ Good afternoon",local:"Dobré odpoledne",pron:"DOH-breh OD-poh-led-neh",tip:"Desde mediodía · algo formal"},
+  {cat:"🌙 Good evening",local:"Dobrou noc",pron:"DOH-broh nots",tip:"Al despedirse por la noche"},
+  {cat:"👋 Hello (anytime)",local:"Dobrý den",pron:"DOH-bree den",tip:"El más versátil · saludo formal de día completo"},
+  {cat:"👋 Hi (informal)",local:"Ahoj",pron:"AH-hoy",tip:"Informal y amistoso · igual al español 'ahoy'"},
+  {cat:"🙏 Please",local:"Prosím",pron:"PROH-seem",tip:"También 'aquí tiene' y respuesta a 'gracias'"},
+  {cat:"😊 Thank you",local:"Děkuji",pron:"DJEH-koo-yee",tip:"Informal: Díky (DEE-kee) - very common"},
+  {cat:"🤝 You're welcome",local:"Prosím / Není zač",pron:"Pro-sím / Né-ní zach",tip:"Prosím is the most common response"},
+  {cat:"❓ How much is it?",local:"Kolik to stojí?",pron:"KOH-lik toh STOH-yee?",tip:"Esencial · Praga tiene muchos mercados y souvenir"},
+  {cat:"🚽 Where's the restroom?",local:"Kde je toaleta?",pron:"Gdeh yeh toh-ah-LEH-tah?",tip:"WC en letreros · se paga 10-20 Kč en muchos sitios"},
+  {cat:"🍺 Cheers!",local:"Na zdraví!",pron:"Nah ZDRAH-vee",tip:"¡Imprescindible! Praga tiene la mejor cerveza del mundo · mira a todos los ojos al brindar"}
  ]}
 },
 {id:"nur",wlat:49.4521,wlon:11.0767,name:"Nuremberg",flag:"🇩🇪",country:"Germany",days:"Days 10-12",dates:"Lun 15 Sep – Mié 17 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,
@@ -527,18 +527,18 @@ const cities=[
   ["Casa de Albrecht Dürer","Albrecht+Durer+House+Nuremberg"],
   ["Rothenburg ob der Tauber","Rothenburg+ob+der+Tauber"]
  ]},
- saludos:{idioma:"Alemán (Deutsch) · dialecto bávaro-franco",nota:"Núremberg está en Franconia, una región con su propio dialecto. El alemán estándar funciona perfecto, pero algunas expresiones locales te ganarán muchas simpatías.",frases:[
-  {cat:"🌅 Buenos días",local:"Guten Morgen",pron:"Gú-ten Mór-jen",tip:"Estándar y siempre correcto"},
-  {cat:"☀️ Buenas tardes",local:"Guten Tag",pron:"Gú-ten Tak",tip:"El más neutro durante el día"},
-  {cat:"🌙 Buenas noches",local:"Guten Abend",pron:"Gú-ten Á-bent",tip:"Desde las 18:00 · al entrar a restaurantes"},
-  {cat:"👋 Hola (franco)",local:"Grüß Gott",pron:"Grüs Got",tip:"Saludo bávaro-franco tradicional · literalmente 'Dios te salude'"},
-  {cat:"👋 Hola (informal)",local:"Servus",pron:"Sér-vus",tip:"Típico del sur de Alemania · muy cálido y cercano"},
-  {cat:"🙏 Por favor",local:"Bitte",pron:"Bí-te",tip:"Universal en toda Alemania"},
-  {cat:"😊 Gracias",local:"Danke schön",pron:"Dán-ke shön",tip:"En dialecto local: Vergelt's Gott (vergelt-s-got)"},
-  {cat:"🤝 De nada",local:"Gern geschehen",pron:"Gern je-shé-en",tip:"Con mucho gusto · más cálido que solo Bitte"},
-  {cat:"❓ ¿Cuánto cuesta?",local:"Was kostet das?",pron:"Vas kós-tet das?",tip:"Para el mercado del Castillo y la Ciudad Vieja"},
-  {cat:"🚽 ¿Dónde está el baño?",local:"Wo ist die Toilette?",pron:"Vo ist di Twá-le-te?",tip:"Busca WC en los letreros medievales"},
-  {cat:"🍺 ¡Salud!",local:"Prost!",pron:"Prost",tip:"Con una Nürnberger Bratwurst y cerveza franconiana · experiencia completa"}
+ saludos:{idioma:"German (Deutsch) · Franconian-Bavarian dialect",nota:"Nuremberg is in Franconia, a region with its own dialect. Standard German works perfectly — but local expressions earn warm smiles.",frases:[
+  {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Standard German - always correct"},
+  {cat:"☀️ Good afternoon",local:"Guten Tag",pron:"GOO-ten TAHK",tip:"The most neutral daytime greeting"},
+  {cat:"🌙 Good evening",local:"Guten Abend",pron:"GOO-ten AH-bent",tip:"Desde las 18:00 · al entrar a restaurantes"},
+  {cat:"👋 Hola (franco)",local:"Grüß Gott",pron:"Grooss Gott",tip:"Saludo bávaro-franco tradicional · literalmente 'Dios te salude'"},
+  {cat:"👋 Hi (informal)",local:"Servus",pron:"ZAIR-voos",tip:"Typical southern Germany - warm and friendly"},
+  {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Universal throughout Germany"},
+  {cat:"😊 Thank you",local:"Danke schön",pron:"DAHN-kuh shurn",tip:"En dialecto local: Vergelt's Gott (vergelt-s-got)"},
+  {cat:"🤝 You're welcome",local:"Gern geschehen",pron:"Gern je-shé-en",tip:"With pleasure - warmer than just Bitte"},
+  {cat:"❓ How much is it?",local:"Was kostet das?",pron:"Vahs KOS-tet dahs?",tip:"Para el mercado del Castillo y la Ciudad Vieja"},
+  {cat:"🚽 Where's the restroom?",local:"Wo ist die Toilette?",pron:"Voh ist dee twah-LET-uh?",tip:"Busca WC en los letreros medievales"},
+  {cat:"🍺 Cheers!",local:"Prost!",pron:"Prohst",tip:"Con una Nürnberger Bratwurst y cerveza franconiana · experiencia completa"}
  ]}
 },
 {id:"fra",wlat:50.1109,wlon:8.6821,name:"Frankfurt",flag:"🇩🇪",country:"Germany",days:"Days 12-13",dates:"Mié 17 Sep – Jue 18 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,libre:[],tourPersonal:"",
@@ -584,18 +584,18 @@ const cities=[
   ["Casa de Goethe","Goethe+House+Frankfurt"],
   ["Barrio Sachsenhausen","Sachsenhausen+Frankfurt"]
  ]},
- saludos:{idioma:"Alemán (Deutsch) · dialecto hessiano",nota:"Frankfurt es la ciudad más cosmopolita de Alemania. El inglés es muy hablado, especialmente en el área financiera. El dialecto local se llama Hessisch pero el alemán estándar es perfecto.",frases:[
-  {cat:"🌅 Buenos días",local:"Guten Morgen",pron:"Gú-ten Mór-jen",tip:"Frankfurt madruga mucho — ciudad financiera"},
-  {cat:"☀️ Buenas tardes",local:"Guten Tag",pron:"Gú-ten Tak",tip:"Seguro y formal durante el día"},
-  {cat:"🌙 Buenas noches",local:"Guten Abend",pron:"Gú-ten Á-bent",tip:"Al llegar al Sachsenhausen para cenar"},
-  {cat:"👋 Hola (hessiano)",local:"Guude!",pron:"Gú-de",tip:"El saludo típico de Frankfurt · muy local y apreciado"},
-  {cat:"👋 Hola (informal)",local:"Hallo / Hey",pron:"Já-lo / Jey",tip:"En bares y zonas jóvenes del Sachsenhausen"},
-  {cat:"🙏 Por favor",local:"Bitte",pron:"Bí-te",tip:"Múltiple uso: pedir, agradecer y dar"},
-  {cat:"😊 Gracias",local:"Danke",pron:"Dán-ke",tip:"Rápido y efectivo · en el dialecto local: Merci (francés adoptado)"},
-  {cat:"🤝 De nada",local:"Bitte sehr",pron:"Bí-te séer",tip:"Con mucho gusto · correcto y amable"},
-  {cat:"❓ ¿Cuánto cuesta?",local:"Was kostet das?",pron:"Vas kós-tet das?",tip:"Útil en el mercado del Römer y tiendas del Zeil"},
-  {cat:"🚽 ¿Dónde está el baño?",local:"Wo ist die Toilette?",pron:"Vo ist di Twá-le-te?",tip:"Los baños del aeropuerto son los mejores de Europa"},
-  {cat:"🍺 ¡Salud!",local:"Prost! / Ebbelwei!",pron:"Prost / É-bel-vai",tip:"Ebbelwei es la sidra de manzana de Frankfurt · brinda con ella en el Sachsenhausen"}
+ saludos:{idioma:"German (Deutsch) · Hessian dialect",nota:"Frankfurt is Germany's most cosmopolitan city — English is widely spoken especially in finance. The local dialect is Hessisch but standard German is perfect.",frases:[
+  {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Frankfurt is an early-rising financial city"},
+  {cat:"☀️ Good afternoon",local:"Guten Tag",pron:"GOO-ten TAHK",tip:"Safe and formal throughout the day"},
+  {cat:"🌙 Good evening",local:"Guten Abend",pron:"GOO-ten AH-bent",tip:"Al llegar al Sachsenhausen para cenar"},
+  {cat:"👋 Hi (Hessian local)",local:"Guude!",pron:"GOO-duh",tip:"Frankfurt's signature greeting - very local and appreciated"},
+  {cat:"👋 Hi (informal)",local:"Hallo / Hey",pron:"Já-lo / Jey",tip:"En bares y zonas jóvenes del Sachsenhausen"},
+  {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Múltiple uso: pedir, agradecer y dar"},
+  {cat:"😊 Thank you",local:"Danke",pron:"DAHN-kuh",tip:"Rápido y efectivo · en el dialecto local: Merci (francés adoptado)"},
+  {cat:"🤝 You're welcome",local:"Bitte sehr",pron:"BIT-uh zayr",tip:"With pleasure - polite and correct"},
+  {cat:"❓ How much is it?",local:"Was kostet das?",pron:"Vahs KOS-tet dahs?",tip:"Útil en el mercado del Römer y tiendas del Zeil"},
+  {cat:"🚽 Where's the restroom?",local:"Wo ist die Toilette?",pron:"Voh ist dee twah-LET-uh?",tip:"Los baños del aeropuerto son los mejores de Europa"},
+  {cat:"🍺 Cheers!",local:"Prost! / Ebbelwei!",pron:"Prost / É-bel-vai",tip:"Ebbelwei es la sidra de manzana de Frankfurt · brinda con ella en el Sachsenhausen"}
  ]}
 },
 {id:"lux",wlat:49.6116,wlon:6.1319,name:"Luxembourg",flag:"🇱🇺",country:"Grand Duchy of Luxembourg",days:"Day 13 (excursion) & 14",dates:"Jue 18 Sep – Vie 19 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,
@@ -634,17 +634,17 @@ const cities=[
   ["Casco Antiguo","Luxembourg+Old+Quarter"],
   ["Schengen","Schengen+Luxembourg"]
  ]},
- saludos:{idioma:"Luxemburgués (Lëtzebuergesch) · Francés · Alemán",nota:"Luxemburgo tiene 3 idiomas oficiales: luxemburgués, francés y alemán. Todos los hablan. El francés es el más práctico para turistas. Un saludo en luxemburgués es muy especial.",frases:[
-  {cat:"🌅 Buenos días (lux.)",local:"Gudde Moien",pron:"Gú-de Móy-en",tip:"El saludo más especial que puedes dar · úsalo y verás las caras de sorpresa"},
-  {cat:"☀️ Buenos días (fr.)",local:"Bonjour",pron:"Bon-yur",tip:"Seguro y universal en toda la ciudad"},
-  {cat:"🌙 Buenas noches (fr.)",local:"Bonsoir",pron:"Bon-swár",tip:"A partir de las 18:00"},
-  {cat:"👋 Hola (lux.)",local:"Moien",pron:"Móy-en",tip:"Muy coloquial · los luxemburgueses lo usan entre ellos todo el día"},
-  {cat:"🙏 Por favor (fr.)",local:"S'il vous plaît",pron:"Sil-vu-plé",tip:"Imprescindible en tiendas y cafés"},
-  {cat:"😊 Gracias (lux.)",local:"Merci",pron:"Mer-sí",tip:"Usan el Merci francés · igual en los 3 idiomas"},
-  {cat:"🤝 De nada (fr.)",local:"De rien / Je vous en prie",pron:"De ryen / Ye vuz on prí",tip:"De rien en casual · Je vous en prie en formal"},
-  {cat:"❓ ¿Cuánto cuesta? (fr.)",local:"Combien ça coûte?",pron:"Com-byén sa kut?",tip:"En el mercado Guillaume o tiendas del casco"},
-  {cat:"🚽 ¿Baño? (fr.)",local:"Où sont les toilettes?",pron:"Ú son le twá-let?",tip:"Pregunta en cualquier café con confianza"},
-  {cat:"🍺 ¡Salud! (lux.)",local:"Prost! / Santé!",pron:"Prost / San-té",tip:"Prost del alemán y Santé del francés · los dos son correctos"}
+ saludos:{idioma:"Luxembourgish (Lëtzebuergesch) · French · German",nota:"Luxembourg has 3 official languages: Luxembourgish, French and German. Everyone speaks all three. French is most practical — but a Luxembourgish greeting is truly special!",frases:[
+  {cat:"🌅 Good morning (Lux.)",local:"Gudde Moien",pron:"GOO-duh MOY-en",tip:"The most special greeting you can give - watch faces light up!"},
+  {cat:"☀️ Good day (French)",local:"Bonjour",pron:"Bohn-ZHOOR",tip:"Safe and universal throughout the city"},
+  {cat:"🌙 Good evening (French)",local:"Bonsoir",pron:"Bohn-SWAHR",tip:"A partir de las 18:00"},
+  {cat:"👋 Hi (Luxembourgish)",local:"Moien",pron:"MOY-en",tip:"Muy coloquial · los luxemburgueses lo usan entre ellos todo el día"},
+  {cat:"🙏 Please (French)",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Essential at shops and cafés"},
+  {cat:"😊 Thank you",local:"Merci",pron:"Mair-SEE",tip:"They use French Merci - same in all 3 languages"},
+  {cat:"🤝 You're welcome (French)",local:"De rien / Je vous en prie",pron:"De ryen / Ye vuz on prí",tip:"De rien en casual · Je vous en prie en formal"},
+  {cat:"❓ ¿Cuánto cuesta? (fr.)",local:"Combien ça coûte?",pron:"Kohm-BYAN sah KOOT?",tip:"En el mercado Guillaume o tiendas del casco"},
+  {cat:"🚽 Restroom? (French)",local:"Où sont les toilettes?",pron:"Ú son le twá-let?",tip:"Pregunta en cualquier café con confianza"},
+  {cat:"🍺 Cheers!",local:"Prost! / Santé!",pron:"Prohst / Sahn-TAY",tip:"Prost del alemán y Santé del francés · los dos son correctos"}
  ]}
 },
 {id:"met",wlat:49.1193,wlon:6.1757,name:"Metz",flag:"🇫🇷",country:"France (Lorraine)",days:"Days 13-15 (base city)",dates:"Jue 18 Sep – Sáb 20 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,
@@ -690,17 +690,17 @@ const cities=[
   ["Estrasburgo","Strasbourg+France"],
   ["Colmar","Colmar+France"]
  ]},
- saludos:{idioma:"Francés (Français) · Lorena",nota:"Metz es una ciudad de la región de Lorena, frontera con Alemania y Luxemburgo. El francés es el idioma de uso diario. Los loreneneses aprecian mucho el esfuerzo por hablar su lengua.",frases:[
-  {cat:"🌅 Buenos días",local:"Bonjour",pron:"Bon-yur",tip:"El saludo más importante en Francia · siempre primero que cualquier pregunta"},
-  {cat:"🌙 Buenas noches",local:"Bonsoir",pron:"Bon-swár",tip:"A partir de las 18:00 · en restaurantes y tiendas"},
-  {cat:"👋 Hola (informal)",local:"Salut",pron:"Sa-lú",tip:"Solo con personas de confianza o jóvenes · nunca a desconocidos"},
-  {cat:"🙏 Por favor",local:"S'il vous plaît",pron:"Sil-vu-plé",tip:"Obligatorio antes de pedir cualquier cosa · sin esto pueden ignorarte"},
-  {cat:"😊 Gracias",local:"Merci beaucoup",pron:"Mer-sí bo-kú",tip:"Beaucoup = mucho · solo Merci también está perfecto"},
-  {cat:"🤝 De nada",local:"De rien / Avec plaisir",pron:"De ryen / A-vek ple-zír",tip:"Avec plaisir es más cálido · con mucho gusto"},
-  {cat:"❓ ¿Cuánto cuesta?",local:"Combien ça coûte?",pron:"Com-byén sa kut?",tip:"En el mercado Place de la Cathédrale o tiendas locales"},
-  {cat:"🚽 ¿Dónde está el baño?",local:"Où sont les toilettes?",pron:"Ú son le twá-let?",tip:"Los franceses no dicen 'salle de bain' para baños públicos"},
-  {cat:"🍺 ¡Salud!",local:"Santé!",pron:"San-té",tip:"Obligatorio mirar a los ojos · no rlo trae mala suerte según la tradición francesa"},
-  {cat:"😋 ¡Buen provecho!",local:"Bon appétit!",pron:"Bon a-pe-tí",tip:"Dilo al sentarte · los franceses lo dicen antes de cada comida"}
+ saludos:{idioma:"French (Français) · Lorraine",nota:"Metz is in the Lorraine region, bordering Germany and Luxembourg. French is the daily language — Lorrainers really appreciate the effort to speak it!",frases:[
+  {cat:"🌅 Good morning",local:"Bonjour",pron:"Bohn-ZHOOR",tip:"The most important French greeting - always say this first"},
+  {cat:"🌙 Good evening",local:"Bonsoir",pron:"Bohn-SWAHR",tip:"A partir de las 18:00 · en restaurantes y tiendas"},
+  {cat:"👋 Hi (informal)",local:"Salut",pron:"Sah-LOO",tip:"Solo con personas de confianza o jóvenes · nunca a desconocidos"},
+  {cat:"🙏 Please",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Obligatorio antes de pedir cualquier cosa · sin esto pueden ignorarte"},
+  {cat:"😊 Thank you",local:"Merci beaucoup",pron:"Mair-SEE boh-KOO",tip:"Beaucoup = mucho · solo Merci también está perfecto"},
+  {cat:"🤝 You're welcome",local:"De rien / Avec plaisir",pron:"Duh ree-EN / Ah-vek pleh-ZEER",tip:"Avec plaisir es más cálido · con mucho gusto"},
+  {cat:"❓ How much is it?",local:"Combien ça coûte?",pron:"Kohm-BYAN sah KOOT?",tip:"En el mercado Place de la Cathédrale o tiendas locales"},
+  {cat:"🚽 Where's the restroom?",local:"Où sont les toilettes?",pron:"Ú son le twá-let?",tip:"French don't say 'salle de bain' for public restrooms"},
+  {cat:"🍺 Cheers!",local:"Santé!",pron:"Sahn-TAY",tip:"Obligatorio mirar a los ojos · no rlo trae mala suerte según la tradición francesa"},
+  {cat:"😋 Bon appétit!",local:"Bon appétit!",pron:"Bohn ah-pay-TEE",tip:"Dilo al sentarte · los franceses lo dicen antes de cada comida"}
  ]}
 },
 {id:"bru",wlat:50.8503,wlon:4.3517,name:"Brussels",flag:"🇧🇪",country:"Belgium",days:"Days 15-17",dates:"Sáb 20 Sep – Lun 22 Sep",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(2)} MXN`,
@@ -751,18 +751,18 @@ const cities=[
   ["Brujas","Bruges+Belgium"],
   ["Gante","Ghent+Belgium"]
  ]},
- saludos:{idioma:"Francés (Français) · Neerlandés (Nederlands)",nota:"Bruselas es oficialmente bilingüe pero en la práctica se usa más el francés. Los belgas son famosos por ser muy amables y tolerantes con los extranjeros que intentan su idioma.",frases:[
-  {cat:"🌅 Buenos días (fr.)",local:"Bonjour",pron:"Bon-yur",tip:"El saludo que abre todas las puertas en Bruselas"},
-  {cat:"🌙 Buenas noches (fr.)",local:"Bonsoir",pron:"Bon-swár",tip:"Al llegar a restaurantes o bares por la noche"},
-  {cat:"👋 Hola (belga)",local:"Dag / Bonjour",pron:"Daj / Bon-yur",tip:"Dag es el saludo neerlandés · muy usado en Bruselas también"},
-  {cat:"🙏 Por favor (fr.)",local:"S'il vous plaît",pron:"Sil-vu-plé",tip:"Esencial antes de pedir cualquier cosa · los belgas son muy formales"},
-  {cat:"😊 Gracias (fr.)",local:"Merci",pron:"Mer-sí",tip:"En Bruselas también aceptan Dank u (neerlandés)"},
-  {cat:"😊 Gracias (neer.)",local:"Dank u wel",pron:"Dank ú vel",tip:"Usar esto en Bruselas sorprende y agrada mucho"},
-  {cat:"🤝 De nada",local:"De rien / Graag gedaan",pron:"De ryen / Jráj je-dán",tip:"Francés o neerlandés según el idioma en que hables"},
-  {cat:"❓ ¿Cuánto cuesta? (fr.)",local:"Combien ça coûte?",pron:"Com-byén sa kut?",tip:"Para el mercado de la Grand Place y chocolate belga"},
-  {cat:"🚽 ¿Dónde está el baño? (fr.)",local:"Où sont les toilettes?",pron:"Ú son le twá-let?",tip:"Muchos bares belgas tienen WC solo para clientes"},
-  {cat:"🍺 ¡Salud!",local:"Santé! / Proost!",pron:"San-té / Próost",tip:"Bélgica tiene más de 1,500 cervezas · merece un brindis especial"},
-  {cat:"🍫 ¡Esto está delicioso!",local:"C'est délicieux!",pron:"Se de-li-syó",tip:"Dilo al probar el chocolate belga · es la verdad absoluta"}
+ saludos:{idioma:"French (Français) · Dutch (Nederlands)",nota:"Brussels is officially bilingual — French is more commonly used. Belgians are famous for being kind and tolerant with foreigners who try their language.",frases:[
+  {cat:"🌅 Good day (French)",local:"Bonjour",pron:"Bohn-ZHOOR",tip:"The greeting that opens all doors in Brussels"},
+  {cat:"🌙 Good evening (French)",local:"Bonsoir",pron:"Bohn-SWAHR",tip:"Al llegar a restaurantes o bares por la noche"},
+  {cat:"👋 Hi (Belgian)",local:"Dag / Bonjour",pron:"Dahkh / Bohn-ZHOOR",tip:"Dag es el saludo neerlandés · muy usado en Bruselas también"},
+  {cat:"🙏 Please (French)",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Esencial antes de pedir cualquier cosa · los belgas son muy formales"},
+  {cat:"😊 Thank you (French)",local:"Merci",pron:"Mair-SEE",tip:"Brussels also accepts Dutch Dank u (DAHNK oo)"},
+  {cat:"😊 Thank you (Dutch)",local:"Dank u wel",pron:"DAHNK oo vel",tip:"Usar esto en Bruselas sorprende y agrada mucho"},
+  {cat:"🤝 You're welcome",local:"De rien / Graag gedaan",pron:"De ryen / Jráj je-dán",tip:"Francés o neerlandés según el idioma en que hables"},
+  {cat:"❓ ¿Cuánto cuesta? (fr.)",local:"Combien ça coûte?",pron:"Kohm-BYAN sah KOOT?",tip:"Para el mercado de la Grand Place y chocolate belga"},
+  {cat:"🚽 ¿Dónde está el baño? (fr.)",local:"Où sont les toilettes?",pron:"Ú son le twá-let?",tip:"Many Belgian bars have restrooms for customers only"},
+  {cat:"🍺 Cheers!",local:"Santé! / Proost!",pron:"San-té / Próost",tip:"Bélgica tiene más de 1,500 cervezas · merece un brindis especial"},
+  {cat:"🍫 ¡Esto está delicioso!",local:"C'est délicieux!",pron:"Say day-lee-SYUH",tip:"Dilo al probar el chocolate belga · es la verdad absoluta"}
  ]}
 },
 ];
@@ -787,12 +787,12 @@ const tours=[
    ["Café Lubitsch","frente al palacio · café histórico con terraza"],
    ["Restaurant Juliette","cocina francesa-alemana en el barrio holandés"],
   ],
-  saludos:{idioma:"Alemán (Deutsch)",nota:"El alemán hannoveriano es considerado el alemán más puro. Potsdam es 100% alemana — un saludo en alemán siempre se agradece.",frases:[
-   {cat:"🌅 Buenos días",local:"Guten Morgen",pron:"Gú-ten Mór-jen",tip:"Hasta aprox. las 11:00"},
-   {cat:"☀️ Buen día",local:"Guten Tag",pron:"Gú-ten Tak",tip:"Saludo neutro y seguro durante el día"},
-   {cat:"🙏 Por favor",local:"Bitte",pron:"Bí-te",tip:"También significa 'de nada' al entregar algo"},
-   {cat:"😊 Gracias",local:"Danke schön",pron:"Dán-ke shön",tip:"Solo Danke también funciona"},
-   {cat:"🍺 ¡Salud!",local:"Prost!",pron:"Prost",tip:"El brindis alemán clásico"},
+  saludos:{idioma:"German (Deutsch)",nota:"El alemán hannoveriano es considerado el alemán más puro. Potsdam es 100% alemana — un saludo en alemán siempre se agradece.",frases:[
+   {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Use until about 11 am"},
+   {cat:"☀️ Good day",local:"Guten Tag",pron:"GOO-ten TAHK",tip:"The safest all-day greeting"},
+   {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Also means 'here you go' when handing something"},
+   {cat:"😊 Thank you",local:"Danke schön",pron:"DAHN-kuh shurn",tip:"Just Danke also works perfectly"},
+   {cat:"🍺 Cheers!",local:"Prost!",pron:"Prohst",tip:"El brindis alemán clásico"},
   ]},
   mapa:{centro:"Potsdam Germany",pois:[["Palacio Sanssouci","Sanssouci Palace Potsdam"],["Palacio Cecilienhof","Cecilienhof Palace Potsdam"],["Puerta de Brandenburgo Potsdam","Brandenburg Gate Potsdam"],["Iglesia San Nicolás","St Nicholas Church Potsdam"]]},
   video:{t:"Potsdam Germany - Sanssouci Palace, Cecilienhof & Historic Center Walking Tour 2025",u:"https://www.youtube.com/watch?v=h3iL0_J3L48"}
@@ -815,11 +815,11 @@ const tours=[
   restaurantes:[
    ["Restaurantes en Oświęcim","a 2 km del memorial · cocina polaca tradicional"],
   ],
-  saludos:{idioma:"Polaco (Polski)",nota:"Cualquier intento en polaco genera enorme simpatía. La visita al memorial es solemne — los saludos son discretos.",frases:[
-   {cat:"🌅 Buenos días",local:"Dzień dobry",pron:"Yén do-bri",tip:"El saludo más seguro y formal"},
-   {cat:"🙏 Por favor",local:"Proszę",pron:"Pró-she",tip:"También significa 'aquí tienes' y 'de nada'"},
-   {cat:"😊 Gracias",local:"Dziękuję",pron:"Yen-kú-ye",tip:"Versión rápida: Dzięki (Yén-ki)"},
-   {cat:"🤝 De nada",local:"Nie ma za co",pron:"Nie-ma-za-tso",tip:"Literalmente 'no hay por qué'"},
+  saludos:{idioma:"Polish (Polski)",nota:"Any attempt at Polish creates enormous goodwill. The memorial visit is solemn — greetings are discreet.",frases:[
+   {cat:"🌅 Good morning",local:"Dzień dobry",pron:"Jen DOH-bry",tip:"The safest and most formal greeting"},
+   {cat:"🙏 Please",local:"Proszę",pron:"PROH-sheh",tip:"Also means 'here you go' and 'you're welcome'"},
+   {cat:"😊 Thank you",local:"Dziękuję",pron:"Jen-KOO-yeh",tip:"Quick version: Dzięki (JEN-kee)"},
+   {cat:"🤝 You're welcome",local:"Nie ma za co",pron:"Nyeh-mah-ZAH-tsoh",tip:"Literally 'don't mention it'"},
   ]},
   mapa:{centro:"Auschwitz-Birkenau Memorial Poland",pois:[["Campo Auschwitz I","Auschwitz I Memorial Museum"],["Campo Birkenau","Auschwitz II Birkenau"],["Entrada principal","Auschwitz Memorial entrance"]]},
   video:{t:"Auschwitz-Birkenau Memorial - Complete Guided Visit (English) 2025",u:"https://www.youtube.com/watch?v=dWgcbVIt5jE"}
@@ -843,12 +843,12 @@ const tours=[
   restaurantes:[
    ["Restaurantes frente al Moldava","terraza junto al río · vistas al Puente de Carlos"],
   ],
-  saludos:{idioma:"Checo (Čeština)",nota:"Los checos pueden parecer fríos al principio, pero al oírte intentar su idioma cambian completamente de actitud.",frases:[
-   {cat:"👋 Hola (todo el día)",local:"Dobrý den",pron:"Dob-rí den",tip:"El más versátil · saludo formal de todo el día"},
-   {cat:"👋 Hola (informal)",local:"Ahoj",pron:"A-joy",tip:"Informal y amistoso · igual que el inglés 'ahoy'"},
-   {cat:"🙏 Por favor",local:"Prosím",pron:"Pro-sím",tip:"También 'aquí tienes' y respuesta a 'gracias'"},
-   {cat:"😊 Gracias",local:"Děkuji",pron:"Dyé-ku-yi",tip:"Informal: Díky (Dí-ki) · muy común"},
-   {cat:"🍺 ¡Salud!",local:"Na zdraví!",pron:"Na zdra-ví",tip:"¡Imprescindible! · mira a los ojos al brindar"},
+  saludos:{idioma:"Czech (Čeština)",nota:"Los checos pueden parecer fríos al principio, pero al oírte intentar su idioma cambian completamente de actitud.",frases:[
+   {cat:"👋 Hello (anytime)",local:"Dobrý den",pron:"DOH-bree den",tip:"The most versatile - safe all-day formal greeting"},
+   {cat:"👋 Hi (informal)",local:"Ahoj",pron:"AH-hoy",tip:"Informal and friendly - sounds just like 'ahoy'!"},
+   {cat:"🙏 Please",local:"Prosím",pron:"PROH-seem",tip:"Also means 'here you go' and 'you're welcome'"},
+   {cat:"😊 Thank you",local:"Děkuji",pron:"DJEH-koo-yee",tip:"Informal: Díky (DEE-kee) - very common"},
+   {cat:"🍺 Cheers!",local:"Na zdraví!",pron:"Nah ZDRAH-vee",tip:"¡Imprescindible! · mira a los ojos al brindar"},
   ]},
   mapa:{centro:"Vltava River Prague",pois:[["Puente de Carlos","Charles Bridge Prague"],["Casa Danzante","Dancing House Prague"],["Rudolfinum","Rudolfinum Prague"],["Vysehrad","Vysehrad Fortress Prague"]]},
   video:{t:"Prague Vltava River Cruise - Best Night Tour of the City",u:"https://www.youtube.com/watch?v=oHRjFpZiAJ4"}
@@ -872,12 +872,12 @@ const tours=[
    ["Restaurantes en la Marktplatz","plaza central medieval · menús turísticos con cocina franconiana"],
    ["Café en la muralla","cafés dentro de las torres de la muralla con vistas al valle"],
   ],
-  saludos:{idioma:"Alemán (Deutsch) · dialecto franconiano",nota:"Rothenburg es 100% alemana. El dialecto local tiene influencia franconiana pero el alemán estándar funciona perfectamente.",frases:[
-   {cat:"🌅 Buenos días",local:"Guten Morgen",pron:"Gú-ten Mór-jen",tip:"Estándar y siempre correcto"},
-   {cat:"👋 Hola (franconiano)",local:"Grüß Gott",pron:"Grüs Got",tip:"Saludo tradicional bávaro-franconiano"},
-   {cat:"🙏 Por favor",local:"Bitte",pron:"Bí-te",tip:"Universal en toda Alemania"},
-   {cat:"😊 Gracias",local:"Danke schön",pron:"Dán-ke shön",tip:"También: Vergelt's Gott en dialecto local"},
-   {cat:"🍺 ¡Salud!",local:"Prost!",pron:"Prost",tip:"Con cerveza franconiana · la experiencia completa"},
+  saludos:{idioma:"German (Deutsch) · Franconian dialect",nota:"Rothenburg is 100% German. The local dialect has Franconian influence but standard German works perfectly.",frases:[
+   {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Standard German - always correct"},
+   {cat:"👋 Hi (Franconian)",local:"Grüß Gott",pron:"Grooss Gott",tip:"Saludo tradicional bávaro-franconiano"},
+   {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Universal throughout Germany"},
+   {cat:"😊 Thank you",local:"Danke schön",pron:"DAHN-kuh shurn",tip:"También: Vergelt's Gott en dialecto local"},
+   {cat:"🍺 Cheers!",local:"Prost!",pron:"Prohst",tip:"Con cerveza franconiana · la experiencia completa"},
   ]},
   mapa:{centro:"Rothenburg ob der Tauber Germany",pois:[["Ayuntamiento","Rothenburg Rathaus"],["Torre de Entrada","Rödertor Rothenburg"],["Murallas medievales","Medieval Walls Rothenburg"],["Käthe Wohlfahrt","Kathe Wohlfahrt Rothenburg"]]},
   video:{t:"Rothenburg ob der Tauber Germany - Most Magical Medieval Town Walking Tour",u:"https://www.youtube.com/watch?v=ZkYGaQ0-jgU"}
@@ -901,12 +901,12 @@ const tours=[
    ["Restaurantes en la Place d'Armes","plaza central · muchas opciones gastronómicas"],
    ["Mercado Guillaume","productos locales frescos · ambiente animado"],
   ],
-  saludos:{idioma:"Luxemburgués · Francés · Alemán",nota:"Luxemburgo tiene 3 idiomas oficiales. El francés es el más práctico. Un saludo en luxemburgués es muy especial.",frases:[
-   {cat:"🌅 Buenos días (lux.)",local:"Gudde Moien",pron:"Gú-de Móy-en",tip:"El saludo más especial que puedes dar"},
-   {cat:"☀️ Buen día (fr.)",local:"Bonjour",pron:"Bon-yur",tip:"Seguro y universal en toda la ciudad"},
-   {cat:"🙏 Por favor (fr.)",local:"S'il vous plaît",pron:"Sil-vu-plé",tip:"Imprescindible en tiendas y cafés"},
-   {cat:"😊 Gracias",local:"Merci",pron:"Mer-sí",tip:"Igual en los 3 idiomas"},
-   {cat:"🍺 ¡Salud!",local:"Prost! / Santé!",pron:"Prost / San-té",tip:"Prost alemán y Santé francés · los dos son correctos"},
+  saludos:{idioma:"Luxembourgish · French · German",nota:"Luxemburgo tiene 3 idiomas oficiales. El francés es el más práctico. Un saludo en luxemburgués es muy especial.",frases:[
+   {cat:"🌅 Good morning (Lux.)",local:"Gudde Moien",pron:"GOO-duh MOY-en",tip:"The most special greeting you can give!"},
+   {cat:"☀️ Good day (French)",local:"Bonjour",pron:"Bohn-ZHOOR",tip:"Safe and universal throughout the city"},
+   {cat:"🙏 Please (French)",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Essential at shops and cafés"},
+   {cat:"😊 Thank you",local:"Merci",pron:"Mair-SEE",tip:"Igual en los 3 idiomas"},
+   {cat:"🍺 Cheers!",local:"Prost! / Santé!",pron:"Prohst / Sahn-TAY",tip:"German Prost and French Santé - both are correct here"},
   ]},
   mapa:{centro:"Luxembourg City Luxembourg",pois:[["Palacio Gran Ducal","Grand Ducal Palace Luxembourg"],["Abadía Neumünster","Neumünster Abbey Luxembourg"],["Casamatas del Bock","Bock Casemates Luxembourg"],["Chemin ago de la Corniche","Corniche Luxembourg"]]},
   video:{t:"Luxembourg City - Europe's Hidden Gem Complete Travel Guide 2026",u:"https://www.youtube.com/watch?v=1jsQXl3i82M"}
@@ -933,11 +933,11 @@ const tours=[
    ["Restaurantes junto a los canales de Colmar","terraza sobre el agua · choucroute y vinos locales"],
   ],
   saludos:{idioma:"Francés (Français) · Alsacia",nota:"Alsacia tiene una identidad única entre Francia y Alemania. El francés es el idioma oficial pero muchos hablan alemán y dialecto alsaciano.",frases:[
-   {cat:"🌅 Buenos días",local:"Bonjour",pron:"Bon-yur",tip:"El saludo más importante en Francia · siempre antes de cualquier pregunta"},
-   {cat:"🙏 Por favor",local:"S'il vous plaît",pron:"Sil-vu-plé",tip:"Obligatorio antes de pedir cualquier cosa"},
-   {cat:"😊 Gracias",local:"Merci beaucoup",pron:"Mer-sí bo-kú",tip:"Beaucoup = mucho · solo Merci también es perfecto"},
-   {cat:"🍺 ¡Salud!",local:"Santé!",pron:"San-té",tip:"Obligatorio mirar a los ojos · tradición francesa"},
-   {cat:"😋 ¡Buen provecho!",local:"Bon appétit!",pron:"Bon a-pe-tí",tip:"Dilo al sentarse a comer"},
+   {cat:"🌅 Good morning",local:"Bonjour",pron:"Bohn-ZHOOR",tip:"The most important French greeting - always say this before asking anything"},
+   {cat:"🙏 Please",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Obligatorio antes de pedir cualquier cosa"},
+   {cat:"😊 Thank you",local:"Merci beaucoup",pron:"Mair-SEE boh-KOO",tip:"Beaucoup = a lot - just Merci also works perfectly"},
+   {cat:"🍺 Cheers!",local:"Santé!",pron:"Sahn-TAY",tip:"Obligatorio mirar a los ojos · tradición francesa"},
+   {cat:"😋 Bon appétit!",local:"Bon appétit!",pron:"Bohn ah-pay-TEE",tip:"Dilo al sentarse a comer"},
   ]},
   mapa:{centro:"Strasbourg France",pois:[["Catedral Notre-Dame Estrasburgo","Strasbourg Cathedral"],["Barrio Petite France","Petite France Strasbourg"],["Iglesia San Martín Colmar","Eglise Saint-Martin Colmar"],["Pequeña Venecia Colmar","Petite Venise Colmar"]]},
   video:{t:"Strasbourg & Colmar France - Complete Alsace Travel Guide (English)",u:"https://www.youtube.com/watch?v=Aj0xt65fhJ8"}
@@ -961,12 +961,12 @@ const tours=[
    ["Restaurantes en el Burg (Brujas)","plaza histórica principal · cocina flamenca tradicional"],
    ["Restaurantes en Graslei (Gante)","frente al canal · ambiente único · cocina gantoise"],
   ],
-  saludos:{idioma:"Neerlandés (Flamenco) · Francés",nota:"Brujas y Gante están en Flandes (región flamenca). El neerlandés/flamenco es el idioma principal. Un saludo en flamenco abre todas las puertas.",frases:[
-   {cat:"🌅 Buenos días",local:"Goedemorgen",pron:"Jú-de-mor-jen",tip:"En flamenco · igual que en Amsterdam"},
-   {cat:"👋 Hola (informal)",local:"Hoi / Dag",pron:"Jói / Daj",tip:"Dag es más típico de Flandes que de Amsterdam"},
-   {cat:"🙏 Por favor",local:"Alstublieft",pron:"Als-tú-blift",tip:"Imprescindible en tiendas y cafés"},
-   {cat:"😊 Gracias",local:"Dank u wel",pron:"Dank ú vel",tip:"Formal · informal: Dank je (dank ye)"},
-   {cat:"🍺 ¡Salud!",local:"Proost!",pron:"Próost",tip:"Con cerveza belga · la experiencia completa"},
+  saludos:{idioma:"Dutch (Flemish) · French",nota:"Bruges and Ghent are in Flanders. Dutch/Flemish is the main language. A Flemish greeting opens all doors.",frases:[
+   {cat:"🌅 Good morning",local:"Goedemorgen",pron:"HOO-duh-MOR-khen",tip:"In Flemish - same as in Amsterdam"},
+   {cat:"👋 Hi (informal)",local:"Hoi / Dag",pron:"Jói / Daj",tip:"Dag is more typical of Flanders than Amsterdam"},
+   {cat:"🙏 Please",local:"Alstublieft",pron:"AHL-stoo-BLEEFT",tip:"Essential at shops and cafés"},
+   {cat:"😊 Thank you",local:"Dank u wel",pron:"DAHNK oo vel",tip:"Formal · informal: Dank je (dank ye)"},
+   {cat:"🍺 Cheers!",local:"Proost!",pron:"Prohst",tip:"Con cerveza belga · la experiencia completa"},
   ]},
   mapa:{centro:"Bruges Belgium",pois:[["Campanario de Brujas","Belfort Bruges"],["Canales de Brujas","Bruges Canals"],["Graslei Gante","Graslei Ghent"],["Castillo de los Condes","Gravensteen Ghent"]]},
   video:{t:"Bruges & Ghent Belgium - Best Medieval Cities Complete Guide 2025",u:"https://www.youtube.com/watch?v=t4GCgF_XMp4"}
@@ -990,11 +990,11 @@ const tours=[
    ["Restaurante dentro de las min agoas","restaurante subterráneo a 135 m de profundidad · experiencia única"],
    ["Restaurantes en Wieliczka","pueblo adyacente · cocina polaca auténtica"],
   ],
-  saludos:{idioma:"Polaco (Polski)",nota:"Cualquier intento en polaco genera enorme simpatía en los locales de Wieliczka.",frases:[
-   {cat:"🌅 Buenos días",local:"Dzień dobry",pron:"Yén do-bri",tip:"Funciona todo el día · el saludo más seguro"},
-   {cat:"🙏 Por favor",local:"Proszę",pron:"Pró-she",tip:"También significa 'aquí tienes' y 'de nada'"},
-   {cat:"😊 Gracias",local:"Dziękuję",pron:"Yen-kú-ye",tip:"Versión rápida: Dzięki (Yén-ki)"},
-   {cat:"🍺 ¡Salud!",local:"Na zdrowie!",pron:"Na zdró-vye",tip:"El brindis polaco · cerveza polaca excelente"},
+  saludos:{idioma:"Polish (Polski)",nota:"Any attempt at Polish creates enormous goodwill with the locals in Wieliczka.",frases:[
+   {cat:"🌅 Good morning",local:"Dzień dobry",pron:"Jen DOH-bry",tip:"Works all day - the safest greeting"},
+   {cat:"🙏 Please",local:"Proszę",pron:"PROH-sheh",tip:"Also means 'here you go' and 'you're welcome'"},
+   {cat:"😊 Thank you",local:"Dziękuję",pron:"Jen-KOO-yeh",tip:"Quick version: Dzięki (JEN-kee)"},
+   {cat:"🍺 Cheers!",local:"Na zdrowie!",pron:"Nah ZDROH-vyeh",tip:"El brindis polaco · cerveza polaca excelente"},
   ]},
   mapa:{centro:"Wieliczka Salt Mine Poland",pois:[["Entrada principal Wieliczka","Wieliczka Salt Mine entrance"],["Capilla Santa Kinga","Chapel of St Kinga Wieliczka"],["Pueblo de Wieliczka","Wieliczka town center"]]},
   video:{t:"Wieliczka Salt Mine Poland - Underground Cathedral Complete Tour (English)",u:"https://www.youtube.com/watch?v=h_qGDOyU3tM"}
@@ -1018,12 +1018,12 @@ const tours=[
    ["Restaurantes en la Colonada","frente a las fuentes · ambiente elegante de balneario"],
    ["Cafés del centro histórico","arquitectura de época · café checo y pasteles locales"],
   ],
-  saludos:{idioma:"Checo (Čeština)",nota:"La ciudad de spa más elegante de Chequia. Los checos aprecian mucho el intento de hablar su idioma.",frases:[
-   {cat:"👋 Hola (todo el día)",local:"Dobrý den",pron:"Dob-rí den",tip:"El más versátil · saludo formal de todo el día"},
-   {cat:"👋 Hola (informal)",local:"Ahoj",pron:"A-joy",tip:"Informal y amistoso · muy común entre jóvenes"},
-   {cat:"🙏 Por favor",local:"Prosím",pron:"Pro-sím",tip:"También 'aquí tienes' y respuesta a 'gracias'"},
-   {cat:"😊 Gracias",local:"Děkuji",pron:"Dyé-ku-yi",tip:"Informal: Díky (Dí-ki)"},
-   {cat:"🍺 ¡Salud!",local:"Na zdraví!",pron:"Na zdra-ví",tip:"Brindis checo · mira a los ojos"},
+  saludos:{idioma:"Czech (Čeština)",nota:"The most elegant spa city in Czechia. Czechs really appreciate any attempt to speak their language.",frases:[
+   {cat:"👋 Hello (anytime)",local:"Dobrý den",pron:"DOH-bree den",tip:"The most versatile - safe all-day formal greeting"},
+   {cat:"👋 Hi (informal)",local:"Ahoj",pron:"AH-hoy",tip:"Informal y amistoso · muy común entre jóvenes"},
+   {cat:"🙏 Please",local:"Prosím",pron:"PROH-seem",tip:"Also means 'here you go' and 'you're welcome'"},
+   {cat:"😊 Thank you",local:"Děkuji",pron:"DJEH-koo-yee",tip:"Informal: Díky (Dí-ki)"},
+   {cat:"🍺 Cheers!",local:"Na zdraví!",pron:"Nah ZDRAH-vee",tip:"Brindis checo · mira a los ojos"},
   ]},
   mapa:{centro:"Karlovy Vary Czech Republic",pois:[["Colonada Mill","Mlynska Kolonada Karlovy Vary"],["Fuentes termales","Hot Springs Karlovy Vary"],["Colonada del Mercado","Market Colonnade Karlovy Vary"]]},
   video:{t:"Karlovy Vary Czech Republic - Spa Town Travel Guide (English) 2024",u:"https://www.youtube.com/watch?v=B4MuEKO1UNE"}
@@ -1047,12 +1047,12 @@ const tours=[
    ["Hofbräuhaus","la cervecería más famosa del mundo · turístico pero auténtico"],
    ["Viktualienmarkt","mercado gourmet con puestos de comida bávara tradicional"],
   ],
-  saludos:{idioma:"Alemán (Deutsch) · dialecto bávaro",nota:"Múnich tiene su propio dialecto bávaro muy marcado. Un saludo local genera gran simpatía.",frases:[
-   {cat:"🌅 Buenos días",local:"Guten Morgen",pron:"Gú-ten Mór-jen",tip:"Estándar y siempre correcto"},
-   {cat:"👋 Hola (bávaro)",local:"Grüß Gott",pron:"Grüs Got",tip:"El saludo tradicional bávaro · 'Dios te salude'"},
-   {cat:"👋 Hola (muy informal)",local:"Servus",pron:"Sér-vus",tip:"Muy típico de Múnich · casual y cercano"},
-   {cat:"🙏 Por favor",local:"Bitte",pron:"Bí-te",tip:"Universal en toda Alemania"},
-   {cat:"🍺 ¡Salud!",local:"Prost!",pron:"Prost",tip:"En el Hofbräuhaus con un Mass (litro) de cerveza"},
+  saludos:{idioma:"German (Deutsch) · Bavarian dialect",nota:"Munich has its own very distinct Bavarian dialect. A local greeting generates great goodwill.",frases:[
+   {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Standard German - always correct"},
+   {cat:"👋 Hi (Bavarian)",local:"Grüß Gott",pron:"Grooss Gott",tip:"El saludo tradicional bávaro · 'Dios te salude'"},
+   {cat:"👋 Hi (very casual)",local:"Servus",pron:"ZAIR-voos",tip:"Muy típico de Múnich · casual y cercano"},
+   {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Universal throughout Germany"},
+   {cat:"🍺 Cheers!",local:"Prost!",pron:"Prohst",tip:"En el Hofbräuhaus con un Mass (litro) de cerveza"},
   ]},
   mapa:{centro:"Munich Germany",pois:[["Frauenkirche","Frauenkirche Munich"],["Ayuntamiento Nuevo","Neues Rathaus Munich"],["Feldherrnhalle","Feldherrnhalle Munich"],["Hofbräuhaus","Hofbrauhaus Munich"],["Marienplatz","Marienplatz Munich"]]},
   video:{t:"Munich Germany - Complete Travel Guide Top Things To Do 2025",u:"https://www.youtube.com/watch?v=QBNyYhb6Mq4"}
@@ -1074,11 +1074,11 @@ const tours=[
   restaurantes:[
    ["Local del espectáculo folclórico","cena incluida en el precio del tour · cocina checa auténtica"],
   ],
-  saludos:{idioma:"Checo (Čeština)",nota:"Una noche folclórica checa es la experiencia cultural más auténtica de Praga. Los anfitriones aprecian el intento de hablar checo.",frases:[
-   {cat:"😊 Gracias",local:"Děkuji",pron:"Dyé-ku-yi",tip:"Para agradecer la cena y el espectáculo"},
-   {cat:"🍺 ¡Salud!",local:"Na zdraví!",pron:"Na zdra-ví",tip:"El brindis obligatorio · mira a los ojos"},
-   {cat:"😋 ¡Buen provecho!",local:"Dobrou chuť",pron:"Dob-rou khut",tip:"Antes de la cena checa"},
-   {cat:"👏 ¡Bravo!",local:"Výborně!",pron:"Ví-bor-nye",tip:"Para aplaudir al espectáculo folclórico"},
+  saludos:{idioma:"Czech (Čeština)",nota:"A Czech folk evening is the most authentic cultural experience in Prague. The hosts appreciate any attempt to speak Czech.",frases:[
+   {cat:"😊 Thank you",local:"Děkuji",pron:"DJEH-koo-yee",tip:"To thank for the dinner and show"},
+   {cat:"🍺 Cheers!",local:"Na zdraví!",pron:"Nah ZDRAH-vee",tip:"The mandatory toast - make eye contact!"},
+   {cat:"😋 Bon appétit!",local:"Dobrou chuť",pron:"DOH-broh khoot",tip:"Before the Czech dinner"},
+   {cat:"👏 Bravo!",local:"Výborně!",pron:"VEE-bor-nyeh",tip:"To applaud the folk show"},
   ]},
   mapa:{centro:"Prague Czech Republic",pois:[["Centro de Praga","Prague Old Town Square"],["Teatro de folclore","Prague folk show restaurants"]]},
   video:{t:"Czech Folk Evening - Traditional Prague Dinner Show",u:"https://www.youtube.com/watch?v=v_XlJVJaVHc"}
@@ -1101,11 +1101,11 @@ const tours=[
    ["Tabernas de Sachsenhausen","barrio de las sidrerías · cruzando el Meno desde el centro"],
    ["Restaurantes en el Römerberg","plaza histórica central · cocina alemana tradicional"],
   ],
-  saludos:{idioma:"Alemán (Deutsch) · dialecto hessiano",nota:"Frankfurt es la ciudad más cosmopolita de Alemania. El inglés es muy hablado pero un saludo en alemán siempre abre puertas.",frases:[
-   {cat:"👋 Hola (hessiano)",local:"Guude!",pron:"Gú-de",tip:"El saludo típico de Frankfurt · muy local y apreciado"},
-   {cat:"🙏 Por favor",local:"Bitte",pron:"Bí-te",tip:"Multiuso: pedir, agradecer y entregar"},
-   {cat:"😊 Gracias",local:"Danke",pron:"Dán-ke",tip:"Rápido y efectivo"},
-   {cat:"🍺 ¡Salud!",local:"Prost! / Ebbelwei!",pron:"Prost / É-bel-vai",tip:"Ebbelwei es el vino de manzana de Frankfurt"},
+  saludos:{idioma:"German (Deutsch) · Hessian dialect",nota:"Frankfurt is Germany's most cosmopolitan city — English is widely spoken but any German greeting opens doors.",frases:[
+   {cat:"👋 Hi (Hessian local)",local:"Guude!",pron:"GOO-duh",tip:"Frankfurt's signature greeting - very local and appreciated"},
+   {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Multi-use: asking, thanking, and handing things over"},
+   {cat:"😊 Thank you",local:"Danke",pron:"DAHN-kuh",tip:"Rápido y efectivo"},
+   {cat:"🍺 Cheers!",local:"Prost! / Ebbelwei!",pron:"Prost / É-bel-vai",tip:"Ebbelwei es el vino de manzana de Frankfurt"},
   ]},
   mapa:{centro:"Main River Frankfurt Germany",pois:[["Embarque barco Meno","Main River Cruise Frankfurt"],["Römerberg","Römerberg Frankfurt"],["Sachsenhausen","Sachsenhausen Frankfurt"],["Museumsufer","Museum Embankment Frankfurt"]]},
   video:{t:"Frankfurt Main River Cruise - Skyline & Historic Center from the Water",u:"https://www.youtube.com/watch?v=sBv7Zdp1NEg"}
@@ -1129,11 +1129,11 @@ const tours=[
    ["Restaurantes en Schengen","cocina de la región fronteriza · vinos del Mosela locales"],
    ["Bodegas del Mosela","cata de vinos luxemburgueses directamente en las bodegas"],
   ],
-  saludos:{idioma:"Luxemburgués · Francés · Alemán",nota:"Schengen es el símbolo de la Europa unida. Los tres idiomas se hablan con fluidez. Cualquier saludo en cualquiera de ellos funciona.",frases:[
-   {cat:"🌅 Buenos días (lux.)",local:"Gudde Moien",pron:"Gú-de Móy-en",tip:"El más especial · luxemburgués en tierra luxemburguesa"},
-   {cat:"☀️ Buenos días (fr.)",local:"Bonjour",pron:"Bon-yur",tip:"Seguro y universal"},
-   {cat:"☀️ Buenos días (al.)",local:"Guten Tag",pron:"Gú-ten Tak",tip:"Para el lado alemán de la frontera"},
-   {cat:"🍺 ¡Salud!",local:"Prost! / Santé!",pron:"Prost / San-té",tip:"Con vino del Mosela · los tres países brindan así"},
+  saludos:{idioma:"Luxembourgish · French · German",nota:"Schengen is the symbol of united Europe. All three languages are spoken fluently. Any greeting in any of them works perfectly.",frases:[
+   {cat:"🌅 Good morning (Lux.)",local:"Gudde Moien",pron:"GOO-duh MOY-en",tip:"El más especial · luxemburgués en tierra luxemburguesa"},
+   {cat:"☀️ Good day (French)",local:"Bonjour",pron:"Bohn-ZHOOR",tip:"Seguro y universal"},
+   {cat:"☀️ Good day (German)",local:"Guten Tag",pron:"GOO-ten TAHK",tip:"Para el lado alemán de la frontera"},
+   {cat:"🍺 Cheers!",local:"Prost! / Santé!",pron:"Prohst / Sahn-TAY",tip:"Con vino del Mosela · los tres países brindan así"},
   ]},
   mapa:{centro:"Schengen Luxembourg",pois:[["Monumento Schengen","Schengen Monument Luxembourg"],["Museo Europeo","European Museum Schengen"],["Confluencia tres fronteras","Schengen tripoint border"]]},
   video:{t:"Schengen Village Luxembourg - Where Europe's Open Borders Were Born",u:"https://www.youtube.com/watch?v=1jsQXl3i82M"}
@@ -1158,12 +1158,12 @@ const tours=[
    ["Restaurantes en el puerto de Volendam","pescado fresco del IJsselmeer · ambiente marinero auténtico"],
    ["Restaurantes en el centro de La Haya","cocina neerlandesa e internacional · elegante y cosmopolita"],
   ],
-  saludos:{idioma:"Neerlandés (Nederlands)",nota:"El neerlandés es la lengua oficial. El inglés lo habla casi todo el mundo, pero un saludo local siempre causa buena impresión.",frases:[
-   {cat:"🌅 Buenos días",local:"Goedemorgen",pron:"Jú-de-mor-jen",tip:"Úsalo hasta aprox. las 12:00"},
-   {cat:"👋 Hola (informal)",local:"Hoi / Hallo",pron:"Jói / Já-lo",tip:"Hoi es muy común entre jóvenes"},
-   {cat:"🙏 Por favor",local:"Alstublieft",pron:"Als-tú-blift",tip:"A menudo abreviado como s.v.p. en señales"},
-   {cat:"😊 Gracias",local:"Dank u wel",pron:"Dank ú vel",tip:"Informal: Dank je (dank ye)"},
-   {cat:"🍺 ¡Salud!",local:"Proost!",pron:"Próost",tip:"Al brindar · muy común en bares"},
+  saludos:{idioma:"Dutch (Nederlands)",nota:"Dutch is the official language. Almost everyone speaks English — but a local greeting makes a great impression!",frases:[
+   {cat:"🌅 Good morning",local:"Goedemorgen",pron:"HOO-duh-MOR-khen",tip:"Use until about noon"},
+   {cat:"👋 Hi (informal)",local:"Hoi / Hallo",pron:"Hoy / HAH-loh",tip:"Hoi is very casual and friendly"},
+   {cat:"🙏 Please",local:"Alstublieft",pron:"AHL-stoo-BLEEFT",tip:"Often abbreviated s.v.p. on signs"},
+   {cat:"😊 Thank you",local:"Dank u wel",pron:"DAHNK oo vel",tip:"Informal: Dank je (DAHNK yuh)"},
+   {cat:"🍺 Cheers!",local:"Proost!",pron:"Prohst",tip:"The Dutch toast - used at every bar"},
   ]},
   mapa:{centro:"Volendam Netherlands",pois:[["Puerto de Volendam","Volendam harbor Netherlands"],["Marken","Marken island Netherlands"],["Binnenhof La Haya","Binnenhof The Hague"],["Palacio de la Paz","Peace Palace The Hague"]]},
   video:{t:"The Hague Netherlands - Volendam & Marken Day Trip from Amsterdam 2025",u:"https://www.youtube.com/watch?v=axSKpiV-RNI"}
@@ -1928,50 +1928,50 @@ document.addEventListener('change',e=>{
 
 // HOME itinerary
 const itin=[
- {d:"1",wd:"Dom",dt:"6 Sep",c:"✈️ México → Ámsterdam",n:"Vuelo trasatlántico · noche a bordo",tipo:"normal",
+ {d:"1",wd:"Dom",dt:"6 Sep",c:"✈️ Mexico City → Amsterdam",n:"Transatlantic flight · overnight on board",tipo:"normal",
   full:`Presentarse en el Aeropuerto Internacional de la Ciudad de México 3 horas antes para tomar el vuelo trasatlántico con destino a Ámsterdam. Noche a bordo.`},
- {d:"2",wd:"Lun",dt:"7 Sep",c:"🇳🇱 Ámsterdam",n:"Llegada · recepción · recorrido panorámico",tipo:"normal",
+ {d:"2",wd:"Lun",dt:"7 Sep",c:"🇳🇱 Amsterdam",n:"Arrival · reception · panoramic city tour",tipo:"normal",
   full:`Llegada a Ámsterdam, la capital del Reino de los Países Bajos. Por su belleza, el casco histórico de Ámsterdam está incluido en la Lista del Patrimonio Mundial de la UNESCO. Después del recorrido por la ciudad, recepción y traslado al hotel. Alojamiento.`},
- {d:"3",wd:"Mar",dt:"8 Sep",c:"🇳🇱→🇩🇪 Ámsterdam · Hannover · Berlín",n:"Desayuno · parada Hannover · llegada Berlín",tipo:"normal",
+ {d:"3",wd:"Mar",dt:"8 Sep",c:"🇳🇱→🇩🇪 Amsterdam · Hanover · Berlin",n:"Desayuno · parada Hannover · llegada Berlín",tipo:"normal",
   full:`Desayuno. Después nos dirigimos a la ciudad de Hannover en la República Federal de Alemania. Situada en orilla del río Leine la ciudad lleva el nombre con este mismo significado "La Orilla Alta". Hannover fue fundada en época medieval por barqueros, pescadores y comerciantes que llevaban los barcos llenos de mercancías por el río. Durante nuestro recorrido veremos los bellos edificios del Palacio de la Opera, las ruinas de la iglesia San Gil (Aegidienkirche), la Iglesia del Mercado, los edificios del Ayuntamiento, Nuevo y Viejo. Luego seguiremos hacia la ciudad de Berlín, la capital de la República Federal de Alemania. Alojamiento.`},
- {d:"4",wd:"Mié",dt:"9 Sep",c:"🇩🇪 Berlín",n:"Recorrido panorámico · opt. Potsdam (Paq.1)",tipo:"normal",
+ {d:"4",wd:"Mié",dt:"9 Sep",c:"🇩🇪 Berlin",n:"Recorrido panorámico · opt. Potsdam (Paq.1)",tipo:"normal",
   full:`Desayuno. Realizaremos una breve visita panorámica de Berlín. Situada en las orillas de dos ríos, Spree y Havel que confluyen dentro de la ciudad, Berlín ofrece unas vistas inolvidables. Durante nuestro recorrido vamos a ver la Plaza Gendarmenmarkt, La Puerta de Brandenburgo, Potsdamer Platz, Frauenkirche, el Palacio Zwinger, la Terraza Bruhl, el Camin agoo del Rey, la Estatua de Martín Lutero y gozar de la belleza majestuosa de la milenaria ciudad. Alojamiento.`,
   opcionales:["Ciudad de Potsdam"]},
- {d:"5",wd:"Jue",dt:"10 Sep",c:"🇩🇪→🇵🇱 Berlín · Varsovia",n:"Desayuno · viaje · recorrido Ciudad Vieja UNESCO",tipo:"normal",
+ {d:"5",wd:"Jue",dt:"10 Sep",c:"🇩🇪→🇵🇱 Berlin · Warsaw",n:"Desayuno · viaje · recorrido Ciudad Vieja UNESCO",tipo:"normal",
   full:`Desayuno. Después nos dirigimos a la ciudad de Varsovia, la capital de la República de Polonia. Nadie sabe cuándo apareció el pequeño pueblo de pescadores que desde el siglo XIII se convirtió en una de las ciudades más hermosas del mundo. La Ciudad Vieja – su casco histórico está incluido en la Lista del Patrimonio de la Humanidad de la UNESCO. Durante nuestro recorrido veremos el Castillo Real, la famosa Columna de Segismundo, la hermosa Iglesia de las Visitacionistas, también denomin agoada iglesia de las Hermanas de la Visitación de San José de Varsovia de la Orden de la Visitación. Alojamiento.`},
- {d:"6",wd:"Vie",dt:"11 Sep",c:"🇵🇱 Varsovia → Cracovia",n:"Desayuno · viaje · recorrido panorámico Cracovia",tipo:"normal",
+ {d:"6",wd:"Vie",dt:"11 Sep",c:"🇵🇱 Warsaw → Kraków",n:"Desayuno · viaje · recorrido panorámico Cracovia",tipo:"normal",
   full:`Desayuno. Después nos dirigimos a la ciudad polaca de Cracovia. Otra bella ciudad europea con su casco histórico incluido en la Lista del Patrimonio de la Humanidad de la UNESCO. Durante nuestro breve recorrido panorámico veremos el Castillo de Wawel, la increíble catedral con nombre completo de Basílica de San Estanislao y San Wenceslao con sus numerosas capillas de distintas épocas y estilos arquitectónicos, La Basílica de Santa María, El Corte Renacentista, la Plaza del Mercado y la pequeña iglesia de San Adalberto. Alojamiento.`},
- {d:"7",wd:"Sáb",dt:"12 Sep",c:"🇵🇱 Cracovia ★ FREE DAY",n:"Opt. Auschwitz (Paq.1) · Wieliczka (Paq.2) · o tour personal",tipo:"libre",
+ {d:"7",wd:"Sáb",dt:"12 Sep",c:"🇵🇱 Kraków ★ FREE DAY",n:"Opt. Auschwitz (Pkg.1) · Wieliczka (Pkg.2) · or personal tour",tipo:"libre",
   full:`Desayuno. Día libre para actividades personales o para realizar una excursión opcional. Alojamiento.`,
   opcionales:["Campo de concentración de Auschwitz–Birkenau","Minas de sal de Wieliczka"]},
- {d:"8",wd:"Dom",dt:"13 Sep",c:"🇵🇱→🇨🇿 Cracovia · Praga",n:"Desayuno · viaje · recorrido panorámico Praga",tipo:"normal",
+ {d:"8",wd:"Dom",dt:"13 Sep",c:"🇵🇱→🇨🇿 Kraków · Prague",n:"Desayuno · viaje · recorrido panorámico Praga",tipo:"normal",
   full:`Desayuno. Después nos dirigimos a la ciudad de Praga, la capital de la República Checa y la capital histórica de Bohemia. Construida en el siglo IX como un pequeño pueblo fronterizo en las orillas del río Moldava, en el siglo XVII-XIX llegó a tener tal esplendor que todo Europa la llamaba Praga Dorada. En nuestro tour panorámico de la ciudad pasaremos por la Plaza Vaclav Havel, que es una de las plazas más grandes de Praga, luego llegaremos a la Plaza de la Ciudad Vieja, que se encuentra entre la Plaza Vaclac Havel y el Puente Carlos (Karluv Most). En la Plaza de la Ciudad Vieja veremos la Torre del Reloj Astronómico, la Iglesia de Tyn, el Ayuntamiento Viejo, la Iglesia de San Nicolás y el Monumento a Jan Hus. Después del almuerzo continuaremos hacia la orilla opuesta de Praga. De paso veremos el Puente de Carlos, que fue construido en el siglo XIV. Alojamiento.`},
- {d:"9",wd:"Lun",dt:"14 Sep",c:"🇨🇿 Praga ★ FREE DAY",n:"Opt. Barco Moldava (P1) · Karlovy Vary/Noche Checa (P2) · o personal",tipo:"libre",
+ {d:"9",wd:"Lun",dt:"14 Sep",c:"🇨🇿 Prague ★ FREE DAY",n:"Opt. Barco Moldava (P1) · Karlovy Vary/Noche Checa (P2) · o personal",tipo:"libre",
   full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Alojamiento.`,
   opcionales:["Paseo en barco por el Río Moldava","Excursión a Karlovy Vary","Noche checa con cena tradicional"]},
- {d:"10",wd:"Mar",dt:"15 Sep",c:"🇨🇿→🇩🇪 Praga · Núremberg",n:"Desayuno · viaje · recorrido Núremberg",tipo:"normal",
+ {d:"10",wd:"Mar",dt:"15 Sep",c:"🇨🇿→🇩🇪 Prague · Nuremberg",n:"Desayuno · viaje · recorrido Núremberg",tipo:"normal",
   full:`Desayuno. Después nos dirigimos a la ciudad alemana de Núremberg. El fabuloso Castillo de Núremberg fue construido en lo alto de una colina  unos mil años. En los siguientes siglos ese pintoresco complejo de edificios se convirtió en núcleo vivo de una ciudad creciendo rápidamente alrededor suyo. Durante nuestro recorrido por Núremberg veremos los impresionantes edificios de la Iglesia de Nuestra Señora, la Casa de la Opera, el Viejo Ayuntamiento y por supuesto las vistas fascinantes del río Pegnitz. Alojamiento.`},
- {d:"11",wd:"Mié",dt:"16 Sep",c:"🇩🇪 Núremberg ★ FREE DAY",n:"Opt. Rothenburg (P1) · Múnich (P2) · o tour personal",tipo:"libre",
+ {d:"11",wd:"Mié",dt:"16 Sep",c:"🇩🇪 Nuremberg ★ FREE DAY",n:"Opt. Rothenburg (P1) · Munich (P2) · or personal tour",tipo:"libre",
   full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Alojamiento.`,
   opcionales:["Ciudad Rothenburg ob der Tauber","Ciudad de Múnich"]},
- {d:"12",wd:"Jue",dt:"17 Sep",c:"🇩🇪 Núremberg → Frankfurt",n:"Desayuno · viaje · visita Frankfurt",tipo:"normal",
+ {d:"12",wd:"Jue",dt:"17 Sep",c:"🇩🇪 Nuremberg → Frankfurt",n:"Desayuno · viaje · visita Frankfurt",tipo:"normal",
   full:`Desayuno. Después nos dirigimos a la ciudad de Frankfurt ubicada en el centro de Alemania a orillas del Rio Meno, importante centro financiero mundial. Los orígenes de la ciudad se pierden en lo hondo de los primeros siglos del Medioevo, pero siempre en la colina de Romer. Aquí veremos los impresionantes edificios de la familia de comerciantes Romer construidos en los siglos XIII y XIV, la iglesia de San Nicolás, la Catedral Imperial de la Colegiata de San Bartolomé y gozaremos de las majestuosas siluetas del Banco Central Europeo, el Banco de Alemania y la Bolsa de Frankfurt que son unas de las instituciones financieras más importantes del mundo. Alojamiento.`,
   opcionales:["Paseo nocturno en barco por el Río Meno"]},
- {d:"13",wd:"Vie",dt:"18 Sep",c:"🇩🇪→🇱🇺🇫🇷 Frankfurt · Luxemburgo · Metz",n:"Desayuno · parada Luxemburgo (opc.) · base Metz",tipo:"normal",
+ {d:"13",wd:"Vie",dt:"18 Sep",c:"🇩🇪→🇱🇺🇫🇷 Frankfurt · Luxembourg · Metz",n:"Breakfast · Luxembourg stop (opt.) · Metz base city",tipo:"normal",
   full:`Desayuno. Después nos dirigimos a la ciudad francesa de Metz o a la ciudad francesa de Thionville. Tiempo libre para realizar excursiones opcionales a la ciudad de Luxemburgo en el estado de Gran Ducado de Luxemburgo y a la ciudad de Schengen. Alojamiento.`,
   opcionales:["Ciudad de Luxemburgo","Ciudad de Schengen"]},
  {d:"14",wd:"Sáb",dt:"19 Sep",c:"🇫🇷 Metz / Thionville ★ FREE DAY",n:"Opt. Luxemburgo/Estr./Colmar (P1) · Schengen (P2) · o Metz libre",tipo:"libre",
   full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Alojamiento.`,
   opcionales:["Ciudad de Estrasburgo","Ciudad de Colmar"]},
- {d:"15",wd:"Dom",dt:"20 Sep",c:"🇫🇷→🇧🇪 Metz · Bruselas",n:"Desayuno · viaje · recorrido Bruselas",tipo:"normal",
+ {d:"15",wd:"Dom",dt:"20 Sep",c:"🇫🇷→🇧🇪 Metz · Brussels",n:"Desayuno · viaje · recorrido Bruselas",tipo:"normal",
   full:`Desayuno. Después nos dirigimos a la ciudad de Bruselas, la capital del Reino de Bélgica, sede la Comisión Europea, famosa por su cerveza y su chocolate. Aquí veremos la impresionante Plaza del Mercado, las galerías reales de Saint-Hubert, la escultura del Manneken Pis, el Palacio Real de Bruselas, los museos reales de Bellas Artes. Alojamiento.`},
- {d:"16",wd:"Lun",dt:"21 Sep",c:"🇧🇪 Bruselas ★ FREE DAY",n:"Opt. Brujas y Gante (Paq.1) · o Bruselas por libre",tipo:"libre",
+ {d:"16",wd:"Lun",dt:"21 Sep",c:"🇧🇪 Brussels ★ FREE DAY",n:"Opt. Bruges and Ghent (Pkg.1) · or Brussels on your own",tipo:"libre",
   full:`Desayuno. Día libre para realizar actividades personales o posibilidad de realizar una excursión opcional. Alojamiento.`,
   opcionales:["Ciudades de Brujas y Gante"]},
- {d:"17",wd:"Mar",dt:"22 Sep",c:"🇧🇪→🇳🇱 Bruselas · Ámsterdam ⭐ TOUR PERSONAL",n:"Si no tomas P2: Ámsterdam libre → Rijksmuseum, Jordaan, canales",tipo:"tp",
+ {d:"17",wd:"Mar",dt:"22 Sep",c:"🇧🇪→🇳🇱 Bruselas · Ámsterdam ⭐ TOUR PERSONAL",n:"No P2: free Amsterdam day → Rijksmuseum, Jordaan, canals",tipo:"tp",
   full:`Desayuno. Después nos dirigimos a la ciudad de Ámsterdam. Tiempo libre para realizar actividades personales o bien realizar una excursión opcional. Alojamiento.`,
   opcionales:["Volendam y Marken","Ciudad de La Haya","Pueblo de Giethoorn"]},
- {d:"18",wd:"Mié",dt:"23 Sep",c:"🇳🇱 Ámsterdam → ✈️ México",n:"Desayuno · traslado aeropuerto · vuelo de regreso",tipo:"normal",
+ {d:"18",wd:"Mié",dt:"23 Sep",c:"🇳🇱 Amsterdam → ✈️ Mexico City",n:"Breakfast · airport transfer · return flight",tipo:"normal",
   full:`Desayuno. A la hora indicada, traslado al aeropuerto para tomar el vuelo de regreso a la Ciudad de México.`},
 ];
 document.getElementById('quick-itinerary').innerHTML=itin.map((i,idx)=>{
