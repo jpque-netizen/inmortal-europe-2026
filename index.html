@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -10,7 +10,7 @@
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-<title>Immortal Europe 2026</title>
+<title>Europa Inmortal 2026</title>
 <style>
 :root{--bg:#0f1923;--bg2:#162030;--bg3:#1c2a3a;--gold:#c9a84c;--gold2:#e8c96a;--cream:#f0e8d6;--text:#e8ddd0;--muted:#8a9ab0;--dim:#4a5a6a;--border:rgba(201,168,76,0.18);--radius:12px;--safe-top:env(safe-area-inset-top,0px);--safe-bot:env(safe-area-inset-bottom,0px)}
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
@@ -228,8 +228,8 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
   <div class="header-inner">
     <span style="font-size:22px">✈️</span>
     <div>
-      <div class="header-title">Immortal Europe 2026</div>
-      <div class="header-sub">Sep 6-23 · 11 cities · 6 countries · v1 EN ✓</div>
+      <div class="header-title">Europa Inmortal 2026</div>
+      <div class="header-sub">6–23 Sep · 11 ciudades · 6 países · v19 ✓</div>
     </div>
     <div class="offline-badge">📴 Offline</div>
   </div>
@@ -238,41 +238,41 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
   <div class="view active" id="view-home">
     <div class="splash">
       <div class="splash-flag">🇳🇱🇩🇪🇵🇱🇨🇿🇫🇷🇧🇪</div>
-      <div class="splash-title">Your pocket travel guide</div>
-      <div class="splash-sub">Sights · Cuisine · Currencies · Miles</div>
+      <div class="splash-title">Tu guía de bolsillo</div>
+      <div class="splash-sub">Atractivos del itinerario · Gastronomía · Monedas · Km</div>
       <div class="stats-row">
-        <div class="stat"><div class="stat-num">18</div><div class="stat-lbl">Days</div></div>
-        <div class="stat"><div class="stat-num">11</div><div class="stat-lbl">Cities</div></div>
-        <div class="stat"><div class="stat-num">6</div><div class="stat-lbl">Countries</div></div>
-        <div class="stat"><div class="stat-num">5</div><div class="stat-lbl">Free days</div></div>
+        <div class="stat"><div class="stat-num">18</div><div class="stat-lbl">Días</div></div>
+        <div class="stat"><div class="stat-num">11</div><div class="stat-lbl">Ciudades</div></div>
+        <div class="stat"><div class="stat-num">6</div><div class="stat-lbl">Países</div></div>
+        <div class="stat"><div class="stat-num">5</div><div class="stat-lbl">Días libres</div></div>
       </div>
     </div>
-    <div id="install-banner" class="install-banner"><p>📲 Install on your phone</p><span>Tap to add to home screen · works offline</span></div>
-    <div class="sec-hdr">📄 Travel Documents</div>
+    <div id="install-banner" class="install-banner"><p>📲 Instalar en tu teléfono</p><span>Toca para agregar a pantalla de inicio · funciona sin internet</span></div>
+    <div class="sec-hdr">📄 Documentos del viaje</div>
     <div class="card" style="border-left:3px solid var(--gold)">
       <div class="card-header">
         <div class="card-title">📄 Mis documentos</div>
-        <div class="card-sub">Tickets · vouchers · reservations · insurance · <span id="doc-counter-home">cargando...</span></div>
+        <div class="card-sub">Boletos · vouchers · reservaciones · seguros · <span id="doc-counter-home">cargando...</span></div>
       </div>
       <div id="doc-status-home" class="photo-status"></div>
       <div id="doc-list-home">
-        <div style="padding:14px;font-size:12px;color:var(--dim);text-align:center">Loading documents...</div>
+        <div style="padding:14px;font-size:12px;color:var(--dim);text-align:center">Cargando documentos...</div>
       </div>
       <div class="doc-add">
         <input type="file" id="doc-input-home" accept=".pdf,application/pdf" multiple style="display:none" onchange="uploadDocs('home',this.files)">
-        <button class="doc-add-btn" onclick="document.getElementById('doc-input-home').click()">📎 Upload Travel PDF</button>
-        <div style="font-size:10px;color:var(--dim);text-align:center;margin-top:6px">Tap to open · save tickets, vouchers, reservations</div>
+        <button class="doc-add-btn" onclick="document.getElementById('doc-input-home').click()">📎 Subir PDF del viaje</button>
+        <div style="font-size:10px;color:var(--dim);text-align:center;margin-top:6px">Toca para abrir · guarda boletos, vouchers, reservaciones</div>
       </div>
     </div>
-    <div class="sec-hdr" style="margin-top:4px">Full itinerary with dates and days</div>
+    <div class="sec-hdr" style="margin-top:4px">Itinerario completo con fechas y días</div>
     <div class="card" id="quick-itinerary"></div>
-    <div class="sec-hdr" style="margin-top:4px">🌟 Recommended personal tour days</div>
+    <div class="sec-hdr" style="margin-top:4px">🌟 Días recomendados para tour personal</div>
     <div class="tp-home" id="tp-home-box"></div>
     <div class="tip-box">
-      <p>💶 Bring euros + get Polish złotys and Czech korunas from local ATMs.</p>
-      <p>🎫 The 65 EUR gratuity fee is paid on-site, not included in the tour price.</p>
-      <p>🍽️ In Central Europe dinner is 7:00-8:30 pm. Kitchens close by 9 pm.</p>
-      <p>🌡️ September in Europe: 57-72°F · bring a light jacket, rain is possible.</p>
+      <p>💶 Llevar euros + conseguir złotys (Polonia) y coronas checas (Praga) en cajeros ATM locales.</p>
+      <p>🎫 Los 65 EUR de propinas se pagan en destino, no incluidos en el precio.</p>
+      <p>🍽️ En Europa Central cenan a las 19–20:30 hrs. Cocinas cierran a las 21h.</p>
+      <p>🌡️ Septiembre en Europa: 14–22°C · llevar chamarra ligera, puede llover.</p>
     </div>
   </div>
   <div class="view" id="view-ciudades">
@@ -281,28 +281,29 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
     <div id="city-body"></div>
   </div>
   <div class="view" id="view-tours">
-    <div class="fade-right"><div class="pills-wrap" id="pkg-pills"></div></div>
+    <div class="fade-right"><div class="pills-wrap" id="pkg-pills" style="display:none"></div></div>
     <div class="fade-right"><div class="pills-wrap" id="tour-pills" style="padding-top:0"></div></div>
+    <div class="fade-right"><div class="subpills-wrap" id="tour-subtabs"></div></div>
     <div id="tour-body"></div>
   </div>
   <div class="view" id="view-dist">
-    <div class="sec-hdr">Main Tour Route</div>
+    <div class="sec-hdr">Ruta principal del circuito</div>
     <div class="card" id="dist-main-card"></div>
-    <div class="sec-hdr" style="margin-top:4px">From base city (optional tours)</div>
+    <div class="sec-hdr" style="margin-top:4px">Desde ciudad base (tours opcionales)</div>
     <div class="card" id="dist-tour-card"></div>
   </div>
   <div class="view" id="view-monedas">
-    <div class="sec-hdr">Exchange Rates — 18 May 2026</div>
+    <div class="sec-hdr">Tipo de cambio — 18 May 2026</div>
     <div class="card" id="monedas-card"></div>
-    <div class="sec-hdr" style="margin-top:4px">🧮 Currency Calculator</div>
+    <div class="sec-hdr" style="margin-top:4px">🧮 Calculadora de divisas</div>
     <div class="card calc-card">
       <div class="calc-row">
         <input type="number" id="calc-input" class="calc-input" placeholder="0" inputmode="decimal" autocomplete="off">
         <select id="calc-from" class="calc-select">
-          <option value="USD">🇺🇸 USD — US Dollar</option>
+          <option value="MXN">🇲🇽 MXN — Peso mexicano</option>
           <option value="EUR" selected>💶 EUR — Euro</option>
-          <option value="PLN">🇵🇱 PLN — Polish Złoty</option>
-          <option value="CZK">🇨🇿 CZK — Czech Koruna</option>
+          <option value="PLN">🇵🇱 PLN — Złoty polaco</option>
+          <option value="CZK">🇨🇿 CZK — Corona checa</option>
           <option value="USD">💵 USD — Dólar (tarifa tour)</option>
         </select>
       </div>
@@ -317,7 +318,7 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
         <button class="qbtn" onclick="qSet(100)">100</button>
       </div>
     </div>
-    <div class="sec-hdr" style="margin-top:4px">Money Tips</div>
+    <div class="sec-hdr" style="margin-top:4px">Consejos de dinero</div>
     <div class="tip-box">
       <p>💡 Cambia pesos a euros en México en casas de cambio certificadas — mejor tasa.</p>
       <p>💡 En Polonia y Chequia usa cajeros ATM locales (PKO Bank, Moneta) para buena tasa.</p>
@@ -328,11 +329,11 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
   </div>
 </div>
 <nav class="bottom-nav">
-  <button class="nav-btn active" onclick="sv('home')" id="nav-home"><span class="nav-icon">🏠</span>Home</button>
-  <button class="nav-btn" onclick="sv('ciudades')" id="nav-ciudades"><span class="nav-icon">🏛️</span>Cities</button>
+  <button class="nav-btn active" onclick="sv('home')" id="nav-home"><span class="nav-icon">🏠</span>Inicio</button>
+  <button class="nav-btn" onclick="sv('ciudades')" id="nav-ciudades"><span class="nav-icon">🏛️</span>Ciudades</button>
   <button class="nav-btn" onclick="sv('tours')" id="nav-tours"><span class="nav-icon">🎫</span>Tours</button>
-  <button class="nav-btn" onclick="sv('dist')" id="nav-dist"><span class="nav-icon">📏</span>Mi</button>
-  <button class="nav-btn" onclick="sv('monedas')" id="nav-monedas"><span class="nav-icon">💱</span>Currency</button>
+  <button class="nav-btn" onclick="sv('dist')" id="nav-dist"><span class="nav-icon">📏</span>Km</button>
+  <button class="nav-btn" onclick="sv('monedas')" id="nav-monedas"><span class="nav-icon">💱</span>Monedas</button>
 </nav>
 <script src="app.js"></script>
 </body>
