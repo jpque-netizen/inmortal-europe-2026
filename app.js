@@ -156,7 +156,7 @@ const cities=[
   ["Van Gogh Museum","200+ works by the painter organized by life stages"],
   ["Red Light District (De Wallen)","historic area with the 13th-century Oude Kerk"],
   ["Jordaan Neighborhood","picturesque canals, markets and the Westerkerk Church"],
-  ["Mercado flotante de flores (Bloemenmarkt)","unique in the world · on floating houses"],
+  ["Floating Flower Market (Bloemenmarkt)","unique in the world · on floating houses"],
   ["Heineken Experience","interactive former brewery with beer tasting included"],
   ["Vondelpark","the most visited park in the Netherlands · 10 million visits/year"],
  ],
@@ -179,15 +179,15 @@ const cities=[
  ],
  video:{t:"Top Things to Do in Amsterdam - Ultimate Travel Guide 2025",d:"Canals, museums and hidden gems - narrated English guide",canal:"Vacation Idea",u:"https://www.youtube.com/watch?v=8-9PyGEVYf8"},
  mapa:{centro:"Dam Square Amsterdam",url:"https://www.google.com/maps/search/?api=1&query=Dam+Square+Amsterdam+Netherlands",pois:[
-  ["Dam Square","Plaza+Dam+Amsterdam"],
+  ["Dam Square","Dam+Square+Amsterdam"],
   ["Royal Palace of Amsterdam","Royal+Palace+Amsterdam"],
   ["Anne Frank House","Anne+Frank+House+Amsterdam"],
   ["Rijksmuseum","Rijksmuseum+Amsterdam"],
   ["Van Gogh Museum","Van+Gogh+Museum+Amsterdam"],
   ["Jordaan Neighborhood","Jordaan+Amsterdam"],
   ["Vondelpark","Vondelpark+Amsterdam"],
-  ["Mercado Albert Cuyp","Albert+Cuypmarkt+Amsterdam"],
-  ["Estación Central","Amsterdam+Centraal+Station"]
+  ["Albert Cuyp Market","Albert+Cuypmarkt+Amsterdam"],
+  ["Central Station","Amsterdam+Centraal+Station"]
  ]},
  saludos:{idioma:"Dutch (Nederlands)",nota:"Dutch is the official language. Almost everyone speaks English — but a local greeting makes a great impression!",frases:[
   {cat:"🌅 Good morning",local:"Goedemorgen",pron:"HOO-duh-MOR-khen",tip:"Use until about noon"},
@@ -212,8 +212,8 @@ const cities=[
  ],
  atractivos_recomendados:[
   ["Herrenhausen Gardens","internationally famous baroque gardens · the best in Hanover"],
-  ["Línea Roja turística","painted ground route connecting 36 city attractions"],
-  ["Ernst August Galerie","galería comercial frente a la estación, arquitectura destacada"],
+  ["Tourist Red Line","painted ground route connecting 36 city attractions"],
+  ["Ernst August Galerie","shopping arcade facing the station · notable architecture"],
  ],
  gastronomia:[
   ["Currywurst","sausage with curry sauce · classic German street food"],
@@ -232,7 +232,7 @@ const cities=[
   ["Ruinas Aegidienkirche","Aegidienkirche+Hannover"],
   ["Marktkirche (Market Church)","Marktkirche+Hannover"],
   ["New Town Hall (Neues Rathaus)","Neues+Rathaus+Hannover"],
-  ["Río Leine","Leine+River+Hannover"]
+  ["Leine River","Leine+River+Hannover"]
  ]},
  saludos:{idioma:"German (Deutsch)",nota:"Hanoverian German is considered the purest and most neutral German. Any greeting in German is warmly appreciated.",frases:[
   {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Use until about 11 am"},
@@ -252,18 +252,18 @@ const cities=[
   ["📅 DAY 3 - Tue Sep 8","Arrival in Berlin from Hanover · accommodation"],
   ["📅 DAY 4 - Wed Sep 9","Breakfast · panoramic tour of Berlin"],
   ["Gendarmenmarkt Square","considered the most beautiful square in Berlin"],
-  ["Brandenburg Gate","símbolo mundial de la reunificación alemana (1989)"],
+  ["Brandenburg Gate","world symbol of German reunification (1989)"],
   ["Potsdamer Platz","modern square with avant-garde architecture"],
   ["Frauenkirche","church mentioned in the tour itinerary"],
   ["Zwinger Palace","18th-century baroque · dazzling architecture"],
   ["Terraza Brühl","royal promenade with river views"],
   ["King's Way","historic walk mentioned in the itinerary"],
-  ["Estatua de Martín Lutero","at the Marienkirche church"],
+  ["Martin Luther Statue","at the Marienkirche church"],
   ["Potsdam City (Package 1)","Capital of Brandenburg · Sanssouci Palace UNESCO · summer residence of Frederick the Great"],
   ["📅 DAY 5 - Thu Sep 10","Breakfast · departure to Warsaw"],
  ],
  atractivos_recomendados:[
-  ["Muro de Berlín (East Side Gallery)","the largest open-air mural in the world · 1.3 km"],
+  ["Berlin Wall (East Side Gallery)","the largest open-air mural in the world · 1.3 km"],
   ["Museum Island","UNESCO Heritage with 5 world-class museums"],
   ["Holocaust Memorial","2,711 concrete steles · designed by Peter Eisenman"],
   ["Reichstag","public glass dome · 360° views · free"],
@@ -274,7 +274,7 @@ const cities=[
   ["Currywurst berlinesa","sausage with ketchup and curry · the city's signature dish"],
   ["Buletten","Berlin meatballs with bread and mustard"],
   ["Berliner Pfannkuchen","rosquilla rellena de mermelada"],
-  ["Schnitzel","filete empanizado · herencia austrohúngara"],
+  ["Schnitzel","breaded cutlet · Austro-Hungarian heritage"],
  ],
  restaurantes:[
   ["Mustafa's Gemüse Kebap","the world's most famous döner · Mehringdamm 36","€5-6"],
@@ -292,7 +292,7 @@ const cities=[
   ["Holocaust Memorial","Holocaust+Memorial+Berlin"],
   ["Museum Island","Museum+Island+Berlin"],
   ["Checkpoint Charlie","Checkpoint+Charlie+Berlin"],
-  ["Estatua Martín Lutero","Martin+Luther+Statue+Berlin"]
+  ["Martin Luther Statue","Martin+Luther+Statue+Berlin"]
  ]},
  saludos:{idioma:"German (Deutsch) · Berlin dialect",nota:"Berlin has its own accent and slang. Locals say Ick instead of Ich and have a reputation for directness — any greeting opens doors.",frases:[
   {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Berlin is a night-owl city - don't expect big smiles early!"},
@@ -303,7 +303,7 @@ const cities=[
   {cat:"😊 Thank you",local:"Danke",pron:"DAHN-kuh",tip:"Quick and effective - Berliners use it constantly"},
   {cat:"🤝 You're welcome",local:"Kein Problem",pron:"Káin Pro-blém",tip:"Literally 'no problem' - very common"},
   {cat:"❓ How much is it?",local:"Was kostet das?",pron:"Vahs KOS-tet dahs?",tip:"Berlin has many flea markets where you'll need this"},
-  {cat:"🚽 Where's the restroom?",local:"Wo ist die Toilette?",pron:"Voh ist dee twah-LET-uh?",tip:"En el metro se paga 50 céntimos · ten monedas"},
+  {cat:"🚽 Where's the restroom?",local:"Wo ist die Toilette?",pron:"Voh ist dee twah-LET-uh?",tip:"Subway restrooms cost 50 cents · keep coins handy"},
   {cat:"🍺 Cheers!",local:"Prost! / Zum Wohl!",pron:"Prohst / Tsoom Vohl",tip:"Berlin has Europe's best bar scene - use this often!"}
  ]}
 },
@@ -330,7 +330,7 @@ const cities=[
  restaurantes:[
   ["Bar Mleczny (Bares de leche)","casual eateries · dishes from 15-25 zł","~€3-5"],
   ["Zapiekanki en Nowy Świat","classic street food from 10 zł (~€2)","~€2-3"],
-  ["Ciudad Vieja (varios)","menus with bigos and pierogi","40+ zł (~€8+)"],
+  ["Old Town (various)","menus with bigos and pierogi","40+ zł (~€8+)"],
  ],
  video:{t:"Warsaw Travel Guide: 15 Experiences You Can't Forget - 72hr Itinerary",d:"72-hour Warsaw itinerary: Old Town, Royal Castle and hidden gems - Dec 2025",canal:"Travel Channel",u:"https://www.youtube.com/watch?v=axSKpiV-RNI"},
  mapa:{centro:"Plac Zamkowy Warsaw",url:"https://www.google.com/maps/search/?api=1&query=Castle+Square+Warsaw",pois:[
@@ -348,7 +348,7 @@ const cities=[
   {cat:"🌙 Good evening",local:"Dobry wieczór",pron:"DOH-bry VYEH-choor",tip:"When arriving somewhere at night"},
   {cat:"👋 Hi (informal)",local:"Cześć",pron:"Cheshch",tip:"Only with people your age or younger · very friendly"},
   {cat:"🙏 Please",local:"Proszę",pron:"PROH-sheh",tip:"Also means 'here you go' and 'you're welcome'"},
-  {cat:"😊 Thank you",local:"Dziękuję",pron:"Jen-KOO-yeh",tip:"Versión rápida: Dzięki (Yen-ki)"},
+  {cat:"😊 Thank you",local:"Dziękuję",pron:"Jen-KOO-yeh",tip:"Quick version: Dzięki (YEN-kee)"},
   {cat:"🤝 You're welcome",local:"Proszę / Nie ma za co",pron:"PROH-sheh / Nyeh-mah-ZAH-tsoh",tip:"Proszę is the most common response"},
   {cat:"❓ How much is it?",local:"Ile to kosztuje?",pron:"EE-leh toh kosh-TOO-yeh?",tip:"Very useful at the Old Town Market"},
   {cat:"🚽 Where's the restroom?",local:"Gdzie jest toaleta?",pron:"Gjeh yest toh-ah-LEH-tah?",tip:"Toaleta on signs · sometimes 1-2 zł to use"},
@@ -365,7 +365,7 @@ const cities=[
   ["Wawel Cathedral (Basilica of St. Stanislaus and St. Wenceslaus)","royal pantheon · chapels from different eras and architectural styles"],
   ["Corte Renacentista (Sukiennice)","14th-century cloth hall · now a museum and souvenir shops"],
   ["Main Market Square (Rynek Główny)","one of Europe's largest medieval squares"],
-  ["Basílica de Santa María (Kościół Mariacki)","Gothic with a 15th-century Veit Stoss carved altar"],
+  ["St. Mary's Basilica (Kościół Mariacki)","Gothic with a 15th-century Veit Stoss carved altar"],
   ["St. Adalbert's Church","small 10th-century pre-Romanesque church"],
   ["📅 DAY 7 - Fri Sep 12 🟢 FREE DAY","Optional excursions or personal tour in Kraków"],
   ["Auschwitz-Birkenau Concentration Camp (Package 1)","The largest Nazi complex · deeply moving visit · monument to Holocaust victims"],
@@ -387,19 +387,19 @@ const cities=[
  restaurantes:[
   ["Bares Mleczny (varios)","full dishes 15-30 zł · authentic and affordable","€3-6"],
   ["Obwarzanek stalls (square)","bread ring from 2-3 zł each","€0.40"],
-  ["Restaurantes Kazimierz","ambiente bohemio · menús 35-50 zł","€7-10"],
+  ["Restaurantes Kazimierz","bohemian atmosphere · menus 35-50 zł","€7-10"],
   ["Starka Restauracja","traditional Polish cuisine · highly rated","€10-18"],
  ],
  video:{t:"20 Things You Need to Know Before Visiting Krakow in 2026",d:"Essential Krakow tips: food, Auschwitz, Jewish Quarter - Mar 2026",canal:"Before You Go",u:"https://www.youtube.com/watch?v=CUSx7CRFoIo"},
  mapa:{centro:"Rynek Glowny Krakow",url:"https://www.google.com/maps/search/?api=1&query=Main+Market+Square+Krakow",pois:[
   ["Wawel Castle","Wawel+Castle+Krakow"],
   ["Wawel Cathedral","Wawel+Cathedral+Krakow"],
-  ["Basílica de Santa María","St+Marys+Basilica+Krakow"],
+  ["St. Mary's Basilica","St+Marys+Basilica+Krakow"],
   ["Main Market Square (Rynek Główny)","Rynek+Glowny+Krakow"],
   ["Cloth Hall (Sukiennice)","Sukiennice+Krakow"],
   ["St. Adalbert's Church","St+Adalbert+Church+Krakow"],
   ["Kazimierz Jewish Quarter","Kazimierz+Krakow"],
-  ["Fábrica de Schindler","Schindler+Factory+Krakow"],
+  ["Schindler's Factory","Schindler+Factory+Krakow"],
   ["Auschwitz-Birkenau","Auschwitz+Birkenau+Memorial"],
   ["Minas de sal Wieliczka","Wieliczka+Salt+Mine"]
  ]},
@@ -410,7 +410,7 @@ const cities=[
   {cat:"🙏 Please",local:"Proszę",pron:"PROH-sheh",tip:"Irreplaceable · use it when asking for anything"},
   {cat:"😊 Thank you",local:"Dziękuję bardzo",pron:"Jen-KOO-yeh BAR-dzoh",tip:"Bardzo = very much · for extra gratitude"},
   {cat:"🤝 You're welcome",local:"Nie ma za co",pron:"Nyeh-mah-ZAH-tsoh",tip:"Literally 'don't mention it'"},
-  {cat:"❓ How much is it?",local:"Ile to kosztuje?",pron:"EE-leh toh kosh-TOO-yeh?",tip:"Imprescindible en el Mercado Stary Kleparz"},
+  {cat:"❓ How much is it?",local:"Ile to kosztuje?",pron:"EE-leh toh kosh-TOO-yeh?",tip:"Essential at the Stary Kleparz market"},
   {cat:"🚽 Where's the restroom?",local:"Gdzie jest toaleta?",pron:"Gjeh yest toh-ah-LEH-tah?",tip:"There are public restrooms near the Cloth Hall on the Main Market Square"},
   {cat:"🍺 Cheers!",local:"Na zdrowie!",pron:"Nah ZDROH-vyeh",tip:"Kraków has excellent craft beer bars (piwo kraftowe)"},
   {cat:"😋 Bon appétit!",local:"Smacznego!",pron:"smahch-NEH-goh",tip:"Especially useful before trying pierogi · the iconic local dish"}
@@ -445,13 +445,13 @@ const cities=[
   ["Svíčková na smetaně","beef sirloin in cream sauce with knedlíky (dumplings)"],
   ["Vepřo-knedlo-zelo","roast pork with sauerkraut and knedlíky · Czech national dish"],
   ["Trdelník","dough roasted on a spit with sugar and cinnamon · street food"],
-  ["Guláš checo","similar to the Hungarian · with bread or dumplings"],
+  ["Czech Goulash","similar to the Hungarian · with bread or dumplings"],
   ["Smažený sýr","breaded fried cheese · a Czech favorite"],
   ["Svařák","mulled spiced wine · perfect in September"],
  ],
  restaurantes:[
-  ["Lokál (varios locales)","authentic Czech cuisine · fresh Pilsner Urquell","~€8-15"],
-  ["Malá Strana (zona)","menus with goulash and svíčková from 200 Kč","~€8-12"],
+  ["Lokál (multiple locations)","authentic Czech cuisine · fresh Pilsner Urquell","~€8-15"],
+  ["Malá Strana (area)","menus with goulash and svíčková from 200 Kč","~€8-12"],
   ["Trdelník stalls (square)","80-100 Kč each","~€3-4"],
   ["Havelské tržiště","historic market · fruit and snacks","€2-6"],
  ],
@@ -474,7 +474,7 @@ const cities=[
   {cat:"☀️ Good afternoon",local:"Dobré odpoledne",pron:"DOH-breh OD-poh-led-neh",tip:"From noon · somewhat formal"},
   {cat:"🌙 Good evening",local:"Dobrou noc",pron:"DOH-broh nots",tip:"When saying goodbye at night"},
   {cat:"👋 Hello (anytime)",local:"Dobrý den",pron:"DOH-bree den",tip:"The most versatile · all-day formal greeting"},
-  {cat:"👋 Hi (informal)",local:"Ahoj",pron:"AH-hoy",tip:"Informal y amistoso · igual al español 'ahoy'"},
+  {cat:"👋 Hi (informal)",local:"Ahoj",pron:"AH-hoy",tip:"Informal and friendly · just like the English 'ahoy'"},
   {cat:"🙏 Please",local:"Prosím",pron:"PROH-seem",tip:"Also 'here you go' and a reply to 'thank you'"},
   {cat:"😊 Thank you",local:"Děkuji",pron:"DJEH-koo-yee",tip:"Informal: Díky (DEE-kee) - very common"},
   {cat:"🤝 You're welcome",local:"Prosím / Není zač",pron:"Pro-sím / Né-ní zach",tip:"Prosím is the most common response"},
@@ -490,9 +490,9 @@ const cities=[
   ["📅 DAY 10 - Mon Sep 15","Breakfast · arrival from Prague · city tour"],
   ["Nuremberg Imperial Castle (Kaiserburg)","built atop a hill about a thousand years ago · the living core of the city"],
   ["Church of Our Lady (Frauenkirche)","Gothic on the Hauptmarkt · clock with mechanical figures"],
-  ["Casa de la Ópera (Opernhaus)","Nuremberg opera house · mentioned in the tour itinerary"],
-  ["Old Town Hall (Altes Rathaus)","with visitable medieval dungeons"],
-  ["Río Pegnitz","fascinating views of the river crossing the medieval center"],
+  ["Opera House (Opernhaus)","Nuremberg opera house · mentioned in the tour itinerary"],
+  ["Old Town Hall (Altes Rathaus)","with medieval dungeons open to visitors"],
+  ["Pegnitz River","fascinating views of the river crossing the medieval center"],
   ["📅 DAY 11 - Tue Sep 16 🟢 FREE DAY","Optional excursions or personal tour in Nuremberg"],
   ["Rothenburg ob der Tauber (Package 1)","Germany's best-preserved medieval town · walls · half-timbered houses · Romantic Road"],
   ["Munich City (Package 2)","Capital de Baviera · Oktoberfest · Marienplatz · Nuevo Town Hall · cultura cervecera"],
@@ -519,10 +519,10 @@ const cities=[
  mapa:{centro:"Hauptmarkt Nuremberg",url:"https://www.google.com/maps/search/?api=1&query=Hauptmarkt+Nuremberg",pois:[
   ["Imperial Castle","Nuremberg+Castle"],
   ["Church of Our Lady (Frauenkirche)","Frauenkirche+Nuremberg"],
-  ["Casa de la Ópera","Nuremberg+Opera+House"],
+  ["Opera House","Nuremberg+Opera+House"],
   ["Town Hall Viejo","Old+Town+Hall+Nuremberg"],
-  ["Río Pegnitz","Pegnitz+River+Nuremberg"],
-  ["Plaza Hauptmarkt","Hauptmarkt+Nuremberg"],
+  ["Pegnitz River","Pegnitz+River+Nuremberg"],
+  ["Hauptmarkt Square","Hauptmarkt+Nuremberg"],
   ["St. Lawrence Church","St+Lorenz+Church+Nuremberg"],
   ["Casa de Albrecht Dürer","Albrecht+Durer+House+Nuremberg"],
   ["Rothenburg ob der Tauber","Rothenburg+ob+der+Tauber"]
@@ -534,7 +534,7 @@ const cities=[
   {cat:"👋 Hola (franco)",local:"Grüß Gott",pron:"Grooss Gott",tip:"Traditional Bavarian-Franconian greeting · literally 'God greet you'"},
   {cat:"👋 Hi (informal)",local:"Servus",pron:"ZAIR-voos",tip:"Typical southern Germany - warm and friendly"},
   {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Universal throughout Germany"},
-  {cat:"😊 Thank you",local:"Danke schön",pron:"DAHN-kuh shurn",tip:"En dialecto local: Vergelt's Gott (vergelt-s-got)"},
+  {cat:"😊 Thank you",local:"Danke schön",pron:"DAHN-kuh shurn",tip:"In local dialect: Vergelt's Gott (fer-GELTS got)"},
   {cat:"🤝 You're welcome",local:"Gern geschehen",pron:"Gern je-shé-en",tip:"With pleasure - warmer than just Bitte"},
   {cat:"❓ How much is it?",local:"Was kostet das?",pron:"Vahs KOS-tet dahs?",tip:"For the Castle market and the Old Town"},
   {cat:"🚽 Where's the restroom?",local:"Wo ist die Toilette?",pron:"Voh ist dee twah-LET-uh?",tip:"Look for WC on signs medievales"},
@@ -563,12 +563,12 @@ const cities=[
   ["Grüne Soße","cold sauce of 7 local herbs · Frankfurt's signature dish"],
   ["Handkäse mit Musik","strong cheese with pickled onion and cumin"],
   ["Frankfurter Würstchen","the original frankfurter sausage · with mustard and bread"],
-  ["Äppelwoi","sidra de manzana ácida local · la bebida de Frankfurt"],
+  ["Äppelwoi","tart local apple cider · Frankfurt's signature drink"],
   ["Rippchen mit Kraut","cured pork ribs with sauerkraut"],
  ],
  restaurantes:[
   ["Kleinmarkthalle (Hasengasse 5-7)","gourmet market · cheeses, cured meats, tapas","€3-8"],
-  ["Sachsenhausen (cider house district)","Äppelwoi y Handkäse · ambiente local auténtico","€3-10"],
+  ["Sachsenhausen (cider house district)","Äppelwoi and Handkäse · authentic local atmosphere","€3-10"],
   ["Zum Gemalten Haus","classic cider house with homemade Grüne Soße","€10-18"],
  ],
  video:{t:"Best Things to Do in Frankfurt Germany - First Timers Guide",d:"Frankfurt travel guide with all the best sights - Feb 2026",canal:"Travel Vlog",u:"https://www.youtube.com/watch?v=sBv7Zdp1NEg"},
@@ -578,11 +578,11 @@ const cities=[
   ["Imperial Cathedral (Dom)","Frankfurt+Cathedral"],
   ["Banco Central Europeo","European+Central+Bank+Frankfurt"],
   ["Bolsa de Frankfurt","Frankfurt+Stock+Exchange"],
-  ["Río Meno","Main+River+Frankfurt"],
+  ["Main River","Main+River+Frankfurt"],
   ["Main Tower","Main+Tower+Frankfurt"],
   ["Museo Städel","Stadel+Museum+Frankfurt"],
   ["Casa de Goethe","Goethe+House+Frankfurt"],
-  ["Barrio Sachsenhausen","Sachsenhausen+Frankfurt"]
+  ["Sachsenhausen District","Sachsenhausen+Frankfurt"]
  ]},
  saludos:{idioma:"German (Deutsch) · Hessian dialect",nota:"Frankfurt is Germany's most cosmopolitan city — English is widely spoken especially in finance. The local dialect is Hessisch but standard German is perfect.",frases:[
   {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Frankfurt is an early-rising financial city"},
@@ -590,8 +590,8 @@ const cities=[
   {cat:"🌙 Good evening",local:"Guten Abend",pron:"GOO-ten AH-bent",tip:"When arriving in Sachsenhausen for dinner"},
   {cat:"👋 Hi (Hessian local)",local:"Guude!",pron:"GOO-duh",tip:"Frankfurt's signature greeting - very local and appreciated"},
   {cat:"👋 Hi (informal)",local:"Hallo / Hey",pron:"Já-lo / Jey",tip:"In Sachsenhausen bars and younger areas"},
-  {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Múltiple uso: pedir, agradecer y dar"},
-  {cat:"😊 Thank you",local:"Danke",pron:"DAHN-kuh",tip:"Rápido y efectivo · en el dialecto local: Merci (francés adoptado)"},
+  {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Multi-use: asking, thanking and giving"},
+  {cat:"😊 Thank you",local:"Danke",pron:"DAHN-kuh",tip:"Quick and effective · in the local dialect: Merci (borrowed from French)"},
   {cat:"🤝 You're welcome",local:"Bitte sehr",pron:"BIT-uh zayr",tip:"With pleasure - polite and correct"},
   {cat:"❓ How much is it?",local:"Was kostet das?",pron:"Vahs KOS-tet dahs?",tip:"Useful at the Römer market and Zeil shops"},
   {cat:"🚽 Where's the restroom?",local:"Wo ist die Toilette?",pron:"Voh ist dee twah-LET-uh?",tip:"The airport restrooms are the best in Europe"},
@@ -600,23 +600,23 @@ const cities=[
 },
 {id:"lux",wlat:49.6116,wlon:6.1319,name:"Luxembourg",flag:"🇱🇺",country:"Grand Duchy of Luxembourg",days:"Day 13 (excursion) & 14",dates:"Thu Sep 18 – Fri Sep 19",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
  libre:["Day 14 - Fri Sep 19: Luxembourg is an optional Package 1 excursion from Metz (34 mi · 45 min by train)."],
- tourPersonal:"⭐ Day 14 (Fri Sep 19): Si no contratas el tour a Luxemburgo, you can go independently from Metz by train (€10-15 ida y vuelta). La Luxembourg City es visitable en un día completo camin agoando.",
+ tourPersonal:"⭐ Day 14 (Fri Sep 19): If you skip the Luxembourg tour, you can go independently from Metz by train (€10-15 round trip). Luxembourg City is fully walkable in one day.",
  atractivos_itinerario:[
-  ["Luxembourg City (excursión opcional Paquete 1)","UNESCO Heritage · included in the optional tour"],
+  ["Luxembourg City (optional Package 1 excursion)","UNESCO Heritage · included in the optional tour"],
   ["Schengen City (Package 2)","Where the Schengen Agreement (1985) was signed, abolishing border controls in Europe"],
  ],
  atractivos_recomendados:[
   ["Old Town and Pétrusse valleys","city over deep valleys · unique views"],
   ["Bock Casemates","17th-century defensive tunnels open to the public"],
   ["Grand Ducal Palace","official residence of the Grand Duke · in the historic center"],
-  ["Puente Adolphe","art nouveau over the valley · spectacular views"],
+  ["Adolphe Bridge","art nouveau over the valley · spectacular views"],
   ["Place d'Armes","lively central square with terraces"],
  ],
  gastronomia:[
   ["Judd mat Gaardebounen","smoked pork with broad beans · Luxembourg's national dish"],
   ["Gromperekichelcher","street potato fritters · the most popular"],
   ["Quetschentaart","plum tart · traditional Luxembourg dessert"],
-  ["Vino Mosela luxemburgués","dry whites produced along the Moselle River"],
+  ["Luxembourg Moselle wine","dry whites produced along the Moselle River"],
  ],
  restaurantes:[
   ["Place d'Armes (brasseries)","daily menus on the central square","€12-20"],
@@ -628,10 +628,10 @@ const cities=[
   ["Place Guillaume II","Place+Guillaume+II+Luxembourg"],
   ["Bock Casemates","Bock+Casemates+Luxembourg"],
   ["Grand Ducal Palace","Grand+Ducal+Palace+Luxembourg"],
-  ["Catedral Notre-Dame","Notre+Dame+Cathedral+Luxembourg"],
-  ["Puente Adolphe","Adolphe+Bridge+Luxembourg"],
-  ["Chemin ago de la Corniche","Chemin ago+de+la+Corniche+Luxembourg"],
-  ["Casco Antiguo","Luxembourg+Old+Quarter"],
+  ["Notre-Dame Cathedral","Notre+Dame+Cathedral+Luxembourg"],
+  ["Adolphe Bridge","Adolphe+Bridge+Luxembourg"],
+  ["Chemin de la Corniche","Chemin+de+la+Corniche+Luxembourg"],
+  ["Old Town","Luxembourg+Old+Quarter"],
   ["Schengen","Schengen+Luxembourg"]
  ]},
  saludos:{idioma:"Luxembourgish (Lëtzebuergesch) · French · German",nota:"Luxembourg has 3 official languages: Luxembourgish, French and German. Everyone speaks all three. French is most practical — but a Luxembourgish greeting is truly special!",frases:[
@@ -642,7 +642,7 @@ const cities=[
   {cat:"🙏 Please (French)",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Essential at shops and cafés"},
   {cat:"😊 Thank you",local:"Merci",pron:"Mair-SEE",tip:"They use French Merci - same in all 3 languages"},
   {cat:"🤝 You're welcome (French)",local:"De rien / Je vous en prie",pron:"De ryen / Ye vuz on prí",tip:"De rien en casual · Je vous en prie en formal"},
-  {cat:"❓ ¿Cuánto cuesta? (fr.)",local:"Combien ça coûte?",pron:"Kohm-BYAN sah KOOT?",tip:"At the Guillaume market or old town shops"},
+  {cat:"❓ How much is it? (French)",local:"Combien ça coûte?",pron:"Kohm-BYAN sah KOOT?",tip:"At the Guillaume market or old town shops"},
   {cat:"🚽 Restroom? (French)",local:"Où sont les toilettes?",pron:"Ú son le twá-let?",tip:"Ask confidently at any café"},
   {cat:"🍺 Cheers!",local:"Prost! / Santé!",pron:"Prohst / Sahn-TAY",tip:"German Prost and French Santé · both are correct"}
  ]}
@@ -655,7 +655,7 @@ const cities=[
   ["Luxembourg City (Package 1)","Capital of the Grand Duchy · UNESCO Casemates · one of Europe's financial and political centers"],
   ["Schengen City (Package 2)","Where the Schengen Agreement (1985) was signed, abolishing border controls in Europe"],
   ["Metz / Thionville as base city","accommodation during days 13-15"],
-  ["📅 DAY 14 - Fri Sep 19 🟢 FREE DAY","Excursiones opcionales o exploración libre de Metz"],
+  ["📅 DAY 14 - Fri Sep 19 🟢 FREE DAY","Optional excursions or free exploration of Metz"],
   ["Strasbourg (Package 1)","Gothic cathedral · seat of the European Parliament · excursion together with Colmar (Package 1)"],
   ["Colmar (Package 1)","Fairytale architecture · 'Little Venice' quarter · excursion together with Strasbourg (Package 1)"],
   ["📅 DAY 15 - Sat Sep 20","Breakfast · departure to Brussels"],
@@ -670,8 +670,8 @@ const cities=[
  gastronomia:[
   ["Quiche Lorraine","bacon and cream tart · originally from exactly this region"],
   ["Mirabelles de Lorena","ciruelas amarillas locales · septiembre es su temporada perfecta"],
-  ["Pâté Lorrain","hojaldre relleno de carne marinada · especialidad regional única"],
-  ["Vino de Mosela","whites and reds from the Lorraine region"],
+  ["Pâté Lorrain","puff pastry filled with marinated meat · unique regional specialty"],
+  ["Moselle wine","whites and reds from the Lorraine region"],
  ],
  restaurantes:[
   ["Marchés couverts de Metz","quiches, cured meats and local products","€5-10"],
@@ -685,8 +685,8 @@ const cities=[
   ["Place Saint-Louis","Place+Saint+Louis+Metz"],
   ["Centre Pompidou-Metz","Centre+Pompidou+Metz"],
   ["Puerta Imperial Alemana","Porte+des+Allemands+Metz"],
-  ["Jardín de la Esplanada","Esplanade+Metz"],
-  ["Río Mosela","Moselle+River+Metz"],
+  ["Esplanade Garden","Esplanade+Metz"],
+  ["Moselle River","Moselle+River+Metz"],
   ["Strasbourg","Strasbourg+France"],
   ["Colmar","Colmar+France"]
  ]},
@@ -694,7 +694,7 @@ const cities=[
   {cat:"🌅 Good morning",local:"Bonjour",pron:"Bohn-ZHOOR",tip:"The most important French greeting - always say this first"},
   {cat:"🌙 Good evening",local:"Bonsoir",pron:"Bohn-SWAHR",tip:"After 6 pm · en restaurantes y tiendas"},
   {cat:"👋 Hi (informal)",local:"Salut",pron:"Sah-LOO",tip:"Only with people you know or young people · never with strangers"},
-  {cat:"🙏 Please",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Obligatorio antes de pedir cualquier cosa · sin esto pueden ignorarte"},
+  {cat:"🙏 Please",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Mandatory before asking anything · without it you may be ignored"},
   {cat:"😊 Thank you",local:"Merci beaucoup",pron:"Mair-SEE boh-KOO",tip:"Beaucoup = a lot · just Merci is also perfect"},
   {cat:"🤝 You're welcome",local:"De rien / Avec plaisir",pron:"Duh ree-EN / Ah-vek pleh-ZEER",tip:"Avec plaisir is warmer · 'with pleasure'"},
   {cat:"❓ How much is it?",local:"Combien ça coûte?",pron:"Kohm-BYAN sah KOOT?",tip:"At the Place de la Cathédrale market or local shops"},
@@ -709,16 +709,16 @@ const cities=[
  atractivos_itinerario:[
   ["📅 DAY 15 - Sat Sep 20","Breakfast · arrival from Metz · Brussels city tour"],
   ["Grand Place (Main Square)","UNESCO Heritage · considered the most beautiful square in the world"],
-  ["Galerías Reales de Saint-Hubert","19th-century neoclassical shopping arcade"],
-  ["Manneken Pis","escultura icónica símbolo de Bruselas"],
+  ["Royal Saint-Hubert Galleries","19th-century neoclassical shopping arcade"],
+  ["Manneken Pis","iconic sculpture · symbol of Brussels"],
   ["Royal Palace de Bruselas","official residence of the Belgian king"],
-  ["Museos Reales de Bellas Artes","Bruegel, Rubens y Magritte bajo el mismo techo"],
+  ["Museos Reales de Bellas Artes","Bruegel, Rubens and Magritte under one roof"],
   ["📅 DAY 16 - Sun Sep 21 🟢 FREE DAY","Optional excursions or Brussels on your own"],
   ["Bruges and Ghent (Package 1)","Bruges: 'Venice of the North' · medieval canals · Flemish architecture. Ghent: medieval castle · vibrant city"],
   ["📅 DAY 17 - Mon Sep 22","Breakfast · departure to Amsterdam"],
  ],
  atractivos_recomendados:[
-  ["Atomium","estructura de hierro en forma de átomo · Expo 1958 · ícono de Bruselas"],
+  ["Atomium","atom-shaped iron structure · Expo 1958 · Brussels icon"],
   ["European Quarter","home of the European Commission and European Parliament"],
   ["Cathedral of St. Michael and St. Gudula","13th-century Gothic · impressive interior"],
   ["Marolles District","working-class area with the Place du Jeu de Balle antique market"],
@@ -728,19 +728,19 @@ const cities=[
   ["Moules-frites","steamed mussels with fries · Belgian national dish"],
   ["Carbonade flamande","beef stewed in Belgian beer · deep and savory"],
   ["Chocolate belga","Godiva, Neuhaus, Leonidas · the world's best"],
-  ["Cerveza belga","1,500+ variedades: Trappist, Gueuze, Lambic, Dubbel"],
+  ["Belgian beer","1,500+ variedades: Trappist, Gueuze, Lambic, Dubbel"],
   ["Frites belges","fries in a cone with mayonnaise · the crispiest in Europe"],
  ],
  restaurantes:[
   ["Friterie Antoine (Place Jourdan)","Brussels' most famous fries","€4-6"],
   ["Rue du Marché aux Fromages","street of varied Mediterranean menus","€8-13"],
-  ["Mercado de Midi (domin agogos)","Belgium's largest market · cheeses, breads","€3-8"],
+  ["Midi Market (Sundays)","Belgium's largest market · cheeses, breads","€3-8"],
   ["Moeder Lambic (St-Gilles)","400+ craft beers with tapas","€5-12"],
  ],
  video:{t:"Brussels Belgium - Full Travel Guide 2025",d:"Grand Place, chocolate, beer, Atomium - May 2025",canal:"Travel Channel",u:"https://www.youtube.com/watch?v=xL4s1imrVKU"},
  mapa:{centro:"Grand Place Brussels",url:"https://www.google.com/maps/search/?api=1&query=Grand+Place+Brussels",pois:[
   ["Grand Place (Main Square)","Grand+Place+Brussels"],
-  ["Galerías Saint-Hubert","Galeries+Saint+Hubert+Brussels"],
+  ["Saint-Hubert Galleries","Galeries+Saint+Hubert+Brussels"],
   ["Manneken Pis","Manneken+Pis+Brussels"],
   ["Royal Palace","Royal+Palace+Brussels"],
   ["Museos Reales de Bellas Artes","Royal+Museums+of+Fine+Arts+Brussels"],
@@ -759,10 +759,10 @@ const cities=[
   {cat:"😊 Thank you (French)",local:"Merci",pron:"Mair-SEE",tip:"Brussels also accepts Dutch Dank u (DAHNK oo)"},
   {cat:"😊 Thank you (Dutch)",local:"Dank u wel",pron:"DAHNK oo vel",tip:"Usar esto en Bruselas sorprende y agrada mucho"},
   {cat:"🤝 You're welcome",local:"De rien / Graag gedaan",pron:"De ryen / Jráj je-dán",tip:"French or Dutch depending on the language you spoke"},
-  {cat:"❓ ¿Cuánto cuesta? (fr.)",local:"Combien ça coûte?",pron:"Kohm-BYAN sah KOOT?",tip:"For the Grand Place market and Belgian chocolate"},
+  {cat:"❓ How much is it? (French)",local:"Combien ça coûte?",pron:"Kohm-BYAN sah KOOT?",tip:"For the Grand Place market and Belgian chocolate"},
   {cat:"🚽 Where's the restroom? (French)",local:"Où sont les toilettes?",pron:"Ú son le twá-let?",tip:"Many Belgian bars have restrooms for customers only"},
   {cat:"🍺 Cheers!",local:"Santé! / Proost!",pron:"San-té / Próost",tip:"Belgium has over 1,500 beers · it deserves a special toast"},
-  {cat:"🍫 This is delicious!",local:"C'est délicieux!",pron:"Say day-lee-SYUH",tip:"Dilo al probar el chocolate belga · es la verdad absoluta"}
+  {cat:"🍫 This is delicious!",local:"C'est délicieux!",pron:"Say day-lee-SYUH",tip:"Say it when tasting Belgian chocolate · it's the absolute truth"}
  ]}
 },
 ];
@@ -803,7 +803,7 @@ const tours=[
   atractivos:[
    ["Campo Auschwitz I","main camp · entrance with the 'Arbeit Macht Frei' sign · death block · crematorium"],
    ["Campo Auschwitz II-Birkenau","the largest extermination camp · gas chamber ruins · train tracks with ramp"],
-   ["Muro de la muerte","execution site between blocks 10 and 11"],
+   ["Death Wall","execution site between blocks 10 and 11"],
    ["Torres de vigilancia","preservadas tal como estaban en 1945"],
    ["Museo Estatal","UNESCO Heritage since 1979 · one of the world's most visited historic sites"],
   ],
@@ -830,7 +830,7 @@ const tours=[
   atractivos:[
    ["Charles Bridge","seen from the water · a unique perspective impossible from land"],
    ["Casa Danzante (Ginger & Fred)","iconic deconstructivist building by Frank Gehry"],
-   ["Torre Petrin","lookout tower on the hill · lit up at night"],
+   ["Petrin Tower","lookout tower on the hill · lit up at night"],
    ["Fuerte de Vysehrad","historic riverside fortress · legendary in Czech history"],
    ["Rudolfinum","neo-Renaissance concert hall · home of the Czech Philharmonic"],
    ["Prague Castle","the world's largest castle complex · seen in all its majesty"],
@@ -857,9 +857,9 @@ const tours=[
   precio:"$90 USD",base:"From Nuremberg · 62 mi · 1h",
   desc:"The Red Castle over the Tauber River. We enter beneath the Entrance Tower and are greeted by typical medieval German houses with rows of flowers on their facades. We visit the Town Hall and the Defensive Tower. A visit to Rothenburg ob der Tauber is a unique experience.",
   atractivos:[
-   ["Torre de Entrada (Rödertor)","main entrance to the walled medieval town"],
+   ["Entrance Tower (Rödertor)","main entrance to the walled medieval town"],
    ["Town Hall (Rathaus)","13th-century Renaissance with a panoramic tower · on the Marktplatz"],
-   ["Torre Defensiva","part of the perfectly preserved medieval wall system"],
+   ["Defensive Tower","part of the perfectly preserved medieval wall system"],
    ["Murallas medievales","3.5 km walkable in perfect condition · valley views"],
    ["Käthe Wohlfahrt","the world's most famous Christmas shop · open year-round"],
   ],
@@ -869,37 +869,37 @@ const tours=[
   ],
   gastronomia:["Schneeballen: fried dough balls dusted with sugar · the iconic local sweet","Schäufele: oven-roasted pork shoulder with crispy crust · Franconian recipe","Roast lamb with medieval sides at the square's restaurants"],
   restaurantes:[
-   ["Restaurantes en la Marktplatz","medieval central square · tourist menus with Franconian cuisine"],
+   ["Restaurants on the Marktplatz","medieval central square · tourist menus with Franconian cuisine"],
    ["Café on the wall","cafés inside the wall towers with valley views"],
   ],
   saludos:{idioma:"German (Deutsch) · Franconian dialect",nota:"Rothenburg is 100% German. The local dialect has Franconian influence but standard German works perfectly.",frases:[
    {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Standard German - always correct"},
    {cat:"👋 Hi (Franconian)",local:"Grüß Gott",pron:"Grooss Gott",tip:"Traditional Bavarian-Franconian greeting"},
    {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Universal throughout Germany"},
-   {cat:"😊 Thank you",local:"Danke schön",pron:"DAHN-kuh shurn",tip:"También: Vergelt's Gott en dialecto local"},
+   {cat:"😊 Thank you",local:"Danke schön",pron:"DAHN-kuh shurn",tip:"Also: Vergelt's Gott in the local dialect"},
    {cat:"🍺 Cheers!",local:"Prost!",pron:"Prohst",tip:"With Franconian beer · the full experience"},
   ]},
-  mapa:{centro:"Rothenburg ob der Tauber Germany",pois:[["Town Hall","Rothenburg Rathaus"],["Torre de Entrada","Rödertor Rothenburg"],["Murallas medievales","Medieval Walls Rothenburg"],["Käthe Wohlfahrt","Kathe Wohlfahrt Rothenburg"]]},
+  mapa:{centro:"Rothenburg ob der Tauber Germany",pois:[["Town Hall","Rothenburg Rathaus"],["Entrance Tower","Rödertor Rothenburg"],["Murallas medievales","Medieval Walls Rothenburg"],["Käthe Wohlfahrt","Kathe Wohlfahrt Rothenburg"]]},
   video:{t:"Rothenburg ob der Tauber Germany - Most Magical Medieval Town Walking Tour",u:"https://www.youtube.com/watch?v=ZkYGaQ0-jgU"}
  },
  {id:"lxp",wlat:49.6116,wlon:6.1319,name:"Luxembourg City",flag:"🇱🇺",
   precio:"$54 USD",base:"From Metz · 34 mi · 45 min",
-  desc:"Luxembourg, capital of the Grand Duchy of Luxembourg, one of Europe's smallest states, sits atop a rocky promontory. During our tour we visit los edificios del Grand Ducal Palace, la Legislatura Nacional, la Neumünster Abbey y el pintoresco valle del Río Alzette.",
+  desc:"Luxembourg, capital of the Grand Duchy of Luxembourg, one of Europe's smallest states, sits atop a rocky promontory. During our tour we visit the Grand Ducal Palace, the National Legislature, Neumünster Abbey and the picturesque Alzette River valley.",
   atractivos:[
    ["Grand Ducal Palace","official residence of the Grand Duke · changing of the guard · Spanish Renaissance architecture"],
-   ["Legislatura Nacional (Chambre des Députés)","parliament of the Grand Duchy of Luxembourg"],
+   ["National Legislature (Chambre des Députés)","parliament of the Grand Duchy of Luxembourg"],
    ["Neumünster Abbey","former Benedictine abbey turned cultural center"],
    ["Alzette River Valley","picturesque valley around the city · views from the Corniche"],
-   ["Bock Casemates","21 km de túneles subterráneos excavados en roca · Patrimonio UNESCO"],
+   ["Bock Casemates","21 km of underground tunnels carved into rock · UNESCO Heritage"],
   ],
   recomendados:[
-   ["Chemin ago de la Corniche","'the most beautiful balcony in Europe' · panoramic views over the Alzette"],
+   ["Chemin de la Corniche","'the most beautiful balcony in Europe' · panoramic views over the Alzette"],
    ["Old Town (Ville Haute)","UNESCO Heritage · perfectly preserved medieval lanes"],
   ],
   gastronomia:["Judd mat Gaardebounen: smoked pork collar with broad beans · Luxembourg national dish","Gromperekichelcher: spiced potato cakes · typical street food","Luxembourg Moselle wines at downtown wineries · excellent dry whites"],
   restaurantes:[
-   ["Restaurantes en la Place d'Armes","central square · many dining options"],
-   ["Mercado Guillaume","fresh local products · lively atmosphere"],
+   ["Restaurants on the Place d'Armes","central square · many dining options"],
+   ["Guillaume Market","fresh local products · lively atmosphere"],
   ],
   saludos:{idioma:"Luxembourgish · French · German",nota:"Luxembourg has 3 official languages. French is the most practical. A greeting in Luxembourgish is very special.",frases:[
    {cat:"🌅 Good morning (Lux.)",local:"Gudde Moien",pron:"GOO-duh MOY-en",tip:"The most special greeting you can give!"},
@@ -908,7 +908,7 @@ const tours=[
    {cat:"😊 Thank you",local:"Merci",pron:"Mair-SEE",tip:"Same in all 3 languages"},
    {cat:"🍺 Cheers!",local:"Prost! / Santé!",pron:"Prohst / Sahn-TAY",tip:"German Prost and French Santé - both are correct here"},
   ]},
-  mapa:{centro:"Luxembourg City Luxembourg",pois:[["Grand Ducal Palace","Grand Ducal Palace Luxembourg"],["Neumünster Abbey","Neumünster Abbey Luxembourg"],["Bock Casemates","Bock Casemates Luxembourg"],["Chemin ago de la Corniche","Corniche Luxembourg"]]},
+  mapa:{centro:"Luxembourg City Luxembourg",pois:[["Grand Ducal Palace","Grand Ducal Palace Luxembourg"],["Neumünster Abbey","Neumünster Abbey Luxembourg"],["Bock Casemates","Bock Casemates Luxembourg"],["Chemin de la Corniche","Corniche Luxembourg"]]},
   video:{t:"Luxembourg City - Europe's Hidden Gem Complete Travel Guide 2026",u:"https://www.youtube.com/watch?v=1jsQXl3i82M"}
  },
  {id:"str",wlat:48.5734,wlon:7.7521,name:"Strasbourg y Colmar",flag:"🇫🇷",
@@ -916,8 +916,8 @@ const tours=[
   desc:"In Strasbourg we see medieval architecture with its black-and-white designs, the old Romanesque church, the huge Gothic cathedral and the famous bridges over the Rhine. Entering the French city of Colmar we see St. Martin's Church, the Pfister House, the House of Heads and the many canals with flower-covered banks.",
   atractivos:[
    ["Notre-Dame Cathedral (Strasbourg)","14th-century Gothic · 142 m · one of the tallest in the world"],
-   ["Arquitectura medieval blanco-negra","Alsatian half-timbering · designs unique in Europe"],
-   ["Puentes sobre el Rin","panoramic view of the famous bridges between France and Germany"],
+   ["Black-and-white medieval architecture","Alsatian half-timbering · designs unique in Europe"],
+   ["Bridges over the Rhine","panoramic view of the famous bridges between France and Germany"],
    ["St. Martin's Church (Colmar)","13th-century Gothic church · heart of Colmar's old town"],
    ["Pfister House (Colmar)","16th-century building · jewel of the Alsatian Renaissance"],
    ["House of Heads (Colmar)","facade decorated with 106 grotesque 17th-century heads"],
@@ -932,14 +932,14 @@ const tours=[
    ["Winstubs de Strasbourg","traditional Alsatian restaurants · intimate and authentic atmosphere"],
    ["Restaurants along the Colmar canals","waterside terrace · choucroute and local wines"],
   ],
-  saludos:{idioma:"Francés (Français) · Alsacia",nota:"Alsace has a unique identity between France and Germany. French is the official language but many speak German and the Alsatian dialect.",frases:[
+  saludos:{idioma:"French (Français) · Alsace",nota:"Alsace has a unique identity between France and Germany. French is the official language but many speak German and the Alsatian dialect.",frases:[
    {cat:"🌅 Good morning",local:"Bonjour",pron:"Bohn-ZHOOR",tip:"The most important French greeting - always say this before asking anything"},
-   {cat:"🙏 Please",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Obligatorio antes de pedir cualquier cosa"},
+   {cat:"🙏 Please",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Mandatory before asking anything"},
    {cat:"😊 Thank you",local:"Merci beaucoup",pron:"Mair-SEE boh-KOO",tip:"Beaucoup = a lot - just Merci also works perfectly"},
    {cat:"🍺 Cheers!",local:"Santé!",pron:"Sahn-TAY",tip:"Make eye contact · French tradition"},
    {cat:"😋 Bon appétit!",local:"Bon appétit!",pron:"Bohn ah-pay-TEE",tip:"Dilo al sentarse a comer"},
   ]},
-  mapa:{centro:"Strasbourg France",pois:[["Notre-Dame Cathedral Strasbourg","Strasbourg Cathedral"],["Barrio Petite France","Petite France Strasbourg"],["St. Martin Colmar","Eglise Saint-Martin Colmar"],["Pequeña Venecia Colmar","Petite Venise Colmar"]]},
+  mapa:{centro:"Strasbourg France",pois:[["Notre-Dame Cathedral Strasbourg","Strasbourg Cathedral"],["Petite France District","Petite France Strasbourg"],["St. Martin Colmar","Eglise Saint-Martin Colmar"],["Little Venice Colmar","Petite Venise Colmar"]]},
   video:{t:"Strasbourg & Colmar France - Complete Alsace Travel Guide (English)",u:"https://www.youtube.com/watch?v=Aj0xt65fhJ8"}
  },
  {id:"brug",wlat:51.2093,wlon:3.2247,name:"Bruges y Ghent",flag:"🇧🇪",
@@ -977,7 +977,7 @@ const tours=[
   atractivos:[
    ["St. Kinga's Chapel","chapel carved entirely from salt rock · the most impressive in the underground world"],
    ["Estatuas de sal","sculptures of mythical and historical figures carved by the miners"],
-   ["Lago subterráneo","espejos de agua salada verde · paisaje único"],
+   ["Underground Lake","green salt-water mirrors · unique landscape"],
    ["Profundidad de 327 metros","9 levels · over 300 km of galleries"],
    ["Patrimonio UNESCO","on the list since 1978 · one of the first mines in the world to receive it"],
   ],
@@ -996,7 +996,7 @@ const tours=[
    {cat:"😊 Thank you",local:"Dziękuję",pron:"Jen-KOO-yeh",tip:"Quick version: Dzięki (JEN-kee)"},
    {cat:"🍺 Cheers!",local:"Na zdrowie!",pron:"Nah ZDROH-vyeh",tip:"The Polish toast · excellent Polish beer"},
   ]},
-  mapa:{centro:"Wieliczka Salt Mine Poland",pois:[["Entrada principal Wieliczka","Wieliczka Salt Mine entrance"],["Capilla Santa Kinga","Chapel of St Kinga Wieliczka"],["Pueblo de Wieliczka","Wieliczka town center"]]},
+  mapa:{centro:"Wieliczka Salt Mine Poland",pois:[["Entrada principal Wieliczka","Wieliczka Salt Mine entrance"],["Capilla Santa Kinga","Chapel of St Kinga Wieliczka"],["Wieliczka Town","Wieliczka town center"]]},
   video:{t:"Wieliczka Salt Mine Poland - Underground Cathedral Complete Tour (English)",u:"https://www.youtube.com/watch?v=h_qGDOyU3tM"}
  },
  {id:"kv",wlat:50.2316,wlon:12.8716,name:"Karlovy Vary",flag:"🇨🇿",
@@ -1004,18 +1004,18 @@ const tours=[
   desc:"Karlovy Vary is one of Europe's most famous spa towns, located at the confluence of the Eger and Teplá rivers. We take a walk to enjoy its picturesque architecture and natural surroundings.",
   atractivos:[
    ["Fuentes termales","12 springs · each with different temperature and mineral properties"],
-   ["Colonnade Mill (Mlýnská kolonáda)","the largest and most imposing · neo-Renaissance · 19th century"],
+   ["Mill Colonnade (Mlýnská kolonáda)","the largest and most imposing · neo-Renaissance · 19th century"],
    ["Market Colonnade","the oldest and liveliest · in the center of the spa town"],
    ["19th-century architecture","elegant period buildings that hosted kings, writers and musicians"],
-   ["Río Teplá","riverside walk among the grand spa hotels"],
+   ["Teplá River","riverside walk among the grand spa hotels"],
   ],
   recomendados:[
    ["Taste the thermal springs","bring a special spa cup · each spring tastes different"],
    ["Becherovka Liqueur","the famous herbal liqueur created in Karlovy Vary in 1807 · visit the factory"],
   ],
-  gastronomia:["Oplatky: spa wafers · Karlovy Vary's edible souvenir · at every stall","Becherovka: licor de hierbas amargo · creado aquí en 1807 · probar en la fuente original","Traditional Czech cuisine: svíčková, goulash and knedlíky at downtown restaurants"],
+  gastronomia:["Oplatky: spa wafers · Karlovy Vary's edible souvenir · at every stall","Becherovka: bitter herbal liqueur · created here in 1807 · try it at the original spring","Traditional Czech cuisine: svíčková, goulash and knedlíky at downtown restaurants"],
   restaurantes:[
-   ["Restaurantes en la Colonnade","facing the springs · elegant spa atmosphere"],
+   ["Restaurants on the Colonnade","facing the springs · elegant spa atmosphere"],
    ["Old town cafés","period architecture · Czech coffee and local pastries"],
   ],
   saludos:{idioma:"Czech (Čeština)",nota:"The most elegant spa city in Czechia. Czechs really appreciate any attempt to speak their language.",frases:[
@@ -1034,7 +1034,7 @@ const tours=[
   atractivos:[
    ["Munich Cathedral (Frauenkirche)","two 99 m twin towers · symbol of the city · 15th century"],
    ["Town Hall Nuevo (Neues Rathaus)","elaborate turrets and sculptures · the Glockenspiel plays at 11 am and noon"],
-   ["Feldherrnhalle","logia neorrenacentista dedicada al ejército de Baviera · exquisita decoración"],
+   ["Feldherrnhalle","neo-Renaissance loggia dedicated to the Bavarian army · exquisite decoration"],
    ["Marienplatz","Munich's central square · the city's heart since the 13th century"],
    ["Hofbräuhaus","the world's most famous brewery · founded in 1589 by the Duke of Bavaria"],
   ],
@@ -1061,9 +1061,9 @@ const tours=[
   precio:"$90 USD",base:"In Prague (evening)",
   desc:"We capture the uplifting spirit of Czech folklore during a 2-hour traditional folk show that includes dinner. It's a truly different and entertaining way to spend an evening in Prague.",
   atractivos:[
-   ["Espectáculo folclórico checo","2 hours of live traditional Bohemian dance and music"],
+   ["Czech Folk Show","2 hours of live traditional Bohemian dance and music"],
    ["Dinner included","full traditional Czech menu · 3 courses · local drinks"],
-   ["Música en vivo","traditional Czech instruments · accordion, violin and Bohemian percussion"],
+   ["Live Music","traditional Czech instruments · accordion, violin and Bohemian percussion"],
    ["Trajes regionales","performers wear authentic folk costumes from different Czech regions"],
   ],
   recomendados:[
@@ -1096,15 +1096,15 @@ const tours=[
    ["Combine with a Römerberg visit","do the boat after exploring the historic center on foot"],
    ["Sunset on the Main","the sunset cruise with the illuminated skyline is especially impressive"],
   ],
-  gastronomia:["Ebbelwoi (Apfelwein): Frankfurt apple wine · tart flavor · at Sachsenhausen taverns","Grüne Soße: salsa verde de 7 hierbas frescas · especialidad única de Frankfurt","Handkäse mit Musik: strong cheese with onion and vinaigrette · the quintessential Hessian snack"],
+  gastronomia:["Ebbelwoi (Apfelwein): Frankfurt apple wine · tart flavor · at Sachsenhausen taverns","Grüne Soße: green sauce of 7 fresh herbs · Frankfurt's unique specialty","Handkäse mit Musik: strong cheese with onion and vinaigrette · the quintessential Hessian snack"],
   restaurantes:[
    ["Tabernas de Sachsenhausen","cider house district · across the Main from downtown"],
-   ["Restaurantes en el Römerberg","central historic square · traditional German cuisine"],
+   ["Restaurants on the Römerberg","central historic square · traditional German cuisine"],
   ],
   saludos:{idioma:"German (Deutsch) · Hessian dialect",nota:"Frankfurt is Germany's most cosmopolitan city — English is widely spoken but any German greeting opens doors.",frases:[
    {cat:"👋 Hi (Hessian local)",local:"Guude!",pron:"GOO-duh",tip:"Frankfurt's signature greeting - very local and appreciated"},
    {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Multi-use: asking, thanking, and handing things over"},
-   {cat:"😊 Thank you",local:"Danke",pron:"DAHN-kuh",tip:"Rápido y efectivo"},
+   {cat:"😊 Thank you",local:"Danke",pron:"DAHN-kuh",tip:"Quick and effective"},
    {cat:"🍺 Cheers!",local:"Prost! / Ebbelwei!",pron:"Prost / É-bel-vai",tip:"Ebbelwei is Frankfurt's apple wine"},
   ]},
   mapa:{centro:"Main River Frankfurt Germany",pois:[["Embarque barco Meno","Main River Cruise Frankfurt"],["Römerberg","Römerberg Frankfurt"],["Sachsenhausen","Sachsenhausen Frankfurt"],["Museumsufer","Museum Embankment Frankfurt"]]},
@@ -1115,16 +1115,16 @@ const tours=[
   desc:"Schengen is one of the best-known places in the world today. Here the borders of Luxembourg, Germany and France meet, and it was here that the Schengen Agreement was signed, under which several European countries abolished border controls among themselves, establishing an area of free movement of people and goods.",
   atractivos:[
    ["Monumento al Acuerdo de Schengen","on the Moselle bank · where the three borders meet"],
-   ["Confluencia de tres países","Luxembourg, Germany and France · you can see all three countries from one spot"],
+   ["Confluence of three countries","Luxembourg, Germany and France · you can see all three countries from one spot"],
    ["European Museum de Schengen","documents the history of the agreement and borderless Europe"],
-   ["Río Mosela","picturesque border river · walk along the banks among vineyards"],
+   ["Moselle River","picturesque border river · walk along the banks among vineyards"],
    ["Moselle Vineyards","Luxembourg white wines on the hillsides by the river"],
   ],
   recomendados:[
    ["Stand in three countries","there's an exact point where you can have one foot in each country"],
    ["Moselle River Cruise","small river cruise along the border river · vineyard scenery"],
   ],
-  gastronomia:["Luxembourg Moselle white wines · Riesling and Pinot Gris · excellent","Judd mat Gaardebounen: Luxembourg's national dish at local restaurants","Cocina de la Mosela: mezcla de influencias francesas, alemanas y luxemburguesas"],
+  gastronomia:["Luxembourg Moselle white wines · Riesling and Pinot Gris · excellent","Judd mat Gaardebounen: Luxembourg's national dish at local restaurants","Moselle cuisine: a blend of French, German and Luxembourgish influences"],
   restaurantes:[
    ["Restaurantes en Schengen","border-region cuisine · local Moselle wines"],
    ["Moselle Wineries","Luxembourg wine tasting directly at the wineries"],
@@ -1135,7 +1135,7 @@ const tours=[
    {cat:"☀️ Good day (German)",local:"Guten Tag",pron:"GOO-ten TAHK",tip:"For the German side of the border"},
    {cat:"🍺 Cheers!",local:"Prost! / Santé!",pron:"Prohst / Sahn-TAY",tip:"With Moselle wine · all three countries toast this way"},
   ]},
-  mapa:{centro:"Schengen Luxembourg",pois:[["Schengen Monument","Schengen Monument Luxembourg"],["European Museum","European Museum Schengen"],["Confluencia tres fronteras","Schengen tripoint border"]]},
+  mapa:{centro:"Schengen Luxembourg",pois:[["Schengen Monument","Schengen Monument Luxembourg"],["European Museum","European Museum Schengen"],["Three-border confluence","Schengen tripoint border"]]},
   video:{t:"Schengen Village Luxembourg - Where Europe's Open Borders Were Born",u:"https://www.youtube.com/watch?v=1jsQXl3i82M"}
  },
  {id:"vol",wlat:52.4946,wlon:5.0703,name:"Volendam, Marken y La Haya",flag:"🇳🇱",
@@ -1144,10 +1144,10 @@ const tours=[
   atractivos:[
    ["Volendam","fishing village with colorful wooden houses · traditional Dutch costumes · photogenic"],
    ["Marken","island village in the IJsselmeer · unique traditional architecture · car-free"],
-   ["Binnenhof (La Haya)","historic Dutch parliament complex · 13th century · in continuous use"],
-   ["Peace Palace (La Haya)","seat of the UN International Court of Justice"],
+   ["Binnenhof (The Hague)","historic Dutch parliament complex · 13th century · in continuous use"],
+   ["Peace Palace (The Hague)","seat of the UN International Court of Justice"],
    ["The Hague Cathedral","imposing neo-Gothic cathedral in the old town"],
-   ["Rascacielos de La Haya","striking contrast between the old town and modern skyscrapers"],
+   ["The Hague Skyscrapers","striking contrast between the old town and modern skyscrapers"],
   ],
   recomendados:[
    ["Photo in traditional costume in Volendam","local photographers have authentic costumes · unique souvenir"],
@@ -1155,8 +1155,8 @@ const tours=[
   ],
   gastronomia:["Fresh haring in Volendam straight from the harbor · the freshest in the Netherlands","Artisan stroopwafels at local markets · freshly made are infinitely better","Poffertjes: mini pancakes with butter and sugar · at Volendam stalls"],
   restaurantes:[
-   ["Restaurantes en el puerto de Volendam","fresh IJsselmeer fish · authentic seafaring atmosphere"],
-   ["Restaurantes en el centro de La Haya","Dutch and international cuisine · elegant and cosmopolitan"],
+   ["Restaurants at Volendam Harbor","fresh IJsselmeer fish · authentic seafaring atmosphere"],
+   ["Restaurants in The Hague center","Dutch and international cuisine · elegant and cosmopolitan"],
   ],
   saludos:{idioma:"Dutch (Nederlands)",nota:"Dutch is the official language. Almost everyone speaks English — but a local greeting makes a great impression!",frases:[
    {cat:"🌅 Good morning",local:"Goedemorgen",pron:"HOO-duh-MOR-khen",tip:"Use until about noon"},
@@ -1165,7 +1165,7 @@ const tours=[
    {cat:"😊 Thank you",local:"Dank u wel",pron:"DAHNK oo vel",tip:"Informal: Dank je (DAHNK yuh)"},
    {cat:"🍺 Cheers!",local:"Proost!",pron:"Prohst",tip:"The Dutch toast - used at every bar"},
   ]},
-  mapa:{centro:"Volendam Netherlands",pois:[["Volendam Harbor","Volendam harbor Netherlands"],["Marken","Marken island Netherlands"],["Binnenhof La Haya","Binnenhof The Hague"],["Peace Palace","Peace Palace The Hague"]]},
+  mapa:{centro:"Volendam Netherlands",pois:[["Volendam Harbor","Volendam harbor Netherlands"],["Marken","Marken island Netherlands"],["Binnenhof The Hague","Binnenhof The Hague"],["Peace Palace","Peace Palace The Hague"]]},
   video:{t:"The Hague Netherlands - Volendam & Marken Day Trip from Amsterdam 2025",u:"https://www.youtube.com/watch?v=axSKpiV-RNI"}
  },
 ];
@@ -1197,7 +1197,7 @@ const distTours=[
  {de:"Brussels",a:"Ghent",mi:34,t:"30min"},
  {de:"Brussels",a:"Bruges",mi:59,t:"1h 00min"},
  {de:"Amsterdam",a:"Volendam/Marken",mi:14,t:"25min"},
- {de:"Amsterdam",a:"La Haya (Den Haag)",mi:37,t:"50min"},
+ {de:"Amsterdam",a:"The Hague (Den Haag)",mi:37,t:"50min"},
 ];
 
 let curView='home',curCity=0,curSub='itinerario',curTour=0;
@@ -1248,7 +1248,7 @@ function renderCityBody(){
   h+='</div>';
   h+=renderNotes(c.id,'recomendados');
  } else if(curSub==='gastronomia'){
-  h+=`<div class="card"><div class="card-header"><div class="card-title">🍽️ Gastronomía típica</div></div>`;
+  h+=`<div class="card"><div class="card-header"><div class="card-title">🍽️ Local Cuisine</div></div>`;
   h+=c.gastronomia.map(g=>`<div class="list-item"><span class="lb">◆</span><div class="list-text">${g[0]}<div class="list-sub">${g[1]}</div></div></div>`).join('');
   h+='</div>';
   h+=renderNotes(c.id,'gastronomia');
@@ -1332,7 +1332,7 @@ function saveNotes(cityId,section,arr){
 function renderNotes(cityId,section){
  const notes=getNotes(cityId,section);
  const isTour=cityId.startsWith('tour_');
- const sectionTitle={itinerario:'itinerario',recomendados:'recomendados',gastronomia:'gastronomía',restaurantes:'dónde comer',tour:'excursión'}[section]||section;
+ const sectionTitle={itinerario:'itinerary',recomendados:'recommended',gastronomia:'cuisine',restaurantes:'where to eat',tour:'excursion',saludos:'greetings',mapa:'map',fotos:'photos',clima:'weather',info:'info',video:'video'}[section]||section;
  let h='<div class="card notes-card">';
  h+=`<div class="card-header"><div class="card-title">📝 My Notes · ${sectionTitle}</div><div class="card-sub">On this phone only · ${notes.length} ${notes.length===1?'note':'notes'} · tap to edit</div></div>`;
  if(notes.length){
@@ -1493,11 +1493,11 @@ function renderFotos(cityId,cityName){
   if(!grid)return;
   if(counter){
    const isOver=photos.length>10;
-   counter.innerHTML=`${photos.length}/10 ${photos.length===1?'photo':'photos'}${isOver?' <span style="color:#ffa552">⚠ excede recomendado</span>':''}`;
+   counter.innerHTML=`${photos.length}/10 ${photos.length===1?'photo':'photos'}${isOver?' <span style="color:#ffa552">⚠ over recommended</span>':''}`;
    counter.style.color=isOver?'#ffa552':'';
   }
   if(photos.length===0){
-   grid.innerHTML='<div style="padding:18px 14px;font-size:13px;color:var(--dim);text-align:center;grid-column:1/-1">No has subido fotos todavía. Toca el botón verde para agregar.</div>';
+   grid.innerHTML='<div style="padding:18px 14px;font-size:13px;color:var(--dim);text-align:center;grid-column:1/-1">No photos yet. Tap the green button to add some.</div>';
   } else {
    grid.innerHTML=photos.sort((a,b)=>b.ts-a.ts).map(p=>`<div class="photo-tile" onclick="viewPhoto(${p.id})"><img src="${p.data}" loading="lazy" alt=""><button class="photo-del" onclick="event.stopPropagation();delPhotoUI(${p.id})">🗑</button></div>`).join('');
   }
@@ -1885,7 +1885,7 @@ const currencyMeta={
  EUR:{flag:"💶",name:"Euro",sym:"€"},
  PLN:{flag:"🇵🇱",name:"Złoty polaco",sym:"zł"},
  CZK:{flag:"🇨🇿",name:"Corona checa",sym:"Kč"},
- USD:{flag:"💵",name:"Dólar (tarifa tour)",sym:"$"}
+ USD:{flag:"💵",name:"US Dollar (tour pricing)",sym:"$"}
 };
 function fmtNum(n,cur){
  if(!isFinite(n))return'—';
@@ -1903,7 +1903,7 @@ function calcUpdate(){
  const v=parseFloat(inp.value);
  const from=sel.value;
  if(!v||v<=0){
-  out.innerHTML=`<div style="text-align:center;color:var(--dim);font-size:13px;padding:14px">Ingresa una cantidad para convertir</div>`;
+  out.innerHTML=`<div style="text-align:center;color:var(--dim);font-size:13px;padding:14px">Enter an amount to convert</div>`;
   return;
  }
  const inUSD=v*(window.ratesToUSD||{USD:1,EUR:EUR,PLN:PLN,CZK:CZK,MXN:MXN_USD})[from];
@@ -1933,10 +1933,10 @@ const itin=[
  {d:"2",wd:"Lun",dt:"7 Sep",c:"🇳🇱 Amsterdam",n:"Arrival · reception · panoramic city tour",tipo:"normal",
   full:`Arrival in Amsterdam, capital of the Kingdom of the Netherlands. Its historic center is a UNESCO World Heritage Site. After the panoramic city tour, reception and hotel transfer. Accommodation.`},
  {d:"3",wd:"Mar",dt:"8 Sep",c:"🇳🇱→🇩🇪 Amsterdam · Hanover · Berlin",n:"Breakfast · stop in Hanover · arrival Berlin",tipo:"normal",
-  full:`Breakfast. We head to the city of Hanover in Germany, located on the banks of the Leine River "La Orilla Alta". Hanover was founded in medieval times by boatmen, fishermen and merchants. During our tour we visit the beautiful Opera House, the ruins of the Aegidienkirche, the Market Church, and the New and Old Town Halls. Then we continue to Berlin, capital of Germany. Accommodation.`},
+  full:`Breakfast. We head to the city of Hanover in Germany, located on the banks of the Leine River "The High Bank". Hanover was founded in medieval times by boatmen, fishermen and merchants. During our tour we visit the beautiful Opera House, the ruins of the Aegidienkirche, the Market Church, and the New and Old Town Halls. Then we continue to Berlin, capital of Germany. Accommodation.`},
  {d:"4",wd:"Mié",dt:"9 Sep",c:"🇩🇪 Berlin",n:"Panoramic tour · opt. Potsdam (Pkg.1)",tipo:"normal",
-  full:`Breakfast. We take a panoramic tour of Berlin. Located on the banks of two rivers, the Spree and Havel which meet within the city, Berlin offers unforgettable views. Durante nuestro recorrido we visit Gendarmenmarkt Square, the Brandenburg Gate, Potsdamer Platz, Frauenkirche, el Zwinger Palace, the Brühl Terrace, el King's Way, the Martin Luther Statue y enjoy the majestic beauty of this ancient city. Accommodation.`,
-  opcionales:["Ciudad de Potsdam"]},
+  full:`Breakfast. We take a panoramic tour of Berlin. Located on the banks of two rivers, the Spree and Havel which meet within the city, Berlin offers unforgettable views. During our tour we visit Gendarmenmarkt Square, the Brandenburg Gate, Potsdamer Platz, Frauenkirche, the Zwinger Palace, the Brühl Terrace, the King's Way, the Martin Luther Statue and enjoy the majestic beauty of this ancient city. Accommodation.`,
+  opcionales:["Potsdam City"]},
  {d:"5",wd:"Jue",dt:"10 Sep",c:"🇩🇪→🇵🇱 Berlin · Warsaw",n:"Breakfast · journey · UNESCO Old Town tour",tipo:"normal",
   full:`Breakfast. We head to Warsaw, capital of Poland. Its Old Town — a UNESCO World Heritage Site — was completely rebuilt after WWII. During our tour we visit the Royal Castle, the famous Sigismund Column, and the Church of the Visitationists. Accommodation.`},
  {d:"6",wd:"Vie",dt:"11 Sep",c:"🇵🇱 Warsaw → Kraków",n:"Breakfast · journey · Kraków panoramic tour",tipo:"normal",
@@ -1946,9 +1946,9 @@ const itin=[
   opcionales:["Campo de concentración de Auschwitz–Birkenau","Wieliczka Salt Mine"]},
  {d:"8",wd:"Dom",dt:"13 Sep",c:"🇵🇱→🇨🇿 Kraków · Prague",n:"Breakfast · journey · Prague panoramic tour",tipo:"normal",
   full:`Breakfast. We head to Prague, capital of the Czech Republic and historic capital of Bohemia. Built in the 9th century on the banks of the Vltava River, by the 17th-19th century it became so splendid that all of Europe called it Golden Prague. On our panoramic city tour we pass through Wenceslas Square, one of Prague's largest, then reach the Old Town Square, located between Wenceslas Square and Charles Bridge (Karluv Most). On the Old Town Square we see the Astronomical Clock Tower, the Týn Church, the Old Town Hall, St. Nicholas Church and the Jan Hus Monument. After lunch we continue to the other bank of Prague. We pass Charles Bridge, built in the 14th century. Accommodation.`},
- {d:"9",wd:"Lun",dt:"14 Sep",c:"🇨🇿 Prague ★ FREE DAY",n:"Opt. Barco Moldava (P1) · Karlovy Vary/Noche Checa (P2) · o personal",tipo:"libre",
+ {d:"9",wd:"Lun",dt:"14 Sep",c:"🇨🇿 Prague ★ FREE DAY",n:"Opt. Vltava Cruise (P1) · Karlovy Vary/Czech Night (P2) · or personal",tipo:"libre",
   full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,
-  opcionales:["Paseo en barco por el Río Moldava","Karlovy Vary Excursion","Czech evening with traditional dinner"]},
+  opcionales:["Vltava River Cruise","Karlovy Vary Excursion","Czech evening with traditional dinner"]},
  {d:"10",wd:"Mar",dt:"15 Sep",c:"🇨🇿→🇩🇪 Prague · Nuremberg",n:"Breakfast · journey · Nuremberg city tour",tipo:"normal",
   full:`Breakfast. We head to the German city of Nuremberg. The magnificent Imperial Castle was built atop a hill about a thousand years ago. Over the following centuries this picturesque complex became the living core of a rapidly growing city. During our tour of Nuremberg we visit the impressive Church of Our Lady, the Opera House, the Old Town Hall and of course the fascinating views of the Pegnitz River. Accommodation.`},
  {d:"11",wd:"Mié",dt:"16 Sep",c:"🇩🇪 Nuremberg ★ FREE DAY",n:"Opt. Rothenburg (P1) · Munich (P2) · or personal tour",tipo:"libre",
@@ -1956,13 +1956,13 @@ const itin=[
   opcionales:["Rothenburg ob der Tauber","Munich City"]},
  {d:"12",wd:"Jue",dt:"17 Sep",c:"🇩🇪 Nuremberg → Frankfurt",n:"Breakfast · journey · Frankfurt city visit",tipo:"normal",
   full:`Breakfast. We head to Frankfurt, located in central Germany on the banks of the Main River, an important global financial center. The city's origins date back to the early medieval period, always centered on the Römer hill. We visit the impressive Römer merchant buildings built in the 13th and 14th centuries, St. Nicholas Church, the Imperial Cathedral of St. Bartholomew y we enjoy the majestic silhouettes of the European Central Bank, the Bank of Germany y the Frankfurt Stock Exchange among the most important financial institutions in the world. Accommodation.`,
-  opcionales:["Paseo nocturno en barco por el Río Meno"]},
+  opcionales:["Paseo nocturno en barco por el Main River"]},
  {d:"13",wd:"Vie",dt:"18 Sep",c:"🇩🇪→🇱🇺🇫🇷 Frankfurt · Luxembourg · Metz",n:"Breakfast · Luxembourg stop (opt.) · Metz base city",tipo:"normal",
   full:`Breakfast. We head to the French city of Metz or Thionville. Free time for optional excursions to Luxembourg City in the Grand Duchy of Luxembourg and to the city of Schengen. Accommodation.`,
   opcionales:["Luxembourg City","Schengen City"]},
- {d:"14",wd:"Sáb",dt:"19 Sep",c:"🇫🇷 Metz / Thionville ★ FREE DAY",n:"Opt. Luxemburgo/Estr./Colmar (P1) · Schengen (P2) · o Metz libre",tipo:"libre",
+ {d:"14",wd:"Sáb",dt:"19 Sep",c:"🇫🇷 Metz / Thionville ★ FREE DAY",n:"Opt. Luxembourg/Strasbourg/Colmar (P1) · Schengen (P2) · or Metz free",tipo:"libre",
   full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,
-  opcionales:["Ciudad de Strasbourg","Colmar City"]},
+  opcionales:["Strasbourg City","Colmar City"]},
  {d:"15",wd:"Dom",dt:"20 Sep",c:"🇫🇷→🇧🇪 Metz · Brussels",n:"Breakfast · journey · Brussels tour",tipo:"normal",
   full:`Breakfast. We head to Brussels, capital of the Kingdom of Belgium, seat of the European Commission, famous for its beer and chocolate. We visit the impressive Grand Place, the Saint-Hubert Royal Galleries, the Manneken Pis sculpture, el Royal Palace de Bruselas, the Royal Museums of Fine Arts. Accommodation.`},
  {d:"16",wd:"Lun",dt:"21 Sep",c:"🇧🇪 Brussels ★ FREE DAY",n:"Opt. Bruges and Ghent (Pkg.1) · or Brussels on your own",tipo:"libre",
