@@ -144,10 +144,10 @@ const cities=[
   ["📅 DAY 2 - Mon Sep 7","Arrival in Amsterdam · reception and hotel transfer"],
   ["Amsterdam Historic Center","UNESCO World Heritage · panoramic city tour included"],
   ["📅 DAY 3 - Tue Sep 8","Breakfast · heading to Hanover and Berlin"],
-  ["📅 DÍA 17 — Vie 22 Sep ⭐ TOUR PERSONAL","Free time for personal activities or an optional excursion"],
-  ["Volendam y Marken (Paquete 2)","Pintorescos pueblos pesqueros · casas de madera · trajes tradicionales (Paquete 2)"],
-  ["La Haya — Den Haag (Paquete 2)","Seat of the Dutch government · Parliament · UN International Court of Justice"],
-  ["Pueblo de Giethoorn (Paquete 2)","The 'Venice of the Netherlands' · no streets, only canals · only if the flight departs after 8:00 pm"],
+  ["📅 DAY 17 - Fri Sep 22 ⭐ PERSONAL TOUR","Free time for personal activities or an optional excursion"],
+  ["Volendam & Marken (Package 2)","Picturesque fishing villages · wooden houses · traditional costumes (Package 2)"],
+  ["The Hague — Den Haag (Package 2)","Seat of the Dutch government · Parliament · UN International Court of Justice"],
+  ["Giethoorn Village (Package 2)","The 'Venice of the Netherlands' · no streets, only canals · only if the flight departs after 8:00 pm"],
   ["📅 DAY 18 - Sat Sep 23","Breakfast · airport transfer · return flight to Mexico City"],
  ],
  atractivos_recomendados:[
@@ -156,7 +156,7 @@ const cities=[
   ["Museo Van Gogh","200+ works by the painter organized by life stages"],
   ["Red Light District (De Wallen)","historic area with the 13th-century Oude Kerk"],
   ["Jordaan Neighborhood","picturesque canals, markets and the Westerkerk Church"],
-  ["Mercado flotante de flores (Bloemenmarkt)","único en el mundo sobre casas flotantes"],
+  ["Mercado flotante de flores (Bloemenmarkt)","unique in the world · on floating houses"],
   ["Heineken Experience","interactive former brewery with beer tasting included"],
   ["Vondelpark","the most visited park in the Netherlands · 10 million visits/year"],
  ],
@@ -172,8 +172,8 @@ const cities=[
  ],
  restaurantes:[
   ["De Blauwe Hollander","authentic stamppot and bitterballen · Jordaan neighborhood","€10-15"],
-  ["FEBO (máquinas)","croquettes, sausages and street snacks","€2-3"],
-  ["HEMA Cafetería","self-service holandés · stamppot €3.50, rookworst €3.59","€3-6"],
+  ["FEBO (vending)","croquettes, sausages and street snacks","€2-3"],
+  ["HEMA Cafeteria","Dutch self-service · stamppot €3.50, rookworst €3.59","€3-6"],
   ["Albert Cuyp Market","market: stroopwafels, kibbeling, haring · Mon-Sat","€3-8"],
   ["Pancakes Amsterdam","Dutch pancakes in every variety","€10-13"],
  ],
@@ -257,7 +257,7 @@ const cities=[
   ["Frauenkirche","church mentioned in the tour itinerary"],
   ["Palacio Zwinger","18th-century baroque · dazzling architecture"],
   ["Terraza Brühl","royal promenade with river views"],
-  ["King's Way","paseo histórico mencionado en el itinerario"],
+  ["King's Way","historic walk mentioned in the itinerary"],
   ["Estatua de Martín Lutero","en la Iglesia Marienkirche"],
   ["Ciudad de Potsdam (Paquete 1)","Capital of Brandenburg · Sanssouci Palace UNESCO · summer residence of Frederick the Great"],
   ["📅 DAY 5 - Thu Sep 10","Breakfast · departure to Warsaw"],
@@ -265,7 +265,7 @@ const cities=[
  atractivos_recomendados:[
   ["Muro de Berlín (East Side Gallery)","the largest open-air mural in the world · 1.3 km"],
   ["Museum Island","UNESCO Heritage with 5 world-class museums"],
-  ["Holocaust Memorial","2,711 estelas de hormigón · obra de Peter Eisenman"],
+  ["Holocaust Memorial","2,711 concrete steles · designed by Peter Eisenman"],
   ["Reichstag","public glass dome · 360° views · free"],
   ["Checkpoint Charlie","former border crossing · Cold War symbol"],
  ],
@@ -309,13 +309,13 @@ const cities=[
 },
 {id:"var",wlat:52.2297,wlon:21.0122,name:"Warsaw",flag:"🇵🇱",country:"Poland",days:"Days 5-6",dates:"Thu Sep 10 – Fri Sep 11",moneda:"Polish Złoty (zł / PLN)",cambio:`$1 USD = ${(1/PLN).toFixed(2)} zł`,libre:[],tourPersonal:"",
  atractivos_itinerario:[
-  ["Ciudad Vieja (Stare Miasto)","Patrimonio UNESCO · reconstruida piedra a piedra tras la WWII"],
-  ["Castillo Real (Zamek Królewski)","official residence of the Polish kings"],
-  ["Columna de Segismundo","monumento barroco icónico frente al castillo"],
-  ["Church of the Visitationists (Kościół Wizytek)","barroca · lugar donde Chopin tocó el órgano de niño"],
+  ["Old Town (Stare Miasto)","UNESCO Heritage · rebuilt stone by stone after WWII"],
+  ["Royal Castle (Zamek Królewski)","official residence of the Polish kings"],
+  ["Sigismund Column","iconic baroque monument facing the castle"],
+  ["Church of the Visitationists (Kościół Wizytek)","baroque · where Chopin played the organ as a child"],
  ],
  atractivos_recomendados:[
-  ["Museo de la Sublevación de Varsovia (1944)","tribute to the Polish resistance · one of Europe's best museums"],
+  ["Warsaw Uprising Museum (1944)","tribute to the Polish resistance · one of Europe's best museums"],
   ["Market Square (Rynek Starego Miasta)","surrounded by colorful 16th-18th century buildings"],
   ["Łazienki Park","palace on the water and Chopin statue · free entry"],
   ["Praga District","Warsaw's alternative bohemian side · galleries and murals"],
@@ -334,12 +334,12 @@ const cities=[
  ],
  video:{t:"Warsaw Travel Guide: 15 Experiences You Can't Forget - 72hr Itinerary",d:"72-hour Warsaw itinerary: Old Town, Royal Castle and hidden gems - Dec 2025",canal:"Travel Channel",u:"https://www.youtube.com/watch?v=axSKpiV-RNI"},
  mapa:{centro:"Plac Zamkowy Warsaw",url:"https://www.google.com/maps/search/?api=1&query=Castle+Square+Warsaw",pois:[
-  ["Castillo Real (Zamek Królewski)","Royal+Castle+Warsaw"],
-  ["Columna de Segismundo","Sigismund+Column+Warsaw"],
+  ["Royal Castle (Zamek Królewski)","Royal+Castle+Warsaw"],
+  ["Sigismund Column","Sigismund+Column+Warsaw"],
   ["Old Town Market Square","Old+Town+Market+Place+Warsaw"],
   ["Church of the Visitationists","Church+of+the+Visitationists+Warsaw"],
   ["Parque Lazienki","Lazienki+Park+Warsaw"],
-  ["Palacio de Wilanów","Wilanow+Palace+Warsaw"],
+  ["Wilanów Palace","Wilanow+Palace+Warsaw"],
   ["Museo POLIN","POLIN+Museum+Warsaw"],
   ["Palacio de Cultura","Palace+of+Culture+Warsaw"]
  ]},
@@ -362,7 +362,7 @@ const cities=[
  atractivos_itinerario:[
   ["📅 DAY 6 - Thu Sep 11","Breakfast · arrival from Warsaw · panoramic tour"],
   ["Castillo de Wawel","11th-century royal fortress · Poland's ultimate symbol"],
-  ["Catedral de Wawel (Basílica de San Estanislao y San Wenceslao)","panteón real · capillas de distintas épocas y estilos arquitectónicos"],
+  ["Wawel Cathedral (Basilica of St. Stanislaus and St. Wenceslaus)","royal pantheon · chapels from different eras and architectural styles"],
   ["Corte Renacentista (Sukiennice)","14th-century cloth hall · now a museum and souvenir shops"],
   ["Main Market Square (Rynek Główny)","one of Europe's largest medieval squares"],
   ["Basílica de Santa María (Kościół Mariacki)","Gothic with a 15th-century Veit Stoss carved altar"],
@@ -382,7 +382,7 @@ const cities=[
   ["Pierogi de Cracovia","local version with various fillings · the best in Poland"],
   ["Oscypek","smoked sheep cheese typical of the Małopolska region"],
   ["Żurek w chlebie","soup served inside a hollow rye bread loaf"],
-  ["Kremówka papieska","pastel de crema que adoraba Juan Pablo II de niño"],
+  ["Kremówka papieska","cream cake that John Paul II loved as a child"],
  ],
  restaurantes:[
   ["Bares Mleczny (varios)","full dishes 15-30 zł · authentic and affordable","€3-6"],
@@ -398,7 +398,7 @@ const cities=[
   ["Main Market Square (Rynek Główny)","Rynek+Glowny+Krakow"],
   ["Cloth Hall (Sukiennice)","Sukiennice+Krakow"],
   ["Iglesia de San Adalberto","St+Adalbert+Church+Krakow"],
-  ["Barrio Judío Kazimierz","Kazimierz+Krakow"],
+  ["Kazimierz Jewish Quarter","Kazimierz+Krakow"],
   ["Fábrica de Schindler","Schindler+Factory+Krakow"],
   ["Auschwitz-Birkenau","Auschwitz+Birkenau+Memorial"],
   ["Minas de sal Wieliczka","Wieliczka+Salt+Mine"]
@@ -417,16 +417,16 @@ const cities=[
  ]}
 },
 {id:"pra",wlat:50.0755,wlon:14.4378,name:"Prague",flag:"🇨🇿",country:"Czech Republic",days:"Days 8-10",dates:"Sun Sep 13 – Mon Sep 15",moneda:"Czech Koruna (Kč / CZK)",cambio:`$1 USD = ${(1/CZK).toFixed(1)} Kč`,
- libre:["🟢 Día 9 — Dom 14 Sep (FREE DAY): Barco Río Moldava (Paquete 1) · Karlovy Vary o Noche Checa con cena (Paquete 2) · o tour personal."],
+ libre:["🟢 Day 9 - Sun Sep 14 (FREE DAY): Vltava River Cruise (Package 1) · Karlovy Vary or Czech Evening with dinner (Package 2) · or personal tour."],
  tourPersonal:"⭐ Day 9 (Sun Sep 14): No optional tours? Visit Prague Castle on your own (not included in the Day 8 panoramic tour), cross Charles Bridge at sunrise when it's empty, and explore Malá Strana at your leisure.",
  atractivos_itinerario:[
   ["📅 DAY 8 - Sat Sep 13","Breakfast · arrival from Kraków · panoramic tour morning and afternoon"],
-  ["Plaza Václav Havel (Wenceslas Square)","one of Prague's largest squares · central historic boulevard"],
-  ["Plaza de la Ciudad Vieja","entre la Plaza Václav Havel y el Puente Carlos (Karlův Most)"],
+  ["Václav Havel Square (Wenceslas Square)","one of Prague's largest squares · central historic boulevard"],
+  ["Plaza de la Ciudad Vieja","between Václav Havel Square and Charles Bridge (Karlův Most)"],
   ["Astronomical Clock Tower","campanas cada hora · construido en 1410"],
   ["Iglesia de Tyn","14th-century Gothic · iconic on the Old Town Square"],
   ["Ayuntamiento Viejo","home of the famous astronomical clock"],
-  ["Iglesia de San Nicolás","mentioned in the itinerary · 18th-century baroque"],
+  ["St. Nicholas Church","mentioned in the itinerary · 18th-century baroque"],
   ["Monumento a Jan Hus","on the Old Town Square · 15th-century Czech reformer"],
   ["Puente de Carlos (Karlův Most)","built in the 14th century · 30 baroque statues"],
   ["📅 DAY 9 - Sun Sep 14 🟢 FREE DAY","Excursiones opcionales o tour personal en Praga"],
@@ -457,12 +457,12 @@ const cities=[
  ],
  video:{t:"Prague Travel Guide 2025 - Must-See Spots Walking Tour",d:"Full walking tour through Prague's magical streets - Aug 2025",canal:"Travel Guide",u:"https://www.youtube.com/watch?v=BOyinB6qB9E"},
  mapa:{centro:"Old Town Square Prague",url:"https://www.google.com/maps/search/?api=1&query=Old+Town+Square+Prague",pois:[
-  ["Plaza Václav Havel","Wenceslas+Square+Prague"],
+  ["Václav Havel Square","Wenceslas+Square+Prague"],
   ["Plaza de la Ciudad Vieja","Old+Town+Square+Prague"],
   ["Reloj Astronómico","Prague+Astronomical+Clock"],
   ["Iglesia de Týn","Tyn+Church+Prague"],
   ["Ayuntamiento Viejo","Old+Town+Hall+Prague"],
-  ["Iglesia de San Nicolás","St+Nicholas+Church+Prague"],
+  ["St. Nicholas Church","St+Nicholas+Church+Prague"],
   ["Monumento a Jan Hus","Jan+Hus+Memorial+Prague"],
   ["Puente de Carlos","Charles+Bridge+Prague"],
   ["Prague Castle","Prague+Castle"],
@@ -488,21 +488,21 @@ const cities=[
  tourPersonal:"⭐ Day 11 (Tue Sep 16): No optional tours? Nuremberg offers the Nuremberg Trials Courthouse (Courtroom 600 where Nazi crimes were tried), the walkable medieval walls and the Imperial Castle, all within walking distance of the hotel.",
  atractivos_itinerario:[
   ["📅 DAY 10 - Mon Sep 15","Breakfast · arrival from Prague · city tour"],
-  ["Castillo Imperial de Núremberg (Kaiserburg)","built atop a hill about a thousand years ago · the living core of the city"],
-  ["Iglesia de Nuestra Señora (Frauenkirche)","Gothic on the Hauptmarkt · clock with mechanical figures"],
+  ["Nuremberg Imperial Castle (Kaiserburg)","built atop a hill about a thousand years ago · the living core of the city"],
+  ["Church of Our Lady (Frauenkirche)","Gothic on the Hauptmarkt · clock with mechanical figures"],
   ["Casa de la Ópera (Opernhaus)","Nuremberg opera house · mentioned in the tour itinerary"],
   ["Viejo Ayuntamiento (Altes Rathaus)","with visitable medieval dungeons"],
   ["Río Pegnitz","fascinating views of the river crossing the medieval center"],
   ["📅 DAY 11 - Tue Sep 16 🟢 FREE DAY","Excursiones opcionales o tour personal en Núremberg"],
   ["Ciudad Rothenburg ob der Tauber (Paquete 1)","Germany's best-preserved medieval town · walls · half-timbered houses · Romantic Road"],
-  ["Ciudad de Múnich (Paquete 2)","Capital de Baviera · Oktoberfest · Marienplatz · Nuevo Ayuntamiento · cultura cervecera"],
+  ["Munich City (Package 2)","Capital de Baviera · Oktoberfest · Marienplatz · Nuevo Ayuntamiento · cultura cervecera"],
   ["📅 DAY 12 - Wed Sep 17","Breakfast · departure to Frankfurt"],
  ],
  atractivos_recomendados:[
   ["Walled Old Town","nearly intact 5 km medieval walls · fully walkable"],
   ["Nuremberg Trials (Courtroom 600)","where Nazi crimes were tried in 1945-46 · open to visitors"],
   ["Hauptmarkt","central square · famous for the Christkindlesmarkt Christmas market"],
-  ["Museo Nacional Germánico","the world's largest German-speaking art and culture museum"],
+  ["Germanic National Museum","the world's largest German-speaking art and culture museum"],
  ],
  gastronomia:[
   ["Nürnberger Bratwürste","Germany's most famous sausages · tiny and grilled"],
@@ -512,13 +512,13 @@ const cities=[
  ],
  restaurantes:[
   ["Bratwurst Röslein (Hauptmarkt)","traditional bratwürste on the central square","€8-14"],
-  ["Heilig-Geist-Spital","restaurante histórico junto al río","€12-20"],
+  ["Heilig-Geist-Spital","historic riverside restaurant","€12-20"],
   ["Puestos Hauptmarkt","sausages and lebkuchen on the street","€3-6"],
  ],
  video:{t:"Ultimate Nuremberg Germany Travel Guide - Best Things to See & Do",d:"Germany's most magical fairytale city? Full narrated guide - Oct 2025",canal:"Travel Guide",u:"https://www.youtube.com/watch?v=0O2Eg7cW_Wo"},
  mapa:{centro:"Hauptmarkt Nuremberg",url:"https://www.google.com/maps/search/?api=1&query=Hauptmarkt+Nuremberg",pois:[
   ["Castillo Imperial","Nuremberg+Castle"],
-  ["Iglesia de Nuestra Señora (Frauenkirche)","Frauenkirche+Nuremberg"],
+  ["Church of Our Lady (Frauenkirche)","Frauenkirche+Nuremberg"],
   ["Casa de la Ópera","Nuremberg+Opera+House"],
   ["Ayuntamiento Viejo","Old+Town+Hall+Nuremberg"],
   ["Río Pegnitz","Pegnitz+River+Nuremberg"],
@@ -545,12 +545,12 @@ const cities=[
  atractivos_itinerario:[
   ["📅 DAY 12 - Wed Sep 17","Breakfast · arrival from Nuremberg · Frankfurt city visit"],
   ["Römer family buildings (13th-14th c.)","Frankfurt's most photogenic historic town hall"],
-  ["Iglesia de San Nicolás","junto al Römerberg · mencionada en el itinerario"],
-  ["Catedral Imperial de San Bartolomé","coronation site of the Holy Roman emperors"],
+  ["St. Nicholas Church","junto al Römerberg · mencionada en el itinerario"],
+  ["Imperial Cathedral of St. Bartholomew","coronation site of the Holy Roman emperors"],
   ["Banco Central Europeo (BCE)","silueta majestuosa mencionada en el itinerario"],
   ["Banco de Alemania (Deutsche Bundesbank)","one of the world's most important financial institutions"],
   ["Bolsa de Frankfurt (Börse)","famous bull and bear statues outside"],
-  ["Evening boat ride on the Main River (Package 2)","Recorrido nocturno en barco · contraste entre el Römer histórico y el skyline financiero"],
+  ["Evening boat ride on the Main River (Package 2)","Evening boat tour · contrast between the historic Römer and the financial skyline"],
   ["📅 DAY 13 - Thu Sep 18","Breakfast · departure to Luxembourg and Metz"],
  ],
  atractivos_recomendados:[
@@ -574,7 +574,7 @@ const cities=[
  video:{t:"Best Things to Do in Frankfurt Germany - First Timers Guide",d:"Frankfurt travel guide with all the best sights - Feb 2026",canal:"Travel Vlog",u:"https://www.youtube.com/watch?v=sBv7Zdp1NEg"},
  mapa:{centro:"Römerberg Frankfurt",url:"https://www.google.com/maps/search/?api=1&query=Romerberg+Frankfurt",pois:[
   ["Römerberg (Plaza Römer)","Romerberg+Frankfurt"],
-  ["Iglesia de San Nicolás","St+Nicholas+Church+Frankfurt"],
+  ["St. Nicholas Church","St+Nicholas+Church+Frankfurt"],
   ["Catedral Imperial (Dom)","Frankfurt+Cathedral"],
   ["Banco Central Europeo","European+Central+Bank+Frankfurt"],
   ["Bolsa de Frankfurt","Frankfurt+Stock+Exchange"],
@@ -599,7 +599,7 @@ const cities=[
  ]}
 },
 {id:"lux",wlat:49.6116,wlon:6.1319,name:"Luxembourg",flag:"🇱🇺",country:"Grand Duchy of Luxembourg",days:"Day 13 (excursion) & 14",dates:"Thu Sep 18 – Fri Sep 19",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
- libre:["Día 14 — Vie 19 Sep: Luxemburgo es excursión opcional del Paquete 1 desde Metz (55 km · 45 min en tren)."],
+ libre:["Día 14 — Vie 19 Sep: Luxemburgo es excursión opcional del Paquete 1 desde Metz (34 mi · 45 min en tren)."],
  tourPersonal:"⭐ Day 14 (Fri Sep 19): Si no contratas el tour a Luxemburgo, you can go independently from Metz by train (€10-15 ida y vuelta). La Ciudad de Luxemburgo es visitable en un día completo camin agoando.",
  atractivos_itinerario:[
   ["Ciudad de Luxemburgo (excursión opcional Paquete 1)","UNESCO Heritage · included in the optional tour"],
@@ -616,7 +616,7 @@ const cities=[
   ["Judd mat Gaardebounen","smoked pork with broad beans · Luxembourg's national dish"],
   ["Gromperekichelcher","street potato fritters · the most popular"],
   ["Quetschentaart","plum tart · traditional Luxembourg dessert"],
-  ["Vino Mosela luxemburgués","blancos secos producidos junto al río Mosela"],
+  ["Vino Mosela luxemburgués","dry whites produced along the Moselle River"],
  ],
  restaurantes:[
   ["Place d'Armes (brasseries)","daily menus on the central square","€12-20"],
@@ -758,7 +758,7 @@ const cities=[
   {cat:"🙏 Please (French)",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Essential before asking anything · Belgians are very formal"},
   {cat:"😊 Thank you (French)",local:"Merci",pron:"Mair-SEE",tip:"Brussels also accepts Dutch Dank u (DAHNK oo)"},
   {cat:"😊 Thank you (Dutch)",local:"Dank u wel",pron:"DAHNK oo vel",tip:"Usar esto en Bruselas sorprende y agrada mucho"},
-  {cat:"🤝 You're welcome",local:"De rien / Graag gedaan",pron:"De ryen / Jráj je-dán",tip:"Francés o neerlandés según el idioma en que hables"},
+  {cat:"🤝 You're welcome",local:"De rien / Graag gedaan",pron:"De ryen / Jráj je-dán",tip:"French or Dutch depending on the language you spoke"},
   {cat:"❓ ¿Cuánto cuesta? (fr.)",local:"Combien ça coûte?",pron:"Kohm-BYAN sah KOOT?",tip:"For the Grand Place market and Belgian chocolate"},
   {cat:"🚽 Where's the restroom? (French)",local:"Où sont les toilettes?",pron:"Ú son le twá-let?",tip:"Many Belgian bars have restrooms for customers only"},
   {cat:"🍺 Cheers!",local:"Santé! / Proost!",pron:"San-té / Próost",tip:"Belgium has over 1,500 beers · it deserves a special toast"},
@@ -769,13 +769,13 @@ const cities=[
 
 const tours=[
  {id:"pot",wlat:52.3906,wlon:13.0645,name:"Potsdam",flag:"🇩🇪",
-  precio:"$90 USD",base:"Desde Berlín · 35 km · 35 min ago",
+  precio:"$90 USD",base:"From Berlin · 22 mi · 35 min",
   desc:"Potsdam has a royal feel with the palaces of the Prussian kings and their parks. The post-WWII Peace Conference was held here. During our tour we visit the City Palace, St. Nicholas Church, the Brandenburg Gate, the exquisite Sanssouci Palace and the magnificent Cecilienhof Palace.",
   atractivos:[
    ["Palacio de Sanssouci","summer residence of Frederick the Great · UNESCO Heritage"],
    ["Palacio de Cecilienhof","site of the Potsdam Conference (1945) · where the Peace Treaty was signed"],
    ["Palacio de la Ciudad (Stadtschloss)","reconstructed palace · seat of the Brandenburg Parliament"],
-   ["Iglesia de San Nicolás","neoclassical church with a large dome · in the historic center"],
+   ["St. Nicholas Church","neoclassical church with a large dome · in the historic center"],
    ["Puerta de Brandenburgo de Potsdam","not to be confused with Berlin's · 18th-century baroque"],
   ],
   recomendados:[
@@ -794,11 +794,11 @@ const tours=[
    {cat:"😊 Thank you",local:"Danke schön",pron:"DAHN-kuh shurn",tip:"Just Danke also works perfectly"},
    {cat:"🍺 Cheers!",local:"Prost!",pron:"Prohst",tip:"The classic German toast"},
   ]},
-  mapa:{centro:"Potsdam Germany",pois:[["Palacio Sanssouci","Sanssouci Palace Potsdam"],["Palacio Cecilienhof","Cecilienhof Palace Potsdam"],["Puerta de Brandenburgo Potsdam","Brandenburg Gate Potsdam"],["Iglesia San Nicolás","St Nicholas Church Potsdam"]]},
+  mapa:{centro:"Potsdam Germany",pois:[["Palacio Sanssouci","Sanssouci Palace Potsdam"],["Palacio Cecilienhof","Cecilienhof Palace Potsdam"],["Puerta de Brandenburgo Potsdam","Brandenburg Gate Potsdam"],["St. Nicholas Church","St Nicholas Church Potsdam"]]},
   video:{t:"Potsdam Germany - Sanssouci Palace, Cecilienhof & Historic Center Walking Tour 2025",u:"https://www.youtube.com/watch?v=h3iL0_J3L48"}
  },
  {id:"aus",wlat:50.0274,wlon:19.2037,name:"Auschwitz-Birkenau",flag:"🇵🇱",
-  precio:"$95 USD",base:"Desde Cracovia · 75 km · 1h 15min ago",
+  precio:"$95 USD",base:"Desde Cracovia · 47 mi · 1h 15min",
   desc:"The museum comprises two concentration camps: Auschwitz I and Auschwitz-Birkenau, with their guard towers, death block, crematorium, death wall, train tracks with ramp, barracks and watchtowers. A deeply moving and historic visit, considered a monument to the victims of the Holocaust.",
   atractivos:[
    ["Campo Auschwitz I","main camp · entrance with the 'Arbeit Macht Frei' sign · death block · crematorium"],
@@ -831,7 +831,7 @@ const tours=[
    ["Puente de Carlos","seen from the water · a unique perspective impossible from land"],
    ["Casa Danzante (Ginger & Fred)","iconic deconstructivist building by Frank Gehry"],
    ["Torre Petrin","lookout tower on the hill · lit up at night"],
-   ["Fuerte de Vysehrad","fortaleza histórica sobre el río · legendaria en la historia checa"],
+   ["Fuerte de Vysehrad","historic riverside fortress · legendary in Czech history"],
    ["Rudolfinum","neo-Renaissance concert hall · home of the Czech Philharmonic"],
    ["Prague Castle","the world's largest castle complex · seen in all its majesty"],
   ],
@@ -843,7 +843,7 @@ const tours=[
   restaurantes:[
    ["Restaurantes frente al Moldava","riverside terrace · views of Charles Bridge"],
   ],
-  saludos:{idioma:"Czech (Čeština)",nota:"Los checos pueden parecer fríos al principio, pero al oírte intentar su idioma cambian completamente de actitud.",frases:[
+  saludos:{idioma:"Czech (Čeština)",nota:"Czechs may seem reserved at first, but hearing you try their language changes everything.",frases:[
    {cat:"👋 Hello (anytime)",local:"Dobrý den",pron:"DOH-bree den",tip:"The most versatile - safe all-day formal greeting"},
    {cat:"👋 Hi (informal)",local:"Ahoj",pron:"AH-hoy",tip:"Informal and friendly - sounds just like 'ahoy'!"},
    {cat:"🙏 Please",local:"Prosím",pron:"PROH-seem",tip:"Also means 'here you go' and 'you're welcome'"},
@@ -854,7 +854,7 @@ const tours=[
   video:{t:"Prague Vltava River Cruise - Best Night Tour of the City",u:"https://www.youtube.com/watch?v=oHRjFpZiAJ4"}
  },
  {id:"rot",wlat:49.3774,wlon:10.1798,name:"Rothenburg ob der Tauber",flag:"🇩🇪",
-  precio:"$90 USD",base:"Desde Núremberg · 100 km · 1h",
+  precio:"$90 USD",base:"From Nuremberg · 62 mi · 1h",
   desc:"The Red Castle over the Tauber River. We enter beneath the Entrance Tower and are greeted by typical medieval German houses with rows of flowers on their facades. We visit the Town Hall and the Defensive Tower. A visit to Rothenburg ob der Tauber is a unique experience.",
   atractivos:[
    ["Torre de Entrada (Rödertor)","main entrance to the walled medieval town"],
@@ -883,7 +883,7 @@ const tours=[
   video:{t:"Rothenburg ob der Tauber Germany - Most Magical Medieval Town Walking Tour",u:"https://www.youtube.com/watch?v=ZkYGaQ0-jgU"}
  },
  {id:"lxp",wlat:49.6116,wlon:6.1319,name:"Ciudad de Luxemburgo",flag:"🇱🇺",
-  precio:"$54 USD",base:"Desde Metz · 55 km · 45 min",
+  precio:"$54 USD",base:"Desde Metz · 34 mi · 45 min",
   desc:"Luxembourg, capital of the Grand Duchy of Luxembourg, one of Europe's smallest states, sits atop a rocky promontory. During our tour we visit los edificios del Palacio Gran Ducal, la Legislatura Nacional, la Neumünster Abbey y el pintoresco valle del Río Alzette.",
   atractivos:[
    ["Grand Ducal Palace","official residence of the Grand Duke · changing of the guard · Spanish Renaissance architecture"],
@@ -912,13 +912,13 @@ const tours=[
   video:{t:"Luxembourg City - Europe's Hidden Gem Complete Travel Guide 2026",u:"https://www.youtube.com/watch?v=1jsQXl3i82M"}
  },
  {id:"str",wlat:48.5734,wlon:7.7521,name:"Estrasburgo y Colmar",flag:"🇫🇷",
-  precio:"$186 USD",base:"Desde Metz · 215 km · 2h",
+  precio:"$186 USD",base:"Desde Metz · 134 mi · 2h",
   desc:"In Strasbourg we see medieval architecture with its black-and-white designs, the old Romanesque church, the huge Gothic cathedral and the famous bridges over the Rhine. Entering the French city of Colmar we see St. Martin's Church, the Pfister House, the House of Heads and the many canals with flower-covered banks.",
   atractivos:[
    ["Catedral de Notre-Dame (Estrasburgo)","14th-century Gothic · 142 m · one of the tallest in the world"],
-   ["Arquitectura medieval blanco-negra","entramado de madera alsaciano · diseños únicos en Europa"],
+   ["Arquitectura medieval blanco-negra","Alsatian half-timbering · designs unique in Europe"],
    ["Puentes sobre el Rin","panoramic view of the famous bridges between France and Germany"],
-   ["Iglesia de San Martín (Colmar)","13th-century Gothic church · heart of Colmar's old town"],
+   ["St. Martin's Church (Colmar)","13th-century Gothic church · heart of Colmar's old town"],
    ["Casa Pfister (Colmar)","16th-century building · jewel of the Alsatian Renaissance"],
    ["House of Heads (Colmar)","facade decorated with 106 grotesque 17th-century heads"],
    ["Flower-lined canals (Colmar)","Little Venice quarter · flower-lined canals · very photogenic"],
@@ -972,7 +972,7 @@ const tours=[
   video:{t:"Bruges & Ghent Belgium - Best Medieval Cities Complete Guide 2025",u:"https://www.youtube.com/watch?v=t4GCgF_XMp4"}
  },
  {id:"wie",wlat:49.9839,wlon:20.0550,name:"Minas de sal de Wieliczka",flag:"🇵🇱",
-  precio:"$95 USD",base:"Desde Cracovia · 15 km · 20 min ago",
+  precio:"$95 USD",base:"Desde Cracovia · 9 mi · 20 min",
   desc:"For their grandeur these mines, producing salt since the 13th century, have earned the name The Underground Cathedral. They reach 327 meters deep and over 300 km in length. During the tour you can see statues of mythical and historical figures, carved into the salt rock by the miners.",
   atractivos:[
    ["Capilla de Santa Kinga","chapel carved entirely from salt rock · the most impressive in the underground world"],
@@ -1000,7 +1000,7 @@ const tours=[
   video:{t:"Wieliczka Salt Mine Poland - Underground Cathedral Complete Tour (English)",u:"https://www.youtube.com/watch?v=h_qGDOyU3tM"}
  },
  {id:"kv",wlat:50.2316,wlon:12.8716,name:"Karlovy Vary",flag:"🇨🇿",
-  precio:"$90 USD",base:"Desde Praga · 130 km · 1h 30min ago",
+  precio:"$90 USD",base:"Desde Praga · 81 mi · 1h 30min",
   desc:"Karlovy Vary is one of Europe's most famous spa towns, located at the confluence of the Eger and Teplá rivers. We take a walk to enjoy its picturesque architecture and natural surroundings.",
   atractivos:[
    ["Fuentes termales","12 springs · each with different temperature and mineral properties"],
@@ -1029,10 +1029,10 @@ const tours=[
   video:{t:"Karlovy Vary Czech Republic - Spa Town Travel Guide (English) 2024",u:"https://www.youtube.com/watch?v=B4MuEKO1UNE"}
  },
  {id:"mun",wlat:48.1351,wlon:11.5820,name:"Múnich",flag:"🇩🇪",
-  precio:"$174 USD",base:"Desde Núremberg · 170 km · 1h 45min ago",
+  precio:"$174 USD",base:"From Nuremberg · 106 mi · 1h 45min",
   desc:"The city of Munich has existed on the banks of the Isar River for at least 4,000 years. During our tour of the royal streets we visit Munich Cathedral, the Town Hall with its elaborate turrets and masterful sculptures, and the Feldherrnhalle — a loggia dedicated to the Bavarian army with beautiful decoration.",
   atractivos:[
-   ["Catedral de Múnich (Frauenkirche)","two 99 m twin towers · symbol of the city · 15th century"],
+   ["Munich Cathedral (Frauenkirche)","two 99 m twin towers · symbol of the city · 15th century"],
    ["Ayuntamiento Nuevo (Neues Rathaus)","elaborate turrets and sculptures · the Glockenspiel plays at 11 am and noon"],
    ["Feldherrnhalle","logia neorrenacentista dedicada al ejército de Baviera · exquisita decoración"],
    ["Marienplatz","Munich's central square · the city's heart since the 13th century"],
@@ -1049,7 +1049,7 @@ const tours=[
   ],
   saludos:{idioma:"German (Deutsch) · Bavarian dialect",nota:"Munich has its own very distinct Bavarian dialect. A local greeting generates great goodwill.",frases:[
    {cat:"🌅 Good morning",local:"Guten Morgen",pron:"GOO-ten MOR-gen",tip:"Standard German - always correct"},
-   {cat:"👋 Hi (Bavarian)",local:"Grüß Gott",pron:"Grooss Gott",tip:"El saludo tradicional bávaro · 'Dios te salude'"},
+   {cat:"👋 Hi (Bavarian)",local:"Grüß Gott",pron:"Grooss Gott",tip:"The traditional Bavarian greeting · 'God greet you'"},
    {cat:"👋 Hi (very casual)",local:"Servus",pron:"ZAIR-voos",tip:"Very typical of Munich · casual and friendly"},
    {cat:"🙏 Please",local:"Bitte",pron:"BIT-uh",tip:"Universal throughout Germany"},
    {cat:"🍺 Cheers!",local:"Prost!",pron:"Prohst",tip:"At the Hofbräuhaus with a Maß (liter) of beer"},
@@ -1063,8 +1063,8 @@ const tours=[
   atractivos:[
    ["Espectáculo folclórico checo","2 hours of live traditional Bohemian dance and music"],
    ["Dinner included","full traditional Czech menu · 3 courses · local drinks"],
-   ["Música en vivo","instrumentos tradicionales checos · acordeón, violín y percusión bohemia"],
-   ["Trajes regionales","los artistas visten trajes folclóricos auténticos de distintas regiones checas"],
+   ["Música en vivo","traditional Czech instruments · accordion, violin and Bohemian percussion"],
+   ["Trajes regionales","performers wear authentic folk costumes from different Czech regions"],
   ],
   recomendados:[
    ["Order local Czech beer","the world's best beer · Pilsner Urquell or Budvar · included or very cheap"],
@@ -1084,7 +1084,7 @@ const tours=[
   video:{t:"Czech Folk Evening - Traditional Prague Dinner Show",u:"https://www.youtube.com/watch?v=v_XlJVJaVHc"}
  },
  {id:"bar",wlat:50.1109,wlon:8.6821,name:"Barco por el Río Meno",flag:"🇩🇪",
-  precio:"$42 USD",base:"En Frankfurt (desde el Römerberg)",
+  precio:"$42 USD",base:"In Frankfurt (from the Römerberg)",
   desc:"This ride offers a unique chance to watch life in the bustling commercial and financial center from the calm of the mighty Main River.",
   atractivos:[
    ["Skyline financiero de Frankfurt","the financial district skyscrapers seen from the water · a unique contrast"],
@@ -1111,7 +1111,7 @@ const tours=[
   video:{t:"Frankfurt Main River Cruise - Skyline & Historic Center from the Water",u:"https://www.youtube.com/watch?v=sBv7Zdp1NEg"}
  },
  {id:"sch",wlat:49.4667,wlon:6.3667,name:"Ciudad de Schengen",flag:"🇱🇺",
-  precio:"$54 USD",base:"Desde Metz · 60 km · 50 min ago",
+  precio:"$54 USD",base:"Desde Metz · 37 mi · 50 min",
   desc:"Schengen is one of the best-known places in the world today. Here the borders of Luxembourg, Germany and France meet, and it was here that the Schengen Agreement was signed, under which several European countries abolished border controls among themselves, establishing an area of free movement of people and goods.",
   atractivos:[
    ["Monumento al Acuerdo de Schengen","on the Moselle bank · where the three borders meet"],
@@ -1132,7 +1132,7 @@ const tours=[
   saludos:{idioma:"Luxembourgish · French · German",nota:"Schengen is the symbol of united Europe. All three languages are spoken fluently. Any greeting in any of them works perfectly.",frases:[
    {cat:"🌅 Good morning (Lux.)",local:"Gudde Moien",pron:"GOO-duh MOY-en",tip:"The most special · Luxembourgish on Luxembourgish soil"},
    {cat:"☀️ Good day (French)",local:"Bonjour",pron:"Bohn-ZHOOR",tip:"Seguro y universal"},
-   {cat:"☀️ Good day (German)",local:"Guten Tag",pron:"GOO-ten TAHK",tip:"Para el lado alemán de la frontera"},
+   {cat:"☀️ Good day (German)",local:"Guten Tag",pron:"GOO-ten TAHK",tip:"For the German side of the border"},
    {cat:"🍺 Cheers!",local:"Prost! / Santé!",pron:"Prohst / Sahn-TAY",tip:"With Moselle wine · all three countries toast this way"},
   ]},
   mapa:{centro:"Schengen Luxembourg",pois:[["Monumento Schengen","Schengen Monument Luxembourg"],["Museo Europeo","European Museum Schengen"],["Confluencia tres fronteras","Schengen tripoint border"]]},
@@ -1143,7 +1143,7 @@ const tours=[
   desc:"This visit immerses us in the daily life of Dutch fishermen, with their typical colorful wooden houses and views of the IJsselmeer. The city of The Hague (Den Haag) is the administrative capital of the Kingdom of the Netherlands, on the North Sea coast. Contemporary The Hague amazes visitors with its impressive skyscrapers and the Binnenhof. Walking through the old town we see the luxurious residences of important figures, the Cathedral and the Peace Palace.",
   atractivos:[
    ["Volendam","fishing village with colorful wooden houses · traditional Dutch costumes · photogenic"],
-   ["Marken","isla-pueblo en el IJsselmeer · arquitectura tradicional única · sin coches"],
+   ["Marken","island village in the IJsselmeer · unique traditional architecture · car-free"],
    ["Binnenhof (La Haya)","historic Dutch parliament complex · 13th century · in continuous use"],
    ["Palacio de la Paz (La Haya)","seat of the UN International Court of Justice"],
    ["Catedral de La Haya","imposing neo-Gothic cathedral in the old town"],
@@ -1172,32 +1172,32 @@ const tours=[
 
 
 const distMain=[
- {de:"Amsterdam",a:"Hannover",mi:174,t:"2h 30min ago"},
- {de:"Hannover",a:"Berlin",mi:179,t:"2h 45min ago"},
- {de:"Berlin",a:"Warsaw",mi:357,t:"5h 30min ago"},
- {de:"Warsaw",a:"Kraków",mi:186,t:"3h 00min ago"},
- {de:"Kraków",a:"Prague",mi:336,t:"5h 15min ago"},
- {de:"Prague",a:"Nuremberg",mi:224,t:"3h 30min ago"},
- {de:"Nuremberg",a:"Frankfurt",mi:143,t:"2h 15min ago"},
- {de:"Frankfurt",a:"Luxembourg",mi:137,t:"2h 15min ago"},
- {de:"Luxembourg",a:"Metz",mi:34,t:"45min ago"},
- {de:"Metz",a:"Brussels",mi:193,t:"3h 00min ago"},
- {de:"Brussels",a:"Amsterdam",mi:130,t:"2h 00min ago"},
+ {de:"Amsterdam",a:"Hannover",mi:174,t:"2h 30min"},
+ {de:"Hannover",a:"Berlin",mi:179,t:"2h 45min"},
+ {de:"Berlin",a:"Warsaw",mi:357,t:"5h 30min"},
+ {de:"Warsaw",a:"Kraków",mi:186,t:"3h 00min"},
+ {de:"Kraków",a:"Prague",mi:336,t:"5h 15min"},
+ {de:"Prague",a:"Nuremberg",mi:224,t:"3h 30min"},
+ {de:"Nuremberg",a:"Frankfurt",mi:143,t:"2h 15min"},
+ {de:"Frankfurt",a:"Luxembourg",mi:137,t:"2h 15min"},
+ {de:"Luxembourg",a:"Metz",mi:34,t:"45min"},
+ {de:"Metz",a:"Brussels",mi:193,t:"3h 00min"},
+ {de:"Brussels",a:"Amsterdam",mi:130,t:"2h 00min"},
 ];
 const distTours=[
  {de:"Berlin",a:"Potsdam",mi:22,t:"35min"},
- {de:"Kraków",a:"Auschwitz-Birkenau",mi:47,t:"1h 15min ago"},
- {de:"Kraków",a:"Minas Wieliczka",mi:9,t:"20min ago"},
- {de:"Nuremberg",a:"Rothenburg ob der Tauber",mi:62,t:"1h 00min ago"},
- {de:"Nuremberg",a:"Munich",mi:106,t:"1h 45min ago"},
- {de:"Metz",a:"Strasbourg",mi:134,t:"2h 00min ago"},
- {de:"Strasbourg",a:"Colmar",mi:47,t:"45min ago"},
- {de:"Metz",a:"Ciudad de Schengen",mi:37,t:"50min ago"},
- {de:"Prague",a:"Karlovy Vary",mi:81,t:"1h 30min ago"},
- {de:"Brussels",a:"Ghent",mi:34,t:"30min ago"},
- {de:"Brussels",a:"Bruges",mi:59,t:"1h 00min ago"},
- {de:"Amsterdam",a:"Volendam/Marken",mi:14,t:"25min ago"},
- {de:"Amsterdam",a:"La Haya (Den Haag)",mi:37,t:"50min ago"},
+ {de:"Kraków",a:"Auschwitz-Birkenau",mi:47,t:"1h 15min"},
+ {de:"Kraków",a:"Minas Wieliczka",mi:9,t:"20min"},
+ {de:"Nuremberg",a:"Rothenburg ob der Tauber",mi:62,t:"1h 00min"},
+ {de:"Nuremberg",a:"Munich",mi:106,t:"1h 45min"},
+ {de:"Metz",a:"Strasbourg",mi:134,t:"2h 00min"},
+ {de:"Strasbourg",a:"Colmar",mi:47,t:"45min"},
+ {de:"Metz",a:"Ciudad de Schengen",mi:37,t:"50min"},
+ {de:"Prague",a:"Karlovy Vary",mi:81,t:"1h 30min"},
+ {de:"Brussels",a:"Ghent",mi:34,t:"30min"},
+ {de:"Brussels",a:"Bruges",mi:59,t:"1h 00min"},
+ {de:"Amsterdam",a:"Volendam/Marken",mi:14,t:"25min"},
+ {de:"Amsterdam",a:"La Haya (Den Haag)",mi:37,t:"50min"},
 ];
 
 let curView='home',curCity=0,curSub='itinerario',curTour=0;
@@ -1253,7 +1253,7 @@ function renderCityBody(){
   h+='</div>';
   h+=renderNotes(c.id,'gastronomia');
  } else if(curSub==='restaurantes'){
-  h+=`<div class="card"><div class="card-header"><div class="card-title">🍴 Dónde comer económico</div></div>`;
+  h+=`<div class="card"><div class="card-header"><div class="card-title">🍴 Where to Eat on a Budget</div></div>`;
   h+=c.restaurantes.map(r=>`<div class="rest-row"><div style="flex:1"><div class="rname">${r[0]}</div><div class="rdesc">${r[1]}</div></div><span class="rprice">${r[2]}</span></div>`).join('');
   h+='</div>';
   h+=renderNotes(c.id,'restaurantes');
@@ -1934,7 +1934,7 @@ const itin=[
   full:`Arrival in Amsterdam, capital of the Kingdom of the Netherlands. Its historic center is a UNESCO World Heritage Site. After the panoramic city tour, reception and hotel transfer. Accommodation.`},
  {d:"3",wd:"Mar",dt:"8 Sep",c:"🇳🇱→🇩🇪 Amsterdam · Hanover · Berlin",n:"Breakfast · stop in Hanover · arrival Berlin",tipo:"normal",
   full:`Breakfast. We head to the city of Hanover in Germany, located on the banks of the Leine River "La Orilla Alta". Hanover was founded in medieval times by boatmen, fishermen and merchants. During our tour we visit the beautiful Opera House, the ruins of the Aegidienkirche, the Market Church, and the New and Old Town Halls. Then we continue to Berlin, capital of Germany. Accommodation.`},
- {d:"4",wd:"Mié",dt:"9 Sep",c:"🇩🇪 Berlin",n:"Recorrido panorámico · opt. Potsdam (Paq.1)",tipo:"normal",
+ {d:"4",wd:"Mié",dt:"9 Sep",c:"🇩🇪 Berlin",n:"Panoramic tour · opt. Potsdam (Pkg.1)",tipo:"normal",
   full:`Breakfast. We take a panoramic tour of Berlin. Located on the banks of two rivers, the Spree and Havel which meet within the city, Berlin offers unforgettable views. Durante nuestro recorrido we visit Gendarmenmarkt Square, the Brandenburg Gate, Potsdamer Platz, Frauenkirche, el Palacio Zwinger, the Brühl Terrace, el King's Way, the Martin Luther Statue y enjoy the majestic beauty of this ancient city. Accommodation.`,
   opcionales:["Ciudad de Potsdam"]},
  {d:"5",wd:"Jue",dt:"10 Sep",c:"🇩🇪→🇵🇱 Berlin · Warsaw",n:"Breakfast · journey · UNESCO Old Town tour",tipo:"normal",
@@ -1953,7 +1953,7 @@ const itin=[
   full:`Breakfast. We head to the German city of Nuremberg. The magnificent Imperial Castle was built atop a hill about a thousand years ago. Over the following centuries this picturesque complex became the living core of a rapidly growing city. During our tour of Nuremberg we visit the impressive Church of Our Lady, the Opera House, the Old Town Hall and of course the fascinating views of the Pegnitz River. Accommodation.`},
  {d:"11",wd:"Mié",dt:"16 Sep",c:"🇩🇪 Nuremberg ★ FREE DAY",n:"Opt. Rothenburg (P1) · Munich (P2) · or personal tour",tipo:"libre",
   full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,
-  opcionales:["Ciudad Rothenburg ob der Tauber","Ciudad de Múnich"]},
+  opcionales:["Ciudad Rothenburg ob der Tauber","Munich City"]},
  {d:"12",wd:"Jue",dt:"17 Sep",c:"🇩🇪 Nuremberg → Frankfurt",n:"Breakfast · journey · Frankfurt city visit",tipo:"normal",
   full:`Breakfast. We head to Frankfurt, located in central Germany on the banks of the Main River, an important global financial center. The city's origins date back to the early medieval period, always centered on the Römer hill. We visit the impressive Römer merchant buildings built in the 13th and 14th centuries, St. Nicholas Church, the Imperial Cathedral of St. Bartholomew y we enjoy the majestic silhouettes of the European Central Bank, the Bank of Germany y the Frankfurt Stock Exchange among the most important financial institutions in the world. Accommodation.`,
   opcionales:["Paseo nocturno en barco por el Río Meno"]},
@@ -1968,9 +1968,9 @@ const itin=[
  {d:"16",wd:"Lun",dt:"21 Sep",c:"🇧🇪 Brussels ★ FREE DAY",n:"Opt. Bruges and Ghent (Pkg.1) · or Brussels on your own",tipo:"libre",
   full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,
   opcionales:["Ciudades de Brujas y Gante"]},
- {d:"17",wd:"Mar",dt:"22 Sep",c:"🇧🇪→🇳🇱 Bruselas · Ámsterdam ⭐ TOUR PERSONAL",n:"No P2: free Amsterdam day → Rijksmuseum, Jordaan, canals",tipo:"tp",
+ {d:"17",wd:"Mar",dt:"22 Sep",c:"🇧🇪→🇳🇱 Brussels · Amsterdam ⭐ PERSONAL TOUR",n:"No P2: free Amsterdam day → Rijksmuseum, Jordaan, canals",tipo:"tp",
   full:`Breakfast. We head to Amsterdam. Free time for personal activities or optional excursion. Accommodation.`,
-  opcionales:["Volendam y Marken","Ciudad de La Haya","Pueblo de Giethoorn"]},
+  opcionales:["Volendam & Marken","The Hague","Giethoorn Village"]},
  {d:"18",wd:"Mié",dt:"23 Sep",c:"🇳🇱 Amsterdam → ✈️ Mexico City",n:"Breakfast · airport transfer · return flight",tipo:"normal",
   full:`Breakfast. At the indicated time, transfer to the airport for the return flight to Mexico City.`},
 ];
