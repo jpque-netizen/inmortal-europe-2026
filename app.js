@@ -1028,7 +1028,7 @@ const tours=[
   mapa:{centro:"Karlovy Vary Czech Republic",pois:[["Colonnade Mill","Mlynska Kolonada Karlovy Vary"],["Thermal Springs","Hot Springs Karlovy Vary"],["Market Colonnade","Market Colonnade Karlovy Vary"]]},
   video:{t:"Karlovy Vary Czech Republic - Spa Town Travel Guide (English) 2024",u:"https://www.youtube.com/watch?v=B4MuEKO1UNE"}
  },
- {id:"mun",wlat:48.1351,wlon:11.5820,name:"Múnich",flag:"🇩🇪",
+ {id:"mun",wlat:48.1351,wlon:11.5820,name:"Munich",flag:"🇩🇪",
   precio:"$174 USD",base:"From Nuremberg · 106 mi · 1h 45min",
   desc:"The city of Munich has existed on the banks of the Isar River for at least 4,000 years. During our tour of the royal streets we visit Munich Cathedral, the Town Hall with its elaborate turrets and masterful sculptures, and the Feldherrnhalle — a loggia dedicated to the Bavarian army with beautiful decoration.",
   atractivos:[
@@ -1057,7 +1057,7 @@ const tours=[
   mapa:{centro:"Munich Germany",pois:[["Frauenkirche","Frauenkirche Munich"],["New Town Hall","Neues Rathaus Munich"],["Feldherrnhalle","Feldherrnhalle Munich"],["Hofbräuhaus","Hofbrauhaus Munich"],["Marienplatz","Marienplatz Munich"]]},
   video:{t:"Munich Germany - Complete Travel Guide Top Things To Do 2025",u:"https://www.youtube.com/watch?v=QBNyYhb6Mq4"}
  },
- {id:"noc",wlat:50.0755,wlon:14.4378,name:"Noche Checa con cena",flag:"🇨🇿",
+ {id:"noc",wlat:50.0755,wlon:14.4378,name:"Czech Evening with Dinner",flag:"🇨🇿",
   precio:"$90 USD",base:"In Prague (evening)",
   desc:"We capture the uplifting spirit of Czech folklore during a 2-hour traditional folk show that includes dinner. It's a truly different and entertaining way to spend an evening in Prague.",
   atractivos:[
@@ -1138,7 +1138,7 @@ const tours=[
   mapa:{centro:"Schengen Luxembourg",pois:[["Schengen Monument","Schengen Monument Luxembourg"],["European Museum","European Museum Schengen"],["Three-border confluence","Schengen tripoint border"]]},
   video:{t:"Schengen Village Luxembourg - Where Europe's Open Borders Were Born",u:"https://www.youtube.com/watch?v=1jsQXl3i82M"}
  },
- {id:"vol",wlat:52.4946,wlon:5.0703,name:"Volendam, Marken y La Haya",flag:"🇳🇱",
+ {id:"vol",wlat:52.4946,wlon:5.0703,name:"Volendam, Marken & The Hague",flag:"🇳🇱",
   precio:"$138 USD",base:"From Amsterdam: Volendam 14 mi · The Hague 37 mi",
   desc:"This visit immerses us in the daily life of Dutch fishermen, with their typical colorful wooden houses and views of the IJsselmeer. The city of The Hague (Den Haag) is the administrative capital of the Kingdom of the Netherlands, on the North Sea coast. Contemporary The Hague amazes visitors with its impressive skyscrapers and the Binnenhof. Walking through the old town we see the luxurious residences of important figures, the Cathedral and the Peace Palace.",
   atractivos:[
@@ -1883,8 +1883,8 @@ const ratesToUSD={USD:1,EUR:EUR,PLN:PLN,CZK:CZK,MXN:MXN_USD};
 const currencyMeta={
  MXN:{flag:"🇲🇽",name:"Mexican Peso",sym:"$"},
  EUR:{flag:"💶",name:"Euro",sym:"€"},
- PLN:{flag:"🇵🇱",name:"Złoty polaco",sym:"zł"},
- CZK:{flag:"🇨🇿",name:"Corona checa",sym:"Kč"},
+ PLN:{flag:"🇵🇱",name:"Polish Złoty",sym:"zł"},
+ CZK:{flag:"🇨🇿",name:"Czech Koruna",sym:"Kč"},
  USD:{flag:"💵",name:"US Dollar (tour pricing)",sym:"$"}
 };
 function fmtNum(n,cur){
