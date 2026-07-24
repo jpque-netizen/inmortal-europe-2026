@@ -349,7 +349,7 @@ const cities=[
   ["Zapiekanka","baguette with mushrooms and melted cheese · street food"],
  ],
  restaurantes:[
-  ["Bar Mleczny (Bares de leche)","casual eateries · dishes from 15-25 zł","~€3-5"],
+  ["Bar Mleczny (Milk Bars)","casual eateries · dishes from 15-25 zł","~€3-5"],
   ["Zapiekanki on Nowy Świat","classic street food from 10 zł (~€2)","~€2-3"],
   ["Old Town (various)","menus with bigos and pierogi","40+ zł (~€8+)"],
  ],
@@ -645,13 +645,13 @@ const cities=[
  ]}
 },
 {id:"lux",wlat:49.6116,wlon:6.1319,name:"Luxembourg",flag:"🇱🇺",country:"Grand Duchy of Luxembourg",days:"Day 13 (excursion) & 14",dates:"Thu Sep 18 – Fri Sep 19",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
- libre:["Day 14 - Fri Sep 19: Luxembourg is an optional optional excursion excursion from Metz (34 mi · 45 min by train)."],
+ libre:["Day 14 - Fri Sep 19: Luxembourg is an optional excursion from Metz (34 mi · 45 min by train)."],
  tourPersonal:"⭐ Day 14 (Fri Sep 19): If you skip the Luxembourg tour, you can go independently from Metz by train (€10-15 round trip). Luxembourg City is fully walkable in one day.",
  descripcion_dia:[
   {libre:true,t:`📅 Day 13 — Fri Sep 18`,c:`🇩🇪→🇱🇺🇫🇷 Frankfurt · Luxembourg · Metz`,full:`Breakfast. We head to the French city of Metz or Thionville. Free time for optional excursions to Luxembourg City in the Grand Duchy of Luxembourg and to the city of Schengen. Accommodation.`,attrs:[],opc:[[`Luxembourg City`,`Capital of the Grand Duchy · UNESCO Casemates · one of Europe's financial and political centers`],[`Schengen City`,`Where the Schengen Agreement (1985) was signed, abolishing border controls in Europe`]]}
  ],
  atractivos_itinerario:[
-  ["Luxembourg City (optional optional excursion excursion)","UNESCO Heritage · included in the optional tour"],
+  ["Luxembourg City (optional excursion)","UNESCO Heritage · included in the optional tour"],
   ["Schengen City","Where the Schengen Agreement (1985) was signed, abolishing border controls in Europe"],
  ],
  atractivos_recomendados:[
@@ -763,7 +763,7 @@ const cities=[
  libre:["🟢 Day 16 - Sun Sep 21 (FREE DAY): Bruges and Ghent · or Brussels on your own."],
  tourPersonal:"⭐ Day 16 (Sun Sep 21): If you skip the Bruges/Ghent tour, Brussels offers the Atomium, the Royal Museums of Fine Arts (Magritte), the Grand Place, the European Quarter — all walkable.",
  descripcion_dia:[
-  {t:`📅 Day 15 — Sun Sep 20`,c:`🇫🇷→🇧🇪 Metz · Brussels`,full:`Breakfast. We head to Brussels, capital of the Kingdom of Belgium, seat of the European Commission, famous for its beer and chocolate. We visit the impressive Grand Place, the Saint-Hubert Royal Galleries, the Manneken Pis sculpture, el Royal Palace of Brussels, the Royal Museums of Fine Arts. Accommodation.`,attrs:[[`Grand Place (Main Square)`,`UNESCO Heritage · considered the most beautiful square in the world`],[`Royal Saint-Hubert Galleries`,`19th-century neoclassical shopping arcade`],[`Manneken Pis`,`iconic sculpture · symbol of Brussels`],[`Royal Palace of Brussels`,`official residence of the Belgian king`],[`Royal Museums of Fine Arts`,`Bruegel, Rubens and Magritte under one roof`]],opc:[]},
+  {t:`📅 Day 15 — Sun Sep 20`,c:`🇫🇷→🇧🇪 Metz · Brussels`,full:`Breakfast. We head to Brussels, capital of the Kingdom of Belgium, seat of the European Commission, famous for its beer and chocolate. We visit the impressive Grand Place, the Saint-Hubert Royal Galleries, the Manneken Pis sculpture, the Royal Palace of Brussels, the Royal Museums of Fine Arts. Accommodation.`,attrs:[[`Grand Place (Main Square)`,`UNESCO Heritage · considered the most beautiful square in the world`],[`Royal Saint-Hubert Galleries`,`19th-century neoclassical shopping arcade`],[`Manneken Pis`,`iconic sculpture · symbol of Brussels`],[`Royal Palace of Brussels`,`official residence of the Belgian king`],[`Royal Museums of Fine Arts`,`Bruegel, Rubens and Magritte under one roof`]],opc:[]},
   {libre:true,t:`📅 Day 16 — Mon Sep 21`,c:`🇧🇪 Brussels ★ FREE DAY`,full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,attrs:[],opc:[[`Bruges and Ghent`,`Bruges: 'Venice of the North' · medieval canals · Flemish architecture. Ghent: medieval castle · vibrant city`]]}
  ],
  atractivos_itinerario:[
@@ -819,7 +819,7 @@ const cities=[
   {cat:"👋 Hi (Belgian)",local:"Dag / Bonjour",pron:"Dahkh / Bohn-ZHOOR",tip:"Dag is the Dutch greeting · also widely used in Brussels"},
   {cat:"🙏 Please (French)",local:"S'il vous plaît",pron:"Seel-voo-PLAY",tip:"Essential before asking anything · Belgians are very formal"},
   {cat:"😊 Thank you (French)",local:"Merci",pron:"Mair-SEE",tip:"Brussels also accepts Dutch Dank u (DAHNK oo)"},
-  {cat:"😊 Thank you (Dutch)",local:"Dank u wel",pron:"DAHNK oo vel",tip:"Usar esto en Bruselas sorprende y agrada mucho"},
+  {cat:"😊 Thank you (Dutch)",local:"Dank u wel",pron:"DAHNK oo vel",tip:"Using this in Brussels is a pleasant surprise"},
   {cat:"🤝 You're welcome",local:"De rien / Graag gedaan",pron:"De ryen / Jráj je-dán",tip:"French or Dutch depending on the language you spoke"},
   {cat:"❓ How much is it? (French)",local:"Combien ça coûte?",pron:"Kohm-BYAN sah KOOT?",tip:"For the Grand Place market and Belgian chocolate"},
   {cat:"🚽 Where's the restroom? (French)",local:"Où sont les toilettes?",pron:"Ú son le twá-let?",tip:"Many Belgian bars have restrooms for customers only"},
@@ -1274,6 +1274,13 @@ function sv(v){
  if(v==='tours')renderTours();
  if(v==='dist')renderDist();
  if(v==='monedas')renderMonedas();
+ if(v==='home')renderHomeNotes();
+}
+
+function renderHomeNotes(){
+ const hn=document.getElementById('home-notes');
+ if(hn)hn.innerHTML=renderNotes('app','general');
+ renderAllNotes();
 }
 
 function goToCity(idx){
@@ -1341,6 +1348,7 @@ function renderCityBody(){
   h+=`<div class="card"><div class="card-header"><div class="card-title">🗣️ Useful Phrases in ${s.idioma}</div><div class="card-sub">${s.nota}</div></div>`;
   h+=s.frases.map(f=>`<div class="saludo-row"><div class="saludo-cat">${f.cat}</div><div class="saludo-local">${f.local}</div><div class="saludo-pron">🔊 <em>${f.pron}</em></div><div class="saludo-tip">💡 ${f.tip}</div></div>`).join('');
   h+='</div>';
+  h+=renderNotes(c.id,'saludos');
  } else if(curSub==='mapa'){
   const m=c.mapa;
   h+=`<div class="card"><div class="card-header"><div class="card-title">🗺️ Map of ${c.name}</div><div class="card-sub">Tap any spot to open in Google Maps</div></div>`;
@@ -1348,21 +1356,24 @@ function renderCityBody(){
   h+=`<div class="section-label">📌 Tour Itinerary Spots</div>`;
   h+=m.pois.map(p=>`<a class="map-poi" href="https://www.google.com/maps/search/?api=1&query=${p[1]}" target="_blank" rel="noopener"><span class="poi-icon">📍</span><div class="poi-name">${p[0]}</div><span class="poi-arrow">↗</span></a>`).join('');
   h+='</div>';
+  h+=renderNotes(c.id,'mapa');
  } else if(curSub==='fotos'){
   h+=renderFotos(c.id,c.name);
+  h+=renderNotes(c.id,'fotos');
  } else if(curSub==='clima'){
   h+=`<div class="card"><div class="card-header"><div class="card-title">🌤️ Weather in ${c.name}</div><div class="card-sub">Auto-updates with connection · saves last data for offline use</div></div><div id="city-wx-body-${c.id}" style="padding:20px;text-align:center;color:var(--dim);font-size:13px">⏳ Loading weather...</div></div>`;
   if(c.wlat){setTimeout(()=>fetchWeather(c.id,c.name,c.wlat,c.wlon,'city-wx-body-'+c.id),50);}
+  h+=renderNotes(c.id,'clima');
  } else if(curSub==='video'){
   const savedVidUrl=localStorage.getItem('cityvid_url_'+c.id);
   const savedVidTitle=localStorage.getItem('cityvid_title_'+c.id);
   const displayUrl=savedVidUrl||c.video.u;
   const displayTitle=savedVidTitle||c.video.t;
-  const displayCanal=savedVidUrl?'Video personalizado':c.video.canal;
-  const displayDesc=savedVidUrl?'Video agregado manualmente':c.video.d;
-  h+=`<div class="card"><div class="card-header"><div class="card-title">📺 Video de ${c.name}</div><div class="card-sub">Tap to watch on YouTube · you can change the link</div></div>`;
+  const displayCanal=savedVidUrl?'Custom video':c.video.canal;
+  const displayDesc=savedVidUrl?'Manually added video':c.video.d;
+  h+=`<div class="card"><div class="card-header"><div class="card-title">📺 ${c.name} Video</div><div class="card-sub">Tap to watch on YouTube · you can change the link</div></div>`;
   if(displayUrl){
-   h+=`<a class="vlink" href="${displayUrl}" target="_blank" rel="noopener"><div class="pbtn">▶</div><div><div class="vtitle">${displayTitle}</div><div class="vdesc">${displayDesc}</div><div style="font-size:12px;color:var(--gold);margin-top:4px">Canal: ${displayCanal}</div></div></a>`;
+   h+=`<a class="vlink" href="${displayUrl}" target="_blank" rel="noopener"><div class="pbtn">▶</div><div><div class="vtitle">${displayTitle}</div><div class="vdesc">${displayDesc}</div><div style="font-size:12px;color:var(--gold);margin-top:4px">Channel: ${displayCanal}</div></div></a>`;
   } else {
    h+=`<div style="padding:14px;text-align:center;color:var(--dim);font-size:13px">No video assigned. Add a YouTube link below.</div>`;
   }
@@ -1376,6 +1387,7 @@ function renderCityBody(){
    </div>
    ${savedVidUrl?'<div style="font-size:10px;color:var(--gold);margin-top:6px;text-align:center">⚡ Custom video active · the original is still saved in the code</div>':''}
   </div></div>`;
+  h+=renderNotes(c.id,'video');
  }
  document.getElementById('city-body').innerHTML=h;
 }
@@ -1404,6 +1416,99 @@ function getNotes(cityId,section){
   const raw=localStorage.getItem('notes_'+cityId+'_'+section);
   return raw?JSON.parse(raw):[];
  }catch(e){return [];}
+}
+
+// One-time migration: copy old shared tour notes into all 9 sub-tabs
+function migrateTourNotes(){
+ try{
+  if(localStorage.getItem('notes_migrated_v12'))return;
+  const subs=['info','recomendados','gastronomia','restaurantes','saludos','mapa','fotos','clima','video'];
+  for(let i=0;i<localStorage.length;i++){
+   const k=localStorage.key(i);
+   if(k&&k.startsWith('notes_tour_')&&k.endsWith('_tour')){
+    const raw=localStorage.getItem(k);
+    if(!raw)continue;
+    const tourKey=k.slice(6,-5);
+    subs.forEach(s=>{
+     const nk='notes_'+tourKey+'_'+s;
+     if(!localStorage.getItem(nk))localStorage.setItem(nk,raw);
+    });
+   }
+  }
+  localStorage.setItem('notes_migrated_v12','1');
+ }catch(e){}
+}
+migrateTourNotes();
+
+// ===== ALL MY NOTES (consolidated view) =====
+const SECTION_LABELS={itinerario:'From the itinerary',recomendados:'Recommended',gastronomia:'Gastronomy',restaurantes:'Where to eat',saludos:'Greetings',mapa:'Map',fotos:'Photos',clima:'Weather',video:'Video',info:'Info',tour:'Excursion',distancias:'Km / Miles',monedas:'Currency',general:'General notes'};
+
+function placeLabel(owner){
+ if(owner==='app')return 'App';
+ if(owner.startsWith('tour_')){
+  const tid=owner.slice(5);
+  const t=(typeof tours!=='undefined')?tours.find(x=>String(x.id)===tid):null;
+  return t?('🎫 '+t.name):'🎫 Excursion';
+ }
+ const c=(typeof cities!=='undefined')?cities.find(x=>x.id===owner):null;
+ return c?(c.flag+' '+c.name):owner;
+}
+
+function collectAllNotes(){
+ const out=[];
+ try{
+  for(let i=0;i<localStorage.length;i++){
+   const k=localStorage.key(i);
+   if(!k||!k.startsWith('notes_'))continue;
+   if(k==='notes_migrated_v12')continue;
+   const rest=k.slice(6);
+   const idx=rest.lastIndexOf('_');
+   if(idx<1)continue;
+   const owner=rest.slice(0,idx);
+   const section=rest.slice(idx+1);
+   let arr=[];
+   try{arr=JSON.parse(localStorage.getItem(k))||[];}catch(e){continue;}
+   if(!arr.length)continue;
+   arr.forEach((n,ni)=>{
+    out.push({owner,section,idx:ni,text:n.text,date:n.date,
+              place:placeLabel(owner),sec:SECTION_LABELS[section]||section});
+   });
+  }
+ }catch(e){}
+ return out;
+}
+
+function renderAllNotes(){
+ const box=document.getElementById('all-notes-box');
+ if(!box)return;
+ const all=collectAllNotes();
+ if(!all.length){
+  box.innerHTML=`<div class="card"><div style="padding:16px 14px;text-align:center;color:var(--dim);font-size:14px">You haven't written any notes yet.<br>Add them in any tab and they'll appear here together 📔</div></div>`;
+  return;
+ }
+ const groups={};
+ all.forEach(n=>{(groups[n.place]=groups[n.place]||[]).push(n);});
+ let h=`<div class="card"><div class="card-header"><div class="card-title">📝 All my Notes</div><div class="card-sub">On this phone only · ${all.length} ${all.length===1?'note':'notes'} in total</div></div>`;
+ Object.keys(groups).sort().forEach(place=>{
+  h+=`<div class="section-label">${place}</div>`;
+  groups[place].forEach(n=>{
+   h+=`<div class="allnote-row">
+    <button class="allnote-del" onclick="delNoteFromAll('${n.owner}','${n.section}',${n.idx})" title="Delete">🗑</button>
+    <div class="allnote-sec">${n.sec}</div>
+    <div class="allnote-text">${escapeHtml(n.text)}</div>
+    <div class="allnote-date">${n.date||''}</div>
+   </div>`;
+  });
+ });
+ h+='</div>';
+ box.innerHTML=h;
+}
+
+function delNoteFromAll(owner,section,i){
+ const arr=getNotes(owner,section);
+ arr.splice(i,1);
+ saveNotes(owner,section,arr);
+ renderAllNotes();
 }
 function saveNotes(cityId,section,arr){
  try{localStorage.setItem('notes_'+cityId+'_'+section,JSON.stringify(arr));}catch(e){}
@@ -1465,13 +1570,24 @@ function saveEditNote(cityId,section,idx){
  const now=new Date();
  notes[idx].date=now.toLocaleDateString('en-US',{day:'numeric',month:'short'})+' · '+now.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'})+' (edited)';
  saveNotes(cityId,section,notes);
- if(cityId.startsWith('tour_'))renderTourBody();else renderCityBody();
+ refreshAfterNote(cityId,section);
 }
 function cancelEditNote(cityId,section,idx){
  const editDiv=document.getElementById(`note-edit-${cityId}-${section}-${idx}`);
  if(editDiv)editDiv.style.display='none';
 }
 function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[c]);}
+function refreshAfterNote(owner,section){
+ if(owner==='app'){
+  if(section==='general'){renderHomeNotes();}
+  else if(section==='distancias'){renderDist();}
+  else if(section==='monedas'){renderMonedas();}
+  renderAllNotes();
+  return;
+ }
+ if(owner.startsWith('tour_'))renderTourBody();else renderCityBody();
+ renderAllNotes();
+}
 function addNote(cityId,section){
  const ta=document.getElementById('note-input-'+cityId+'-'+section);
  if(!ta)return;
@@ -1482,14 +1598,14 @@ function addNote(cityId,section){
  const dateStr=now.toLocaleDateString('en-US',{day:'numeric',month:'short'})+' · '+now.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
  notes.push({text:text,date:dateStr});
  saveNotes(cityId,section,notes);
- if(cityId.startsWith('tour_'))renderTourBody();else renderCityBody();
+ refreshAfterNote(cityId,section);
 }
 function delNote(cityId,section,idx){
  if(!confirm('Delete this note?'))return;
  const notes=getNotes(cityId,section);
  notes.splice(idx,1);
  saveNotes(cityId,section,notes);
- if(cityId.startsWith('tour_'))renderTourBody();else renderCityBody();
+ refreshAfterNote(cityId,section);
 }
 
 // ========= PHOTOS SYSTEM (IndexedDB) =========
@@ -1938,15 +2054,14 @@ function renderTours(){
 function renderTourBody(){
  const t=tours[curTour];
  let h='';
- // Notas section appended at end of every tab
- const notasH=renderNotes('tour_'+t.id,'tour');
+ // Independent notes per sub-tab
  if(curTourSub==='info'){
   h+=`<div class="card"><div class="card-header"><div class="card-title">${t.flag} ${t.name}</div><div class="card-sub">${t.base}</div><span class="tag" style="background:rgba(201,168,76,0.15);color:var(--gold2)">${t.precio}</span></div>`;
   if(t.desc)h+=`<div style="padding:12px 14px;font-size:14px;color:var(--cream);line-height:1.7;border-bottom:1px solid rgba(201,168,76,0.1)">${t.desc}</div>`;
   h+=`<div class="section-label">Main Attractions & Highlights</div>`;
   h+=t.atractivos.map(a=>`<div class="list-item"><span class="lb">◆</span><div class="list-text">${a[0]}<div class="list-sub">${a[1]}</div></div></div>`).join('');
   h+='</div>';
-  h+=notasH;
+  h+=renderNotes('tour_'+t.id,curTourSub);
  } else if(curTourSub==='recomendados'){
   h+=`<div class="card"><div class="card-header"><div class="card-title">⭐ Recommended in ${t.name}</div></div>`;
   const recs=t.recomendados||[];
@@ -1956,12 +2071,12 @@ function renderTourBody(){
    h+=`<div style="padding:14px;font-size:13px;color:var(--dim);text-align:center">No additional recommendations</div>`;
   }
   h+='</div>';
-  h+=notasH;
+  h+=renderNotes('tour_'+t.id,curTourSub);
  } else if(curTourSub==='gastronomia'){
   h+=`<div class="card"><div class="card-header"><div class="card-title">🍽️ Local Cuisine in ${t.name}</div></div>`;
   h+=t.gastronomia.map(g=>`<div class="list-item"><span class="lb">◆</span><span class="list-text">${g}</span></div>`).join('');
   h+='</div>';
-  h+=notasH;
+  h+=renderNotes('tour_'+t.id,curTourSub);
  } else if(curTourSub==='restaurantes'){
   h+=`<div class="card"><div class="card-header"><div class="card-title">🍴 Where to Eat in ${t.name}</div></div>`;
   const rests=t.restaurantes||[];
@@ -1971,13 +2086,13 @@ function renderTourBody(){
    h+=`<div style="padding:14px;font-size:13px;color:var(--dim);text-align:center">No restaurants registered yet</div>`;
   }
   h+='</div>';
-  h+=notasH;
+  h+=renderNotes('tour_'+t.id,curTourSub);
  } else if(curTourSub==='saludos'){
   const s=t.saludos;
   h+=`<div class="card"><div class="card-header"><div class="card-title">🗣️ Useful Phrases in ${s.idioma}</div><div class="card-sub">${s.nota}</div></div>`;
-  h+=s.frases.map(f=>`<div class="list-item"><span class="lb">◆</span><div class="list-text"><span style="color:var(--gold2);font-weight:500">${f.cat}</span><div style="font-size:15px;color:var(--cream);margin:3px 0">${f.local}</div><div style="font-size:12px;color:var(--gold);font-style:italic">Pronunciación: ${f.pron}</div><div class="list-sub">${f.tip}</div></div></div>`).join('');
+  h+=s.frases.map(f=>`<div class="list-item"><span class="lb">◆</span><div class="list-text"><span style="color:var(--gold2);font-weight:500">${f.cat}</span><div style="font-size:15px;color:var(--cream);margin:3px 0">${f.local}</div><div style="font-size:12px;color:var(--gold);font-style:italic">Pronunciation: ${f.pron}</div><div class="list-sub">${f.tip}</div></div></div>`).join('');
   h+='</div>';
-  h+=notasH;
+  h+=renderNotes('tour_'+t.id,curTourSub);
  } else if(curTourSub==='mapa'){
   const m=t.mapa||{centro:t.name,pois:[]};
   const murl=`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.centro)}`;
@@ -1988,18 +2103,18 @@ function renderTourBody(){
    h+=m.pois.map(p=>`<a class="map-poi" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p[1])}" target="_blank" rel="noopener"><span class="poi-icon">📍</span><span class="poi-name">${p[0]}</span><span class="poi-arrow">›</span></a>`).join('');
   }
   h+='</div>';
-  h+=notasH;
+  h+=renderNotes('tour_'+t.id,curTourSub);
  } else if(curTourSub==='fotos'){
   h+=renderPhotos(t.id,t.name);
-  h+=notasH;
+  h+=renderNotes('tour_'+t.id,curTourSub);
  } else if(curTourSub==='clima'){
   h+=`<div class="card" id="tour-wx-${t.id}"><div class="card-header"><div class="card-title">🌤️ Weather in ${t.name}</div><div class="card-sub">Updates with connection · last saved data shown offline</div></div><div id="tour-wx-body-${t.id}" style="padding:20px;text-align:center;color:var(--dim);font-size:13px">⏳ Loading weather...</div></div>`;
   if(t.wlat){setTimeout(()=>fetchWeather(t.id,t.name,t.wlat,t.wlon,'tour-wx-body-'+t.id),50);}
   else{setTimeout(()=>{const el=document.getElementById('tour-wx-body-'+t.id);if(el)el.innerHTML='No location data available.';},50);}
-  h+=notasH;
+  h+=renderNotes('tour_'+t.id,curTourSub);
  } else if(curTourSub==='video'){
   h+=renderTourVideo(t);
-  h+=notasH;
+  h+=renderNotes('tour_'+t.id,curTourSub);
  }
  document.getElementById('tour-body').innerHTML=h;
 }
@@ -2016,8 +2131,8 @@ function renderTourVideo(t){
  const savedUrl=localStorage.getItem('tourvid_'+t.id);
  const vid=t.video||null;
  const displayUrl=savedUrl||(vid?vid.u:'');
- const displayTitle=savedUrl?'Video personalizado':(vid?vid.t:'Video del destino');
- let h=`<div class="card"><div class="card-header"><div class="card-title">📺 Video de ${t.name}</div><div class="card-sub">Tap to open on YouTube · you can customize the link</div></div>`;
+ const displayTitle=savedUrl?'Custom video':(vid?vid.t:'Video del destino');
+ let h=`<div class="card"><div class="card-header"><div class="card-title">📺 ${t.name} Video</div><div class="card-sub">Tap to open on YouTube · you can customize the link</div></div>`;
  if(displayUrl){
   h+=`<a class="vlink" href="${displayUrl}" target="_blank" rel="noopener"><div class="pbtn">▶</div><div><div class="vtitle">${displayTitle}</div><div style="font-size:11px;color:var(--gold);margin-top:4px">📺 Tap to watch on YouTube</div></div></a>`;
  }else{
@@ -2056,6 +2171,8 @@ function renderDist(){
  document.getElementById('dist-tour-card').innerHTML=distTours.map(r=>
   `<div class="dist-row"><span class="dcity">${r.de}</span><span style="color:var(--dim);font-size:11px">→</span><span class="dcity" style="color:var(--cream)">${r.a}</span><span class="dkm">${r.mi} mi</span><span class="dtime">&nbsp;${r.t}</span></div>`
  ).join('');
+ const dn=document.getElementById('dist-notes');
+ if(dn)dn.innerHTML=renderNotes('app','distancias');
 }
 
 function renderMonedas(){
@@ -2084,6 +2201,8 @@ function renderMonedas(){
  if(navigator.onLine&&(!fxTs||fxAge>25)){
   fetchExchangeRates().then(ok=>{if(ok)renderMonedas();});
  }
+ const mn=document.getElementById('monedas-notes');
+ if(mn)mn.innerHTML=renderNotes('app','monedas');
 }
 const USD_MXN=MXN_USD;
 const ratesToUSD={USD:1,EUR:EUR,PLN:PLN,CZK:CZK,MXN:MXN_USD};
@@ -2171,7 +2290,7 @@ const itin=[
   full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,
   opcionales:["Strasbourg","Colmar"]},
  {d:"15",cityIdx:10,wd:"Sun",dt:"Sep 20",c:"🇫🇷→🇧🇪 Metz · Brussels",n:"Breakfast · journey · Brussels tour",tipo:"normal",
-  full:`Breakfast. We head to Brussels, capital of the Kingdom of Belgium, seat of the European Commission, famous for its beer and chocolate. We visit the impressive Grand Place, the Saint-Hubert Royal Galleries, the Manneken Pis sculpture, el Royal Palace of Brussels, the Royal Museums of Fine Arts. Accommodation.`},
+  full:`Breakfast. We head to Brussels, capital of the Kingdom of Belgium, seat of the European Commission, famous for its beer and chocolate. We visit the impressive Grand Place, the Saint-Hubert Royal Galleries, the Manneken Pis sculpture, the Royal Palace of Brussels, the Royal Museums of Fine Arts. Accommodation.`},
  {d:"16",cityIdx:10,wd:"Mon",dt:"Sep 21",c:"🇧🇪 Brussels ★ FREE DAY",n:"Opt. Bruges and Ghent · or Brussels on your own",tipo:"libre",
   full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,
   opcionales:["Bruges and Ghent"]},
@@ -2282,3 +2401,6 @@ window.addEventListener('online', ()=>{
  });
 });
 window.addEventListener('offline', updateOnlineBadge);
+
+// Render home notes + all-notes on first load
+try{ renderHomeNotes(); }catch(e){}

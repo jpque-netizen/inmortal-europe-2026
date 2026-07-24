@@ -75,6 +75,13 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
 .note-del{background:transparent;border:none;color:var(--dim);font-size:18px;cursor:pointer;padding:2px 6px;flex-shrink:0;border-radius:4px}
 .note-del:active{background:rgba(255,80,80,0.15);color:#ff6464}
 .note-edit{background:transparent;border:none;color:var(--gold);font-size:17px;cursor:pointer;padding:2px 6px;flex-shrink:0;border-radius:4px}
+.allnote-row{padding:10px 14px;border-bottom:1px solid rgba(94,203,122,0.10);overflow:hidden}
+.allnote-row:last-of-type{border-bottom:none}
+.allnote-del{float:right;background:transparent;border:none;color:var(--dim);font-size:16px;cursor:pointer;padding:2px 4px;margin-left:8px;border-radius:4px}
+.allnote-del:active{background:rgba(255,80,80,0.15);color:#ff6464}
+.allnote-sec{font-size:11px;color:var(--gold);font-weight:600;letter-spacing:.3px;text-transform:uppercase;margin-bottom:3px}
+.allnote-text{font-size:14px;color:var(--cream);line-height:1.5;white-space:pre-wrap;word-break:break-word}
+.allnote-date{font-size:11px;color:var(--dim);margin-top:4px;clear:both}
 .note-edit:active{background:rgba(201,168,76,0.18)}
 .note-add{padding:10px 14px;border-top:1px solid rgba(94,203,122,0.15);background:rgba(94,203,122,0.03)}
 .note-add textarea{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:15px;color:var(--cream);font-family:inherit;outline:none;resize:none;overflow:hidden;min-height:40px;box-sizing:border-box}
@@ -175,7 +182,7 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
 .fade-right{position:relative}
 .fade-right::after{content:'';position:absolute;right:0;top:0;bottom:0;width:28px;background:linear-gradient(to left,var(--bg),transparent);pointer-events:none}
 
-/* v12 extra classes (with +1px from defaults) */
+/* v13 extra classes (with +1px from defaults) */
 .map-poi{display:flex;align-items:center;gap:10px;padding:11px 14px;border-bottom:1px solid rgba(201,168,76,0.07);text-decoration:none;transition:background .15s}
 .map-poi:last-child{border-bottom:none}
 .map-poi:active{background:rgba(201,168,76,0.08)}
@@ -235,6 +242,13 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
 .note-del{background:transparent;border:none;color:var(--dim);font-size:18px;cursor:pointer;padding:2px 6px;flex-shrink:0;border-radius:4px}
 .note-del:active{background:rgba(255,80,80,0.15);color:#ff6464}
 .note-edit{background:transparent;border:none;color:var(--gold);font-size:17px;cursor:pointer;padding:2px 6px;flex-shrink:0;border-radius:4px}
+.allnote-row{padding:10px 14px;border-bottom:1px solid rgba(94,203,122,0.10);overflow:hidden}
+.allnote-row:last-of-type{border-bottom:none}
+.allnote-del{float:right;background:transparent;border:none;color:var(--dim);font-size:16px;cursor:pointer;padding:2px 4px;margin-left:8px;border-radius:4px}
+.allnote-del:active{background:rgba(255,80,80,0.15);color:#ff6464}
+.allnote-sec{font-size:11px;color:var(--gold);font-weight:600;letter-spacing:.3px;text-transform:uppercase;margin-bottom:3px}
+.allnote-text{font-size:14px;color:var(--cream);line-height:1.5;white-space:pre-wrap;word-break:break-word}
+.allnote-date{font-size:11px;color:var(--dim);margin-top:4px;clear:both}
 .note-edit:active{background:rgba(201,168,76,0.18)}
 .note-add{padding:10px 14px;border-top:1px solid rgba(94,203,122,0.15);background:rgba(94,203,122,0.03)}
 .note-add textarea{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:15px;color:var(--cream);font-family:inherit;outline:none;resize:none;overflow:hidden;min-height:40px;box-sizing:border-box}
@@ -265,7 +279,7 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
     <span style="font-size:22px">✈️</span>
     <div>
       <div class="header-title">Immortal Europe 2026</div>
-      <div class="header-sub">Sep 6-23 · 11 cities · 6 countries · v11 EN ✓</div>
+      <div class="header-sub">Sep 6-23 · 11 cities · 6 countries · v13 EN ✓</div>
     </div>
     <div class="offline-badge" id="offline-badge" style="display:none">📴 Offline</div>
   </div>
@@ -310,6 +324,9 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
       <p>🍽️ In Central Europe dinner is 7:00-8:30 pm. Kitchens close by 9 pm.</p>
       <p>🌡️ September in Europe: 57-72°F · bring a light jacket, rain is possible.</p>
     </div>
+    <div class="sec-hdr" style="margin-top:4px">📝 All my Notes</div>
+    <div id="all-notes-box"></div>
+    <div id="home-notes"></div>
   </div>
   <div class="view" id="view-ciudades">
     <div class="fade-right"><div class="pills-wrap" id="city-pills"></div></div>
@@ -327,6 +344,7 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
     <div class="card" id="dist-main-card"></div>
     <div class="sec-hdr" style="margin-top:4px">From base city (optional tours)</div>
     <div class="card" id="dist-tour-card"></div>
+    <div id="dist-notes"></div>
   </div>
   <div class="view" id="view-monedas">
     <div class="sec-hdr">💱 Exchange Rates</div>
@@ -361,15 +379,16 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
       <p>💡 In Poland and Czechia use local ATMs (PKO Bank, Moneta) for a good rate.</p>
       <p>⚠️ Avoid airport and tourist-area exchange offices — fees up to 15%.</p>
       <p>📱 Wise or Revolut offer the real market rate with no hidden fees.</p>
-      <p>💶 Siempre algo de efectivo — mercados y puestos callejeros no aceptan tarjeta.</p>
+      <p>💶 Always carry some cash — markets and street stalls don't take cards.</p>
     </div>
+    <div id="monedas-notes"></div>
   </div>
 </div>
 <nav class="bottom-nav">
   <button class="nav-btn active" onclick="sv('home')" id="nav-home"><span class="nav-icon">🏠</span>Home</button>
   <button class="nav-btn" onclick="sv('ciudades')" id="nav-ciudades"><span class="nav-icon">🏛️</span>Cities</button>
   <button class="nav-btn" onclick="sv('tours')" id="nav-tours"><span class="nav-icon">🎫</span>Tours</button>
-  <button class="nav-btn" onclick="sv('dist')" id="nav-dist"><span class="nav-icon">📏</span>Mi</button>
+  <button class="nav-btn" onclick="sv('dist')" id="nav-dist"><span class="nav-icon">📏</span>Miles</button>
   <button class="nav-btn" onclick="sv('monedas')" id="nav-monedas"><span class="nav-icon">💱</span>Currency</button>
 </nav>
 <script src="app.js"></script>
