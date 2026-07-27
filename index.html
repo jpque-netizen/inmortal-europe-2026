@@ -82,6 +82,10 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
 .allnote-sec{font-size:11px;color:var(--gold);font-weight:600;letter-spacing:.3px;text-transform:uppercase;margin-bottom:3px}
 .allnote-text{font-size:14px;color:var(--cream);line-height:1.5;white-space:pre-wrap;word-break:break-word}
 .allnote-date{font-size:11px;color:var(--dim);margin-top:4px;clear:both}
+.backup-btn{flex:1;min-width:130px;background:rgba(94,203,122,0.12);border:1px solid #5ecb7a;color:#5ecb7a;padding:11px 10px;border-radius:9px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit}
+.backup-btn:active{background:rgba(94,203,122,0.28)}
+.backup-btn.alt{background:rgba(201,168,76,0.10);border-color:var(--gold);color:var(--gold)}
+.backup-btn.alt:active{background:rgba(201,168,76,0.26)}
 .note-edit:active{background:rgba(201,168,76,0.18)}
 .note-add{padding:10px 14px;border-top:1px solid rgba(94,203,122,0.15);background:rgba(94,203,122,0.03)}
 .note-add textarea{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:15px;color:var(--cream);font-family:inherit;outline:none;resize:none;overflow:hidden;min-height:40px;box-sizing:border-box}
@@ -182,7 +186,7 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
 .fade-right{position:relative}
 .fade-right::after{content:'';position:absolute;right:0;top:0;bottom:0;width:28px;background:linear-gradient(to left,var(--bg),transparent);pointer-events:none}
 
-/* v13 extra classes (with +1px from defaults) */
+/* v15 extra classes (with +1px from defaults) */
 .map-poi{display:flex;align-items:center;gap:10px;padding:11px 14px;border-bottom:1px solid rgba(201,168,76,0.07);text-decoration:none;transition:background .15s}
 .map-poi:last-child{border-bottom:none}
 .map-poi:active{background:rgba(201,168,76,0.08)}
@@ -249,6 +253,10 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
 .allnote-sec{font-size:11px;color:var(--gold);font-weight:600;letter-spacing:.3px;text-transform:uppercase;margin-bottom:3px}
 .allnote-text{font-size:14px;color:var(--cream);line-height:1.5;white-space:pre-wrap;word-break:break-word}
 .allnote-date{font-size:11px;color:var(--dim);margin-top:4px;clear:both}
+.backup-btn{flex:1;min-width:130px;background:rgba(94,203,122,0.12);border:1px solid #5ecb7a;color:#5ecb7a;padding:11px 10px;border-radius:9px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit}
+.backup-btn:active{background:rgba(94,203,122,0.28)}
+.backup-btn.alt{background:rgba(201,168,76,0.10);border-color:var(--gold);color:var(--gold)}
+.backup-btn.alt:active{background:rgba(201,168,76,0.26)}
 .note-edit:active{background:rgba(201,168,76,0.18)}
 .note-add{padding:10px 14px;border-top:1px solid rgba(94,203,122,0.15);background:rgba(94,203,122,0.03)}
 .note-add textarea{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:15px;color:var(--cream);font-family:inherit;outline:none;resize:none;overflow:hidden;min-height:40px;box-sizing:border-box}
@@ -279,7 +287,7 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
     <span style="font-size:22px">✈️</span>
     <div>
       <div class="header-title">Immortal Europe 2026</div>
-      <div class="header-sub">Sep 6-23 · 11 cities · 6 countries · v13 EN ✓</div>
+      <div class="header-sub">Sep 6-23 · 11 cities · 6 countries · v15 EN ✓</div>
     </div>
     <div class="offline-badge" id="offline-badge" style="display:none">📴 Offline</div>
   </div>
@@ -323,6 +331,17 @@ body{font-family:'DM Sans',sans-serif;color:var(--text);display:flex;flex-direct
       <p>🎫 The 65 EUR gratuity fee is paid on-site, not included in the tour price.</p>
       <p>🍽️ In Central Europe dinner is 7:00-8:30 pm. Kitchens close by 9 pm.</p>
       <p>🌡️ September in Europe: 57-72°F · bring a light jacket, rain is possible.</p>
+    </div>
+    <div class="sec-hdr" style="margin-top:4px">💾 My Data Backup</div>
+    <div class="card">
+      <div id="storage-info" style="padding:12px 14px;font-size:13px;color:var(--muted);line-height:1.6;border-bottom:1px solid rgba(201,168,76,0.10)">Calculating…</div>
+      <div style="padding:12px 14px;display:flex;gap:8px;flex-wrap:wrap">
+        <button class="backup-btn" onclick="exportBackup()">📤 Export backup</button>
+        <button class="backup-btn alt" onclick="document.getElementById('backup-file').click()">📥 Restore</button>
+        <input type="file" id="backup-file" accept=".json,application/json" style="display:none" onchange="importBackup(this)">
+      </div>
+      <div id="backup-status" style="display:none;padding:0 14px 12px;font-size:13px;color:var(--cream);line-height:1.5"></div>
+      <div style="padding:0 14px 12px;font-size:11px;color:var(--dim);line-height:1.5">Save the file to Files, Drive or send it to yourself on WhatsApp. Use it to recover everything if you switch phones.</div>
     </div>
     <div class="sec-hdr" style="margin-top:4px">📝 All my Notes</div>
     <div id="all-notes-box"></div>

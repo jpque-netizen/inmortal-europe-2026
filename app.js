@@ -40,7 +40,7 @@ async function fetchExchangeRates(){
 
 // ===== WEATHER SYSTEM =====
 async function fetchWeather(cityId,cityName,lat,lon,targetId){
- const cacheKey='wx_'+cityId;
+ const cacheKey='en_wx_'+cityId;
  const cached=localStorage.getItem(cacheKey);
  if(cached){
   try{
@@ -75,13 +75,13 @@ async function fetchWeatherAPI(cityId,cityName,lat,lon,targetId){
     wind:Math.round(d.wind.speed*3.6),
     city:d.name,
    };
-   localStorage.setItem('wx_'+cityId,JSON.stringify(data));
+   localStorage.setItem('en_wx_'+cityId,JSON.stringify(data));
    renderWeatherCard(targetId,data,cityName);
   }
  }catch(e){
   const el=document.getElementById(targetId);
   if(el){
-   const cached=localStorage.getItem('wx_'+cityId);
+   const cached=localStorage.getItem('en_wx_'+cityId);
    if(cached){try{renderWeatherCard(targetId,JSON.parse(cached),cityName,true);}catch(ex){
     el.innerHTML='<div style="padding:14px;color:var(--dim);font-size:13px;text-align:center">No internet connection. Open the app with signal to see weather.</div>';
    }}else{
@@ -1365,8 +1365,8 @@ function renderCityBody(){
   if(c.wlat){setTimeout(()=>fetchWeather(c.id,c.name,c.wlat,c.wlon,'city-wx-body-'+c.id),50);}
   h+=renderNotes(c.id,'clima');
  } else if(curSub==='video'){
-  const savedVidUrl=localStorage.getItem('cityvid_url_'+c.id);
-  const savedVidTitle=localStorage.getItem('cityvid_title_'+c.id);
+  const savedVidUrl=localStorage.getItem('en_cityvid_url_'+c.id);
+  const savedVidTitle=localStorage.getItem('en_cityvid_title_'+c.id);
   const displayUrl=savedVidUrl||c.video.u;
   const displayTitle=savedVidTitle||c.video.t;
   const displayCanal=savedVidUrl?'Custom video':c.video.canal;
@@ -1399,21 +1399,21 @@ function saveCityVideo(cityId){
  const title=titleInp?titleInp.value.trim():'';
  if(!url){alert('Please enter a YouTube link');return;}
  if(!url.includes('youtube')&&!url.includes('youtu.be')){alert('Please enter a valid YouTube link');return;}
- localStorage.setItem('cityvid_url_'+cityId,url);
- if(title)localStorage.setItem('cityvid_title_'+cityId,title);
+ localStorage.setItem('en_cityvid_url_'+cityId,url);
+ if(title)localStorage.setItem('en_cityvid_title_'+cityId,title);
  renderCityBody();
 }
 function deleteCityVideo(cityId){
  if(!confirm('Delete custom video and restore original?'))return;
- localStorage.removeItem('cityvid_url_'+cityId);
- localStorage.removeItem('cityvid_title_'+cityId);
+ localStorage.removeItem('en_cityvid_url_'+cityId);
+ localStorage.removeItem('en_cityvid_title_'+cityId);
  renderCityBody();
 }
 
 // ========= NOTES SYSTEM =========
 function getNotes(cityId,section){
  try{
-  const raw=localStorage.getItem('notes_'+cityId+'_'+section);
+  const raw=localStorage.getItem('en_notes_'+cityId+'_'+section);
   return raw?JSON.parse(raw):[];
  }catch(e){return [];}
 }
@@ -1421,21 +1421,21 @@ function getNotes(cityId,section){
 // One-time migration: copy old shared tour notes into all 9 sub-tabs
 function migrateTourNotes(){
  try{
-  if(localStorage.getItem('notes_migrated_v12'))return;
+  if(localStorage.getItem('en_notes_migrated_v12'))return;
   const subs=['info','recomendados','gastronomia','restaurantes','saludos','mapa','fotos','clima','video'];
   for(let i=0;i<localStorage.length;i++){
    const k=localStorage.key(i);
-   if(k&&k.startsWith('notes_tour_')&&k.endsWith('_tour')){
+   if(k&&k.startsWith('en_notes_tour_')&&k.endsWith('_tour')){
     const raw=localStorage.getItem(k);
     if(!raw)continue;
-    const tourKey=k.slice(6,-5);
+    const tourKey=k.slice(9,-5);
     subs.forEach(s=>{
-     const nk='notes_'+tourKey+'_'+s;
+     const nk='en_notes_'+tourKey+'_'+s;
      if(!localStorage.getItem(nk))localStorage.setItem(nk,raw);
     });
    }
   }
-  localStorage.setItem('notes_migrated_v12','1');
+  localStorage.setItem('en_notes_migrated_v12','1');
  }catch(e){}
 }
 migrateTourNotes();
@@ -1459,9 +1459,9 @@ function collectAllNotes(){
  try{
   for(let i=0;i<localStorage.length;i++){
    const k=localStorage.key(i);
-   if(!k||!k.startsWith('notes_'))continue;
-   if(k==='notes_migrated_v12')continue;
-   const rest=k.slice(6);
+   if(!k||!k.startsWith('en_notes_'))continue;
+   if(k==='en_notes_migrated_v12')continue;
+   const rest=k.slice(9);
    const idx=rest.lastIndexOf('_');
    if(idx<1)continue;
    const owner=rest.slice(0,idx);
@@ -1511,7 +1511,7 @@ function delNoteFromAll(owner,section,i){
  renderAllNotes();
 }
 function saveNotes(cityId,section,arr){
- try{localStorage.setItem('notes_'+cityId+'_'+section,JSON.stringify(arr));}catch(e){}
+ try{localStorage.setItem('en_notes_'+cityId+'_'+section,JSON.stringify(arr));}catch(e){}
 }
 function renderNotes(cityId,section){
  const notes=getNotes(cityId,section);
@@ -1614,7 +1614,7 @@ let photoDB=null;
 function openPhotoDB(){
  return new Promise((resolve,reject)=>{
   if(photoDB){resolve(photoDB);return;}
-  const req=indexedDB.open('europa_photos',1);
+  const req=indexedDB.open('immortal_photos',1);
   req.onerror=()=>reject(req.error);
   req.onupgradeneeded=e=>{
    const db=e.target.result;
@@ -1768,7 +1768,7 @@ let docsDB=null;
 function openDocsDB(){
  return new Promise((resolve,reject)=>{
   if(docsDB){resolve(docsDB);return;}
-  const req=indexedDB.open('europa_docs',1);
+  const req=indexedDB.open('immortal_docs',1);
   req.onerror=()=>reject(req.error);
   req.onupgradeneeded=e=>{
    const db=e.target.result;
@@ -2128,7 +2128,7 @@ function selTS(s){curTourSub=s;
  renderTourBody();
 }
 function renderTourVideo(t){
- const savedUrl=localStorage.getItem('tourvid_'+t.id);
+ const savedUrl=localStorage.getItem('en_tourvid_'+t.id);
  const vid=t.video||null;
  const displayUrl=savedUrl||(vid?vid.u:'');
  const displayTitle=savedUrl?'Custom video':(vid?vid.t:'Video del destino');
@@ -2153,12 +2153,12 @@ function saveTourVideo(tid){
  if(!inp)return;
  const url=inp.value.trim();
  if(url&&!url.includes('youtube')&&!url.includes('youtu.be'))return alert('Please enter a valid YouTube link');
- if(url)localStorage.setItem('tourvid_'+tid,url);
+ if(url)localStorage.setItem('en_tourvid_'+tid,url);
  renderTourBody();
 }
 function deleteTourVideo(tid){
  if(!confirm('Delete the video link?'))return;
- localStorage.removeItem('tourvid_'+tid);
+ localStorage.removeItem('en_tourvid_'+tid);
  renderTourBody();
 }
 
@@ -2404,3 +2404,165 @@ window.addEventListener('offline', updateOnlineBadge);
 
 // Render home notes + all-notes on first load
 try{ renderHomeNotes(); }catch(e){}
+
+// ========= PERSISTENT STORAGE + BACKUP =========
+async function requestPersistentStorage(){
+ try{
+  if(navigator.storage&&navigator.storage.persist){
+   const already=await navigator.storage.persisted();
+   if(already)return true;
+   return await navigator.storage.persist();
+  }
+ }catch(e){}
+ return false;
+}
+
+function idbGetAll(dbName,storeName){
+ return new Promise(resolve=>{
+  try{
+   const req=indexedDB.open(dbName,1);
+   req.onsuccess=()=>{
+    const db=req.result;
+    if(!db.objectStoreNames.contains(storeName)){resolve([]);return;}
+    const tx=db.transaction(storeName,'readonly');
+    const all=tx.objectStore(storeName).getAll();
+    all.onsuccess=()=>resolve(all.result||[]);
+    all.onerror=()=>resolve([]);
+   };
+   req.onerror=()=>resolve([]);
+  }catch(e){resolve([]);}
+ });
+}
+
+function idbPutAll(dbName,storeName,records){
+ return new Promise(resolve=>{
+  try{
+   const req=indexedDB.open(dbName,1);
+   req.onsuccess=()=>{
+    const db=req.result;
+    if(!db.objectStoreNames.contains(storeName)){resolve(0);return;}
+    const tx=db.transaction(storeName,'readwrite');
+    const store=tx.objectStore(storeName);
+    let n=0;
+    records.forEach(r=>{ try{ const c=Object.assign({},r); delete c.id; store.add(c); n++; }catch(e){} });
+    tx.oncomplete=()=>resolve(n);
+    tx.onerror=()=>resolve(n);
+   };
+   req.onerror=()=>resolve(0);
+  }catch(e){resolve(0);}
+ });
+}
+
+async function buildBackupObject(){
+ const ls={};
+ for(let i=0;i<localStorage.length;i++){
+  const k=localStorage.key(i);
+  if(!k)continue;
+  if(k.startsWith('en_notes_')||k.startsWith('en_cityvid_')||k.startsWith('en_tourvid_')){
+   ls[k]=localStorage.getItem(k);
+  }
+ }
+ const photos=await idbGetAll('immortal_photos','photos');
+ const docs=await idbGetAll('immortal_docs','docs');
+ return {app:'immortal-europe',version:14,date:new Date().toISOString(),localStorage:ls,photos:photos,docs:docs};
+}
+
+async function exportBackup(){
+ const btn=document.getElementById('backup-status');
+ if(btn){btn.style.display='block';btn.innerHTML='⏳ Preparing backup...';}
+ try{
+  const data=await buildBackupObject();
+  const json=JSON.stringify(data);
+  const blob=new Blob([json],{type:'application/json'});
+  const url=URL.createObjectURL(blob);
+  const d=new Date();
+  const stamp=d.getFullYear()+('0'+(d.getMonth()+1)).slice(-2)+('0'+d.getDate()).slice(-2);
+  const a=document.createElement('a');
+  a.href=url; a.download='immortal-europe-backup-'+stamp+'.json';
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),60000);
+  localStorage.setItem('en_last_backup',Date.now().toString());
+  const mb=(json.length/1048576).toFixed(1);
+  if(btn)btn.innerHTML='✅ Backup created ('+mb+' MB) · '+data.photos.length+' photos · '+data.docs.length+' documents';
+  renderStorageInfo();
+ }catch(e){
+  if(btn)btn.innerHTML='❌ Could not create the backup';
+ }
+}
+
+async function importBackup(input){
+ const file=input.files&&input.files[0];
+ if(!file)return;
+ const btn=document.getElementById('backup-status');
+ if(!confirm('Restore backup\n\nThe file contents will be ADDED to what you already have on this phone.\n\nContinue?')){input.value='';return;}
+ if(btn){btn.style.display='block';btn.innerHTML='⏳ Restoring...';}
+ try{
+  const text=await file.text();
+  const data=JSON.parse(text);
+  if(!data||(data.app!=='immortal-europe'&&data.app!=='europa-inmortal'))throw new Error('invalid file');
+  if(data.localStorage){
+   Object.keys(data.localStorage).forEach(k=>{
+    try{
+     // Adapt keys coming from the Spanish app to this app's namespace
+     let key=k;
+     if(!key.startsWith('en_')){
+      if(key.startsWith('notes_'))key='en_'+key;
+      else if(key.startsWith('cityvid_'))key='en_'+key;
+      else if(key.startsWith('tourvid_'))key='en_'+key;
+     }
+     localStorage.setItem(key,data.localStorage[k]);
+    }catch(e){}
+   });
+  }
+  let np=0,nd=0;
+  if(data.photos&&data.photos.length)np=await idbPutAll('immortal_photos','photos',data.photos);
+  if(data.docs&&data.docs.length)nd=await idbPutAll('immortal_docs','docs',data.docs);
+  if(btn)btn.innerHTML='✅ Restored · '+np+' photos · '+nd+' documents · notes recovered';
+  renderStorageInfo();
+  try{renderHomeNotes();}catch(e){}
+ }catch(e){
+  if(btn)btn.innerHTML='❌ Invalid or damaged file';
+ }
+ input.value='';
+}
+
+async function renderStorageInfo(){
+ const el=document.getElementById('storage-info');
+ if(!el)return;
+ let usoTxt='—';
+ try{
+  if(navigator.storage&&navigator.storage.estimate){
+   const est=await navigator.storage.estimate();
+   usoTxt=(est.usage/1048576).toFixed(1)+' MB';
+  }
+ }catch(e){}
+ const photos=await idbGetAll('immortal_photos','photos');
+ const docs=await idbGetAll('immortal_docs','docs');
+ let notes=0;
+ for(let i=0;i<localStorage.length;i++){
+  const k=localStorage.key(i);
+  if(k&&k.startsWith('en_notes_')&&k!=='en_notes_migrated_v12'){
+   try{notes+=(JSON.parse(localStorage.getItem(k))||[]).length;}catch(e){}
+  }
+ }
+ let persistTxt='';
+ try{
+  if(navigator.storage&&navigator.storage.persisted){
+   const p=await navigator.storage.persisted();
+   persistTxt=p?'<span style="color:#5ecb7a">🔒 Data protected</span>':'<span style="color:#ffa552">⚠ Not protected — add the app to your home screen</span>';
+  }
+ }catch(e){}
+ const last=localStorage.getItem('en_last_backup');
+ let lastTxt='<span style="color:#ffa552">You have never made a backup</span>';
+ if(last){
+  const days=Math.floor((Date.now()-parseInt(last))/86400000);
+  lastTxt=days===0?'Backed up today':('Last backup '+days+(days===1?' day':' days')+' ago');
+  if(days>=7)lastTxt='<span style="color:#ffa552">'+lastTxt+' ⚠</span>';
+ }
+ el.innerHTML='📦 '+usoTxt+' · '+photos.length+' photos · '+docs.length+' documents · '+notes+' notes<br>'+lastTxt+(persistTxt?'<br>'+persistTxt:'');
+}
+
+(async function initStorage(){
+ await requestPersistentStorage();
+ setTimeout(renderStorageInfo,300);
+})();

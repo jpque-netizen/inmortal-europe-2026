@@ -1,4 +1,4 @@
-const CACHE='immortal-europe-en-v13';
+const CACHE='immortal-europe-en-v15';
 const ASSETS=['./index.html','./manifest.json',
   'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js'];
