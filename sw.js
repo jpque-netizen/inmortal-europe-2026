@@ -1,4 +1,4 @@
-const CACHE='immortal-europe-en-v15';
+const CACHE='immortal-europe-en-v17';
 const ASSETS=['./index.html','./manifest.json',
   'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js'];
@@ -21,6 +21,16 @@ self.addEventListener('fetch',e=>{
         caches.open(CACHE).then(c=>c.put(e.request,copy));
         return resp;
       }))
+    );
+    return;
+  }
+  if(url.includes('app.js')||url.endsWith('/')||url.includes('index.html')){
+    e.respondWith(
+      fetch(e.request).then(resp=>{
+        const copy=resp.clone();
+        caches.open(CACHE).then(c=>c.put(e.request,copy));
+        return resp;
+      }).catch(()=>caches.match(e.request).then(r=>r||caches.match('./index.html')))
     );
     return;
   }

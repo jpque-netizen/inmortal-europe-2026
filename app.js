@@ -140,6 +140,7 @@ const cities=[
 {id:"ams",wlat:52.3676,wlon:4.9041,name:"Amsterdam",flag:"🇳🇱",country:"Netherlands",days:"Days 2-3 & 17-18",dates:"Mon Sep 7 – Tue Sep 8\nFri Sep 22 – Sat Sep 23",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
  libre:[],
  tourPersonal:"⭐ Day 17 (Fri Sep 22): If you skip optional excursion (Volendam, The Hague, Giethoorn) you have Amsterdam free. Perfect for the Rijksmuseum, the Jordaan neighborhood and the canals at your own pace before the Day 18 flight.",
+ hotel:{nombre:"ibis Schiphol Amsterdam Airport",direccion:"Schipholweg 181, 1171 PK Badhoevedorp",ciudad:"Amsterdam",telefono:"+31 20 721 9171",habitacion:"",checkin:"Sun Sep 7",checkout:"Mon Sep 8",notas:"Same hotel on the return: Sep 22-23.\nFree airport shuttle."},
  descripcion_dia:[
   {t:`📅 Day 1 — Sun Sep 6`,c:`✈️ Mexico City → Amsterdam`,full:`Check in at Mexico City International Airport 3 hours early for the transatlantic flight to Amsterdam. Overnight on board.`,attrs:[],opc:[]},
   {t:`📅 Day 2 — Mon Sep 7`,c:`🇳🇱 Amsterdam`,full:`Arrival in Amsterdam, capital of the Kingdom of the Netherlands. Its historic center is a UNESCO World Heritage Site. After the panoramic city tour, reception and hotel transfer. Accommodation.`,attrs:[[`Amsterdam Historic Center`,`UNESCO World Heritage · panoramic city tour included`]],opc:[]},
@@ -211,6 +212,7 @@ const cities=[
  ]}
 },
 {id:"han",wlat:52.3759,wlon:9.732,name:"Hanover",flag:"🇩🇪",country:"Germany",days:"Day 3 (transit)",dates:"Tue Sep 8 (stop on Amsterdam–Berlin route)",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,libre:[],tourPersonal:"",
+ hotel:{nombre:"",direccion:"",ciudad:"Hanover",telefono:"",habitacion:"",checkin:"",checkout:"",notas:"Day 3: sightseeing stop only. Overnight in Berlin."},
  descripcion_dia:[
   {t:`📅 Day 3 — Tue Sep 8`,c:`🇳🇱→🇩🇪 Amsterdam · Hanover · Berlin`,full:`Breakfast. We head to the city of Hanover in Germany, located on the banks of the Leine River "The High Bank". Hanover was founded in medieval times by boatmen, fishermen and merchants. During our tour we visit the beautiful Opera House, the ruins of the Aegidienkirche, the Market Church, and the New and Old Town Halls. Then we continue to Berlin, capital of Germany. Accommodation.`,attrs:[[`Opera House (Opernhaus)`,`one of Germany's most important theaters`],[`Ruins of the Aegidienkirche`,`preserved as a memorial to WWII victims`],[`Market Church (Marktkirche)`,`14th-century Gothic · symbol of the city`],[`New Town Hall (Neues Rathaus)`,`with a curved elevator unique in Europe`],[`Old Town Hall (Altes Rathaus)`,`with medieval dungeons open to visitors`]],opc:[]}
  ],
@@ -261,6 +263,7 @@ const cities=[
  ]}
 },
 {id:"ber",wlat:52.52,wlon:13.405,name:"Berlin",flag:"🇩🇪",country:"Germany",days:"Days 3-5",dates:"Tue Sep 8 – Thu Sep 10",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,libre:[],tourPersonal:"",
+ hotel:{nombre:"ibis Styles Berlin Treptow",direccion:"Spreestraße 14, 12439 Berlin",ciudad:"Berlin",telefono:"+49 30 639030",habitacion:"",checkin:"Mon Sep 8",checkout:"Wed Sep 10",notas:""},
  descripcion_dia:[
   {t:`📅 Day 4 — Wed Sep 9`,c:`🇩🇪 Berlin`,full:`Breakfast. We take a panoramic tour of Berlin. Located on the banks of two rivers, the Spree and Havel which meet within the city, Berlin offers unforgettable views. During our tour we visit Gendarmenmarkt Square, the Brandenburg Gate, Potsdamer Platz, Frauenkirche, the Zwinger Palace, the Brühl Terrace, the King's Way, the Martin Luther Statue and enjoy the majestic beauty of this ancient city. Accommodation.`,attrs:[[`Gendarmenmarkt Square`,`considered the most beautiful square in Berlin`],[`Brandenburg Gate`,`world symbol of German reunification (1989)`],[`Potsdamer Platz`,`modern square with avant-garde architecture`],[`Frauenkirche`,`church mentioned in the tour itinerary`],[`Zwinger Palace`,`18th-century baroque · dazzling architecture`],[`Brühl Terrace`,`royal promenade with river views`],[`King's Way`,`historic walk mentioned in the itinerary`],[`Martin Luther Statue`,`at the Marienkirche church`]],opc:[[`Potsdam City`,`Capital of Brandenburg · Sanssouci Palace UNESCO · summer residence of Frederick the Great`]]}
  ],
@@ -326,6 +329,7 @@ const cities=[
  ]}
 },
 {id:"var",wlat:52.2297,wlon:21.0122,name:"Warsaw",flag:"🇵🇱",country:"Poland",days:"Days 5-6",dates:"Thu Sep 10 – Fri Sep 11",moneda:"Polish Złoty (zł / PLN)",cambio:`$1 USD = ${(1/PLN).toFixed(2)} zł`,libre:[],tourPersonal:"",
+ hotel:{nombre:"Arche Hotel Geologiczna",direccion:"Geologiczna 4, 02-246 Warszawa",ciudad:"Warsaw",telefono:"+48 22 451 45 00",habitacion:"",checkin:"Wed Sep 10",checkout:"Thu Sep 11",notas:"24-hour reception."},
  descripcion_dia:[
   {t:`📅 Day 5 — Thu Sep 10`,c:`🇩🇪→🇵🇱 Berlin · Warsaw`,full:`Breakfast. We head to Warsaw, capital of Poland. Its Old Town — a UNESCO World Heritage Site — was completely rebuilt after WWII. During our tour we visit the Royal Castle, the famous Sigismund Column, and the Church of the Visitationists. Accommodation.`,attrs:[[`Old Town (Stare Miasto)`,`UNESCO Heritage · rebuilt stone by stone after WWII`],[`Royal Castle (Zamek Królewski)`,`official residence of the Polish kings`],[`Sigismund Column`,`iconic baroque monument facing the castle`],[`Church of the Visitationists (Kościół Wizytek)`,`baroque · where Chopin played the organ as a child`]],opc:[]}
  ],
@@ -382,6 +386,7 @@ const cities=[
 {id:"cra",wlat:50.0647,wlon:19.945,name:"Kraków",flag:"🇵🇱",country:"Poland",days:"Days 6-8",dates:"Fri Sep 11 – Sun Sep 13",moneda:"Polish Złoty (zł / PLN)",cambio:`$1 USD = ${(1/PLN).toFixed(2)} zł`,
  libre:["🟢 Day 7 - Fri Sep 12 (FREE DAY): Auschwitz-Birkenau · Wieliczka Salt Mine · or personal tour in Kraków."],
  tourPersonal:"⭐ Day 7 (Fri Sep 12): If you skip optional tours, explore the Kazimierz Quarter (historic Jewish quarter full of unique cafés), the Main Market Square at your own pace, and Wawel Castle with no rush.",
+ hotel:{nombre:"Hotel Perła",direccion:"Zakopiańska 180 B, 30-435 Kraków",ciudad:"Kraków",telefono:"+48 12 267 31 92",habitacion:"",checkin:"Thu Sep 11",checkout:"Sat Sep 13",notas:""},
  descripcion_dia:[
   {t:`📅 Day 6 — Fri Sep 11`,c:`🇵🇱 Warsaw → Kraków`,full:`Breakfast. We head to the Polish city of Kraków. Another beautiful European city with its historic center on the UNESCO World Heritage List. During our panoramic tour we visit Wawel Castle, the incredible Basilica of Saints Stanislaus and Wenceslaus with its numerous chapels of different periods and architectural styles, St. Mary's Basilica, the Renaissance Cloth Hall, the Main Market Square y the small Church of St. Adalbert. Accommodation.`,attrs:[[`Wawel Castle`,`11th-century royal fortress · Poland's ultimate symbol`],[`Wawel Cathedral (Basilica of St. Stanislaus and St. Wenceslaus)`,`royal pantheon · chapels from different eras and architectural styles`],[`Renaissance Cloth Hall (Sukiennice)`,`14th-century cloth hall · now a museum and souvenir shops`],[`Main Market Square (Rynek Główny)`,`one of Europe's largest medieval squares`],[`St. Mary's Basilica (Kościół Mariacki)`,`Gothic with a 15th-century Veit Stoss carved altar`],[`St. Adalbert's Church`,`small 10th-century pre-Romanesque church`]],opc:[]},
   {libre:true,t:`📅 Day 7 — Sat Sep 12`,c:`🇵🇱 Kraków ★ FREE DAY`,full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,attrs:[],opc:[[`Auschwitz-Birkenau Concentration Camp`,`The largest Nazi complex · deeply moving visit · monument to Holocaust victims`],[`Wieliczka Salt Mine`,`World's oldest operating salt mine · salt-rock chapels · St. Kinga's Chapel · UNESCO`]]}
@@ -448,6 +453,7 @@ const cities=[
 {id:"pra",wlat:50.0755,wlon:14.4378,name:"Prague",flag:"🇨🇿",country:"Czech Republic",days:"Days 8-10",dates:"Sun Sep 13 – Mon Sep 15",moneda:"Czech Koruna (Kč / CZK)",cambio:`$1 USD = ${(1/CZK).toFixed(1)} Kč`,
  libre:["🟢 Day 9 - Sun Sep 14 (FREE DAY): Vltava River Cruise · Karlovy Vary or Czech Evening with dinner · or personal tour."],
  tourPersonal:"⭐ Day 9 (Sun Sep 14): No optional tours? Visit Prague Castle on your own (not included in the Day 8 panoramic tour), cross Charles Bridge at sunrise when it's empty, and explore Malá Strana at your leisure.",
+ hotel:{nombre:"Hotel UNO Prague",direccion:"Štěchovická 2296/2a, 100 00 Praha 10-Strašnice",ciudad:"Prague",telefono:"+420 267 036 117",habitacion:"",checkin:"Sat Sep 13",checkout:"Mon Sep 15",notas:"Close to the metro."},
  descripcion_dia:[
   {t:`📅 Day 8 — Sun Sep 13`,c:`🇵🇱→🇨🇿 Kraków · Prague`,full:`Breakfast. We head to Prague, capital of the Czech Republic and historic capital of Bohemia. Built in the 9th century on the banks of the Vltava River, by the 17th-19th century it became so splendid that all of Europe called it Golden Prague. On our panoramic city tour we pass through Wenceslas Square, one of Prague's largest, then reach the Old Town Square, located between Wenceslas Square and Charles Bridge (Karluv Most). On the Old Town Square we see the Astronomical Clock Tower, the Týn Church, the Old Town Hall, St. Nicholas Church and the Jan Hus Monument. After lunch we continue to the other bank of Prague. We pass Charles Bridge, built in the 14th century. Accommodation.`,attrs:[[`Václav Havel Square (Wenceslas Square)`,`one of Prague's largest squares · central historic boulevard`],[`Old Town Square`,`between Václav Havel Square and Charles Bridge (Karlův Most)`],[`Astronomical Clock Tower`,`chimes every hour · built in 1410`],[`Týn Church`,`14th-century Gothic · iconic on the Old Town Square`],[`Old Town Hall`,`home of the famous astronomical clock`],[`St. Nicholas Church`,`next to the Römerberg · mentioned in the itinerary`],[`Jan Hus Monument`,`on the Old Town Square · 15th-century Czech reformer`],[`Charles Bridge (Karlův Most)`,`built in the 14th century · 30 baroque statues`]],opc:[]},
   {libre:true,t:`📅 Day 9 — Mon Sep 14`,c:`🇨🇿 Prague ★ FREE DAY`,full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,attrs:[],opc:[[`Boat ride on the Vltava River`,`Boat tour · passes under Charles Bridge · views of Prague Castle`],[`Karlovy Vary Excursion`,`Elegant spa town · 12 thermal springs · frequented by royalty and celebrities`],[`Czech evening with traditional dinner`,`Traditional Czech dinner · folk music · typical dances · local wine or beer`]]}
@@ -521,6 +527,7 @@ const cities=[
 {id:"nur",wlat:49.4521,wlon:11.0767,name:"Nuremberg",flag:"🇩🇪",country:"Germany",days:"Days 10-12",dates:"Mon Sep 15 – Wed Sep 17",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
  libre:["🟢 Day 11 - Tue Sep 16 (FREE DAY): Rothenburg ob der Tauber · Munich · or personal tour."],
  tourPersonal:"⭐ Day 11 (Tue Sep 16): No optional tours? Nuremberg offers the Nuremberg Trials Courthouse (Courtroom 600 where Nazi crimes were tried), the walkable medieval walls and the Imperial Castle, all within walking distance of the hotel.",
+ hotel:{nombre:"DORMERO Hotel Fürth",direccion:"Königstraße 140, 90762 Fürth",ciudad:"Nuremberg",telefono:"",habitacion:"",checkin:"Mon Sep 15",checkout:"Wed Sep 17",notas:"In Fürth, the town next to Nuremberg.\nNear the station and pedestrian area."},
  descripcion_dia:[
   {t:`📅 Day 10 — Tue Sep 15`,c:`🇨🇿→🇩🇪 Prague · Nuremberg`,full:`Breakfast. We head to the German city of Nuremberg. The magnificent Imperial Castle was built atop a hill about a thousand years ago. Over the following centuries this picturesque complex became the living core of a rapidly growing city. During our tour of Nuremberg we visit the impressive Church of Our Lady, the Opera House, the Old Town Hall and of course the fascinating views of the Pegnitz River. Accommodation.`,attrs:[[`Nuremberg Imperial Castle (Kaiserburg)`,`built atop a hill about a thousand years ago · the living core of the city`],[`Church of Our Lady (Frauenkirche)`,`Gothic on the Hauptmarkt · clock with mechanical figures`],[`Opera House (Opernhaus)`,`Nuremberg opera house · mentioned in the tour itinerary`],[`Old Town Hall (Altes Rathaus)`,`with medieval dungeons open to visitors`],[`Pegnitz River`,`fascinating views of the river crossing the medieval center`]],opc:[]},
   {libre:true,t:`📅 Day 11 — Wed Sep 16`,c:`🇩🇪 Nuremberg ★ FREE DAY`,full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,attrs:[],opc:[[`Rothenburg ob der Tauber`,`Germany's best-preserved medieval town · walls · half-timbered houses · Romantic Road`],[`Munich City`,`Capital of Bavaria · Oktoberfest · Marienplatz · New Town Hall · beer culture`]]}
@@ -583,6 +590,7 @@ const cities=[
  ]}
 },
 {id:"fra",wlat:50.1109,wlon:8.6821,name:"Frankfurt",flag:"🇩🇪",country:"Germany",days:"Days 12-13",dates:"Wed Sep 17 – Thu Sep 18",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,libre:[],tourPersonal:"",
+ hotel:{nombre:"Trip Inn Hotel Frankfurt-Heusenstamm",direccion:"Jahnstraße 64, 63150 Heusenstamm",ciudad:"Frankfurt",telefono:"+49 6104 66560",habitacion:"",checkin:"Wed Sep 17",checkout:"Thu Sep 18",notas:"In Heusenstamm, on the outskirts of Frankfurt.\nFree parking."},
  descripcion_dia:[
   {t:`📅 Day 12 — Thu Sep 17`,c:`🇩🇪 Nuremberg → Frankfurt`,full:`Breakfast. We head to Frankfurt, located in central Germany on the banks of the Main River, an important global financial center. The city's origins date back to the early medieval period, always centered on the Römer hill. We visit the impressive Römer merchant buildings built in the 13th and 14th centuries, St. Nicholas Church, the Imperial Cathedral of St. Bartholomew y we enjoy the majestic silhouettes of the European Central Bank, the Bank of Germany y the Frankfurt Stock Exchange among the most important financial institutions in the world. Accommodation.`,attrs:[[`Römer family buildings (13th-14th c.)`,`Frankfurt's most photogenic historic town hall`],[`St. Nicholas Church`,`next to the Römerberg · mentioned in the itinerary`],[`Imperial Cathedral of St. Bartholomew`,`coronation site of the Holy Roman emperors`],[`European Central Bank (ECB)`,`majestic skyline mentioned in the itinerary`],[`Bank of Germany (Deutsche Bundesbank)`,`one of the world's most important financial institutions`],[`Frankfurt Stock Exchange (Börse)`,`famous bull and bear statues outside`]],opc:[[`Evening boat ride on the Main River`,`Evening boat tour · contrast between the historic Römer and the financial skyline`]]}
  ],
@@ -647,6 +655,7 @@ const cities=[
 {id:"lux",wlat:49.6116,wlon:6.1319,name:"Luxembourg",flag:"🇱🇺",country:"Grand Duchy of Luxembourg",days:"Day 13 (excursion) & 14",dates:"Thu Sep 18 – Fri Sep 19",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
  libre:["Day 14 - Fri Sep 19: Luxembourg is an optional excursion from Metz (34 mi · 45 min by train)."],
  tourPersonal:"⭐ Day 14 (Fri Sep 19): If you skip the Luxembourg tour, you can go independently from Metz by train (€10-15 round trip). Luxembourg City is fully walkable in one day.",
+ hotel:{nombre:"",direccion:"",ciudad:"Luxembourg",telefono:"",habitacion:"",checkin:"",checkout:"",notas:"Optional excursion. Overnight in Metz."},
  descripcion_dia:[
   {libre:true,t:`📅 Day 13 — Fri Sep 18`,c:`🇩🇪→🇱🇺🇫🇷 Frankfurt · Luxembourg · Metz`,full:`Breakfast. We head to the French city of Metz or Thionville. Free time for optional excursions to Luxembourg City in the Grand Duchy of Luxembourg and to the city of Schengen. Accommodation.`,attrs:[],opc:[[`Luxembourg City`,`Capital of the Grand Duchy · UNESCO Casemates · one of Europe's financial and political centers`],[`Schengen City`,`Where the Schengen Agreement (1985) was signed, abolishing border controls in Europe`]]}
  ],
@@ -701,6 +710,7 @@ const cities=[
 {id:"met",wlat:49.1193,wlon:6.1757,name:"Metz",flag:"🇫🇷",country:"France (Lorraine)",days:"Days 13-15 (base city)",dates:"Thu Sep 18 – Sat Sep 20",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
  libre:["🟢 Day 14 - Fri Sep 19 (FREE DAY): Strasbourg/Colmar · Luxembourg · Schengen · or Metz on your own."],
  tourPersonal:"⭐ Day 14 (Fri Sep 19): If you skip the Luxembourg tour, you can go independently from Metz by train (€10-15 round trip). Luxembourg City is fully walkable in one day. Metz itself offers Saint-Étienne Cathedral (the largest medieval stained glass in the world), the Centre Pompidou-Metz and the Temple Quarter, all walkable in a very pleasant day.",
+ hotel:{nombre:"ibis Metz Woippy",direccion:"56 Rue du Fort Gambetta, 57140 Woippy",ciudad:"Metz",telefono:"+33 3 87 34 20 00",habitacion:"",checkin:"Thu Sep 18",checkout:"Sat Sep 20",notas:"In Woippy, next to the A31 motorway."},
  descripcion_dia:[
   {libre:true,t:`📅 Day 14 — Sat Sep 19`,c:`🇫🇷 Metz / Thionville ★ FREE DAY`,full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,attrs:[],opc:[[`Strasbourg`,`Gothic cathedral · seat of the European Parliament · excursion together with Colmar`],[`Colmar`,`Fairytale architecture · 'Little Venice' quarter · excursion together with Strasbourg`]]}
  ],
@@ -762,6 +772,7 @@ const cities=[
 {id:"bru",wlat:50.8503,wlon:4.3517,name:"Brussels",flag:"🇧🇪",country:"Belgium",days:"Days 15-17",dates:"Sat Sep 20 – Mon Sep 22",moneda:"Euro (€)",cambio:`1 € = $${EUR.toFixed(3)} USD`,
  libre:["🟢 Day 16 - Sun Sep 21 (FREE DAY): Bruges and Ghent · or Brussels on your own."],
  tourPersonal:"⭐ Day 16 (Sun Sep 21): If you skip the Bruges/Ghent tour, Brussels offers the Atomium, the Royal Museums of Fine Arts (Magritte), the Grand Place, the European Quarter — all walkable.",
+ hotel:{nombre:"B&B HOTEL Brussels Airport",direccion:"Woluwelaan 140, 1831 Machelen",ciudad:"Brussels",telefono:"+32 2 687 81 96",habitacion:"",checkin:"Sat Sep 20",checkout:"Mon Sep 22",notas:"Next to Diegem station.\nTrain to the city centre every 30 min."},
  descripcion_dia:[
   {t:`📅 Day 15 — Sun Sep 20`,c:`🇫🇷→🇧🇪 Metz · Brussels`,full:`Breakfast. We head to Brussels, capital of the Kingdom of Belgium, seat of the European Commission, famous for its beer and chocolate. We visit the impressive Grand Place, the Saint-Hubert Royal Galleries, the Manneken Pis sculpture, the Royal Palace of Brussels, the Royal Museums of Fine Arts. Accommodation.`,attrs:[[`Grand Place (Main Square)`,`UNESCO Heritage · considered the most beautiful square in the world`],[`Royal Saint-Hubert Galleries`,`19th-century neoclassical shopping arcade`],[`Manneken Pis`,`iconic sculpture · symbol of Brussels`],[`Royal Palace of Brussels`,`official residence of the Belgian king`],[`Royal Museums of Fine Arts`,`Bruegel, Rubens and Magritte under one roof`]],opc:[]},
   {libre:true,t:`📅 Day 16 — Mon Sep 21`,c:`🇧🇪 Brussels ★ FREE DAY`,full:`Breakfast. Free day for personal activities or an optional excursion. Accommodation.`,attrs:[],opc:[[`Bruges and Ghent`,`Bruges: 'Venice of the North' · medieval canals · Flemish architecture. Ghent: medieval castle · vibrant city`]]}
@@ -1294,7 +1305,7 @@ function renderCities(){
  document.getElementById('city-pills').innerHTML=cities.map((c,i)=>
   `<button class="pill${i===curCity?' active':''}" onclick="selC(${i})">${c.flag} ${c.name}</button>`
  ).join('');
- const tabs=[['itinerario','📋 From the Itinerary'],['recomendados','⭐ Recommended'],['gastronomia','🍽️ Local Cuisine'],['restaurantes','🍴 Where to Eat'],['saludos','🗣️ Greetings'],['mapa','🗺️ Map'],['fotos','📸 Photos'],['clima','🌤️ Weather'],['video','📺 Video']];
+ const tabs=[['itinerario','📋 From the Itinerary'],['hotel','🏨 Hotel'],['recomendados','⭐ Recommended'],['gastronomia','🍽️ Local Cuisine'],['restaurantes','🍴 Where to Eat'],['saludos','🗣️ Greetings'],['mapa','🗺️ Map'],['fotos','📸 Photos'],['clima','🌤️ Weather'],['video','📺 Video']];
  document.getElementById('sub-pills').innerHTML=tabs.map(s=>
   `<button class="subpill${curSub===s[0]?' active':''}" onclick="selS('${s[0]}')">${s[1]}</button>`
  ).join('');
@@ -1327,6 +1338,9 @@ function renderCityBody(){
   }
   h+='</div>';
   h+=renderNotes(c.id,'itinerario');
+ } else if(curSub==='hotel'){
+  h+=renderHotel(c);
+  h+=renderNotes(c.id,'hotel');
  } else if(curSub==='recomendados'){
   h+=`<div class="card"><div class="card-header"><div class="card-title">⭐ Additional Recommendations</div><div class="card-sub">Not included in the tour · visit on your own during free time</div></div>`;
   h+=`<div class="section-label">Additional recommended attractions</div>`;
@@ -2566,3 +2580,54 @@ async function renderStorageInfo(){
  await requestPersistentStorage();
  setTimeout(renderStorageInfo,300);
 })();
+
+// ========= HOTEL =========
+function mapsUrlHotel(hn,hd,hc){
+ // Si la dirección ya es completa (tiene coma), se usa tal cual; si no, se añade la ciudad
+ const q = hd ? (hd.indexOf(',')>-1 ? hd : hd+(hc?', '+hc:'')) : (hn + (hc?', '+hc:''));
+ return 'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(q);
+}
+
+function renderHotel(c){
+ const H=c.hotel||{};
+ const hasData = (H.nombre&&H.nombre.trim()) || (H.direccion&&H.direccion.trim());
+ let h='<div class="card">';
+ h+='<div class="card-header"><div class="card-title">🏨 Hotel in '+c.name+'</div><div class="card-sub">'+(hasData?'Your accommodation details':'To be confirmed')+'</div></div>';
+
+ if(!hasData){
+  h+='<div style="padding:18px 14px;text-align:center;color:var(--dim);font-size:14px;line-height:1.6">No hotel has been registered for this city yet.<br>It will be added once confirmed.</div>';
+  h+='</div>';
+  return h;
+ }
+
+ if(H.nombre&&H.nombre.trim())
+  h+='<div class="hotel-name">'+escapeHtml(H.nombre)+'</div>';
+ if(H.direccion&&H.direccion.trim())
+  h+='<div class="hotel-addr">📍 '+escapeHtml(H.direccion)+(H.ciudad?', '+escapeHtml(H.ciudad):'')+'</div>';
+
+ h+='<div style="padding:10px 14px 4px">'
+  +'<a class="hotel-maps-btn" href="'+mapsUrlHotel(H.nombre||'',H.direccion||'',H.ciudad||'')+'" target="_blank" rel="noopener">🗺️ Get directions · open in Google Maps</a>'
+  +'</div>';
+
+ const rows=[];
+ if(H.telefono&&H.telefono.trim())
+  rows.push(['📞','Phone','<a class="hotel-tel" href="tel:'+escapeHtml(H.telefono.replace(/\s/g,''))+'">'+escapeHtml(H.telefono)+'</a>']);
+ if(H.habitacion&&H.habitacion.trim())
+  rows.push(['🔑','Room',escapeHtml(H.habitacion)]);
+ if(H.checkin&&H.checkin.trim())
+  rows.push(['📥','Check-in',escapeHtml(H.checkin)]);
+ if(H.checkout&&H.checkout.trim())
+  rows.push(['📤','Check-out',escapeHtml(H.checkout)]);
+ if(rows.length){
+  h+='<div class="section-label">Booking details</div>';
+  rows.forEach(f=>{
+   h+='<div class="hotel-row"><span class="hotel-ico">'+f[0]+'</span><div class="hotel-lbl">'+f[1]+'</div><div class="hotel-val">'+f[2]+'</div></div>';
+  });
+ }
+ if(H.notas&&H.notas.trim()){
+  h+='<div class="section-label">Additional information</div>';
+  h+='<div class="hotel-notas">'+escapeHtml(H.notas)+'</div>';
+ }
+ h+='</div>';
+ return h;
+}
